@@ -1,6 +1,6 @@
 Analysis & Synthesis report for g03_lab1
-Thu Sep 21 16:38:47 2017
-Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Fri Sep 22 15:17:54 2017
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -41,8 +41,8 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Sep 21 16:38:47 2017           ;
-; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Analysis & Synthesis Status        ; Successful - Fri Sep 22 15:17:54 2017           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; g03_lab1                                        ;
 ; Top-level Entity Name              ; g03_lab1                                        ;
 ; Family                             ; Cyclone II                                      ;
@@ -233,13 +233,17 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 32-bit Analysis & Synthesis
+Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Sep 21 16:38:45 2017
+    Info: Processing started: Fri Sep 22 15:17:52 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off g03_lab1 -c g03_lab1
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file g03_lab1.bdf
     Info (12023): Found entity 1: g03_lab1
+Info (12021): Found 1 design units, including 1 entities, in source file g03_1bitaddr.bdf
+    Info (12023): Found entity 1: g03_1bitaddr
+Info (12021): Found 1 design units, including 1 entities, in source file g03_addr.bdf
+    Info (12023): Found entity 1: g03_addr
 Info (12127): Elaborating entity "g03_lab1" for the top level hierarchy
 Warning (12125): Using design file g03_comp7.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: g03_comp7
@@ -250,9 +254,9 @@ Info (21057): Implemented 20 device resources after synthesis - the final resour
     Info (21058): Implemented 14 input pins
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 5 logic cells
-Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 386 megabytes
-    Info: Processing ended: Thu Sep 21 16:38:47 2017
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 489 megabytes
+    Info: Processing ended: Fri Sep 22 15:17:54 2017
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 

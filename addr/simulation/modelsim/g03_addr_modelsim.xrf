@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.0sp1/projects/addr/g03_addr.vwf
+source_file = 1, C:/altera/13.0sp1/projects/addr/g03_addr.bdf
+source_file = 1, C:/altera/13.0sp1/projects/addr/db/g03_addr.cbx.xml
+source_file = 1, C:/altera/13.0sp1/projects/addr/g03_1bitaddr.bdf
+design_name = g03_addr
+instance = comp, \B~I , B, g03_addr, 1
+instance = comp, \A~I , A, g03_addr, 1
+instance = comp, \Cin~I , Cin, g03_addr, 1
+instance = comp, \inst|inst7~0 , inst|inst7~0, g03_addr, 1
+instance = comp, \inst|inst8~0 , inst|inst8~0, g03_addr, 1
+instance = comp, \S0~I , S0, g03_addr, 1
+instance = comp, \Cout~I , Cout, g03_addr, 1
