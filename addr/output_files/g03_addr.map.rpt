@@ -1,5 +1,5 @@
 Analysis & Synthesis report for g03_addr
-Sun Sep 24 13:09:29 2017
+Mon Sep 25 17:25:02 2017
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -41,13 +41,13 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Sep 24 13:09:29 2017           ;
+; Analysis & Synthesis Status        ; Successful - Mon Sep 25 17:25:02 2017           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; g03_addr                                        ;
 ; Top-level Entity Name              ; g03_addr                                        ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 8                                               ;
-;     Total combinational functions  ; 8                                               ;
+; Total logic elements               ; 16                                              ;
+;     Total combinational functions  ; 16                                              ;
 ;     Dedicated logic registers      ; 0                                               ;
 ; Total registers                    ; 0                                               ;
 ; Total pins                         ; 20                                              ;
@@ -169,17 +169,17 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+----------------------------+
 ; Resource                                    ; Usage                      ;
 +---------------------------------------------+----------------------------+
-; Estimated Total logic elements              ; 8                          ;
+; Estimated Total logic elements              ; 16                         ;
 ;                                             ;                            ;
-; Total combinational functions               ; 8                          ;
+; Total combinational functions               ; 16                         ;
 ; Logic element usage by number of LUT inputs ;                            ;
-;     -- 4 input functions                    ; 0                          ;
+;     -- 4 input functions                    ; 7                          ;
 ;     -- 3 input functions                    ; 6                          ;
-;     -- <=2 input functions                  ; 2                          ;
+;     -- <=2 input functions                  ; 3                          ;
 ;                                             ;                            ;
 ; Logic elements by mode                      ;                            ;
-;     -- normal mode                          ; 1                          ;
-;     -- arithmetic mode                      ; 7                          ;
+;     -- normal mode                          ; 16                         ;
+;     -- arithmetic mode                      ; 0                          ;
 ;                                             ;                            ;
 ; Total registers                             ; 0                          ;
 ;     -- Dedicated logic registers            ; 0                          ;
@@ -187,10 +187,10 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;                                             ;                            ;
 ; I/O pins                                    ; 20                         ;
 ; Embedded Multiplier 9-bit elements          ; 0                          ;
-; Maximum fan-out node                        ; g03_1bitaddr:inst5|inst7~2 ;
-; Maximum fan-out                             ; 2                          ;
-; Total fan-out                               ; 27                         ;
-; Average fan-out                             ; 0.96                       ;
+; Maximum fan-out node                        ; g03_1bitaddr:inst5|inst4~0 ;
+; Maximum fan-out                             ; 3                          ;
+; Total fan-out                               ; 59                         ;
+; Average fan-out                             ; 1.64                       ;
 +---------------------------------------------+----------------------------+
 
 
@@ -199,8 +199,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name          ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------+--------------+
-; |g03_addr                  ; 8 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 20   ; 0            ; |g03_addr                    ; work         ;
-;    |g03_1bitaddr:inst5|    ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_addr|g03_1bitaddr:inst5 ; work         ;
+; |g03_addr                  ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 20   ; 0            ; |g03_addr                    ; work         ;
+;    |g03_1bitaddr:inst1|    ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_addr|g03_1bitaddr:inst1 ; work         ;
+;    |g03_1bitaddr:inst2|    ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_addr|g03_1bitaddr:inst2 ; work         ;
+;    |g03_1bitaddr:inst3|    ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_addr|g03_1bitaddr:inst3 ; work         ;
+;    |g03_1bitaddr:inst4|    ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_addr|g03_1bitaddr:inst4 ; work         ;
+;    |g03_1bitaddr:inst5|    ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_addr|g03_1bitaddr:inst5 ; work         ;
+;    |g03_1bitaddr:inst|     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_addr|g03_1bitaddr:inst  ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -235,7 +240,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sun Sep 24 13:09:28 2017
+    Info: Processing started: Mon Sep 25 17:25:00 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off g03_addr -c g03_addr
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Warning (12125): Using design file g03_addr.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
@@ -246,14 +251,14 @@ Warning (12125): Using design file g03_1bitaddr.bdf, which is not specified as a
 Info (12128): Elaborating entity "g03_1bitaddr" for hierarchy "g03_1bitaddr:inst"
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 28 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 36 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
     Info (21059): Implemented 7 output pins
-    Info (21061): Implemented 8 logic cells
+    Info (21061): Implemented 16 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 485 megabytes
-    Info: Processing ended: Sun Sep 24 13:09:29 2017
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 489 megabytes
+    Info: Processing ended: Mon Sep 25 17:25:02 2017
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 
