@@ -21,25 +21,9 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 96 32 264 48)
+	(rect 160 40 328 56)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A[6..0]" (rect 5 0 38 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect 96 80 264 96)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "B[6..0]" (rect 5 0 38 12)(font "Arial" ))
+	(text "A[5..0]" (rect 5 0 39 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -53,9 +37,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 312 32 488 48)
+	(rect 376 40 552 56)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "AeqB" (rect 90 0 115 12)(font "Arial" ))
+	(text "S[3..0]" (rect 90 0 123 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -66,4 +50,38 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+)
+(symbol
+	(rect 440 264 608 360)
+	(text "g03_mod13" (rect 5 0 71 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A[5..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "A[5..0]" (rect 21 27 58 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 168 32)
+		(output)
+		(text "Amod13[3..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "Amod13[3..0]" (rect 72 27 147 41)(font "Arial" (font_size 8)))
+		(line (pt 168 32)(pt 152 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 152 80))
+	)
+)
+(connector
+	(text "A[5..0]" (rect 392 280 425 292)(font "Arial" ))
+	(pt 440 296)
+	(pt 368 296)
+	(bus)
+)
+(connector
+	(text "S[3..0]" (rect 649 280 682 292)(font "Arial" ))
+	(pt 608 296)
+	(pt 664 296)
+	(bus)
 )
