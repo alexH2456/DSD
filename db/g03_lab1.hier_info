@@ -1,17 +1,17 @@
 |g03_lab1
-floor[0] <= g03_mod13:inst.floor[0]
-floor[1] <= g03_mod13:inst.floor[1]
-floor[2] <= g03_mod13:inst.floor[2]
+Amod13[0] <= g03_mod13:inst.Amod13[0]
+Amod13[1] <= g03_mod13:inst.Amod13[1]
+Amod13[2] <= g03_mod13:inst.Amod13[2]
+Amod13[3] <= g03_mod13:inst.Amod13[3]
 A[0] => g03_mod13:inst.A[0]
 A[1] => g03_mod13:inst.A[1]
 A[2] => g03_mod13:inst.A[2]
 A[3] => g03_mod13:inst.A[3]
 A[4] => g03_mod13:inst.A[4]
 A[5] => g03_mod13:inst.A[5]
-S[0] <= g03_mod13:inst.Amod13[0]
-S[1] <= g03_mod13:inst.Amod13[1]
-S[2] <= g03_mod13:inst.Amod13[2]
-S[3] <= g03_mod13:inst.Amod13[3]
+floor[0] <= g03_mod13:inst.floor[0]
+floor[1] <= g03_mod13:inst.floor[1]
+floor[2] <= g03_mod13:inst.floor[2]
 
 
 |g03_lab1|g03_mod13:inst
