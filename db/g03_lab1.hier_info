@@ -1,14 +1,17 @@
 |g03_lab1
-S[0] <= g03_mod13:inst.Amod13[0]
-S[1] <= g03_mod13:inst.Amod13[1]
-S[2] <= g03_mod13:inst.Amod13[2]
-S[3] <= g03_mod13:inst.Amod13[3]
+floor[0] <= g03_mod13:inst.floor[0]
+floor[1] <= g03_mod13:inst.floor[1]
+floor[2] <= g03_mod13:inst.floor[2]
 A[0] => g03_mod13:inst.A[0]
 A[1] => g03_mod13:inst.A[1]
 A[2] => g03_mod13:inst.A[2]
 A[3] => g03_mod13:inst.A[3]
 A[4] => g03_mod13:inst.A[4]
 A[5] => g03_mod13:inst.A[5]
+S[0] <= g03_mod13:inst.Amod13[0]
+S[1] <= g03_mod13:inst.Amod13[1]
+S[2] <= g03_mod13:inst.Amod13[2]
+S[3] <= g03_mod13:inst.Amod13[3]
 
 
 |g03_lab1|g03_mod13:inst
@@ -34,6 +37,9 @@ A[4] => g03_8bitaddr:inst.B6
 A[5] => g03_6bitaddr:inst10.A5
 A[5] => g03_8bitaddr:inst.A5
 A[5] => g03_8bitaddr:inst.B7
+floor[0] <= g03_8bitaddr:inst.S6
+floor[1] <= g03_8bitaddr:inst.S7
+floor[2] <= g03_8bitaddr:inst.C0
 
 
 |g03_lab1|g03_mod13:inst|g03_6bitaddr:inst10

@@ -33,9 +33,16 @@ applicable agreement for further details.
 	(port
 		(pt 168 32)
 		(output)
-		(text "Amod13[3..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
-		(text "Amod13[3..0]" (rect 72 27 147 41)(font "Arial" (font_size 8)))
+		(text "floor[2..0]" (rect 0 0 54 14)(font "Arial" (font_size 8)))
+		(text "floor[2..0]" (rect 93 27 147 41)(font "Arial" (font_size 8)))
 		(line (pt 168 32)(pt 152 32)(line_width 3))
+	)
+	(port
+		(pt 168 48)
+		(output)
+		(text "Amod13[3..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "Amod13[3..0]" (rect 72 43 147 57)(font "Arial" (font_size 8)))
+		(line (pt 168 48)(pt 152 48)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 152 80))
