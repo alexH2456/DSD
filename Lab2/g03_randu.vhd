@@ -14,7 +14,7 @@ use lpm.lpm_components.all;
 	
 entity g03_RANDU is
 	port( 
-		seed 	: in std_logic_vector(15 downto 0);
+		seed 	: in std_logic_vector(31 downto 0);
 		rand 	: out std_logic_vector(31 downto 0)
 	);
 end g03_RANDU;
@@ -47,8 +47,8 @@ u1 : lpmaddsub
 		cout => cout1,
 		result => result1		
 	);
-	adda1(31 downto 16) <= seed; -- seed << 16
-	addb1(16 downto 1) <= seed; -- seed << 1
+	adda1(31 downto 16) <= seed(15 downto 0); -- seed << 16
+	addb1(16 downto 1) <= seed(15 downto 0); -- seed << 1
 
 u2 : lpmaddsub
 	port map(
@@ -58,7 +58,7 @@ u2 : lpmaddsub
 		cout => cout2,
 		result => result2
 	);
-	addb2(15 downto 0) <= seed;
+	addb2(15 downto 0) <= seed(15 downto 0);
 	rand(29 downto 0) <= result2(29 downto 0);
 
 end random;

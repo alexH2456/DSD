@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 104 24 272 40)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "code[3..0]" (rect 5 0 55 12)(font "Arial" ))
+	(text "code[3..0]" (rect 5 0 54 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,23 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 104 64 272 80)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "mode" (rect 5 0 33 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect 696 32 864 48)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "seed[15..0]" (rect 5 0 61 12)(font "Arial" ))
+	(text "mode" (rect 5 0 32 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 1168 32 1336 48)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "clock" (rect 5 0 31 12)(font "Arial" ))
+	(text "clock" (rect 5 0 30 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +71,23 @@ applicable agreement for further details.
 	(input)
 	(rect 1168 72 1336 88)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "N[5..0]" (rect 5 0 40 12)(font "Arial" ))
+	(text "N[5..0]" (rect 5 0 39 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 696 32 864 48)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "seed[31..0]" (rect 5 0 61 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -212,8 +212,8 @@ applicable agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "seed[15..0]" (rect 0 0 55 12)(font "Arial" ))
-		(text "seed[15..0]" (rect 21 27 76 39)(font "Arial" ))
+		(text "seed[31..0]" (rect 0 0 55 12)(font "Arial" ))
+		(text "seed[31..0]" (rect 21 27 76 39)(font "Arial" ))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
@@ -245,12 +245,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "seed[15..0]" (rect 696 160 751 172)(font "Arial" ))
-	(pt 752 176)
-	(pt 688 176)
-	(bus)
-)
-(connector
 	(text "P_EN[51..0]" (rect 1436 160 1496 172)(font "Arial" ))
 	(pt 1408 176)
 	(pt 1456 176)
@@ -271,5 +265,11 @@ applicable agreement for further details.
 	(text "rand[31..0]" (rect 976 160 1029 172)(font "Arial" ))
 	(pt 936 176)
 	(pt 992 176)
+	(bus)
+)
+(connector
+	(text "seed[31..0]" (rect 696 160 751 172)(font "Arial" ))
+	(pt 752 176)
+	(pt 688 176)
 	(bus)
 )

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for g03_lab2
-Thu Oct 19 16:48:21 2017
+Thu Oct 19 17:48:02 2017
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -50,7 +50,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Oct 19 16:48:21 2017           ;
+; Analysis & Synthesis Status        ; Successful - Thu Oct 19 17:48:01 2017           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; g03_lab2                                        ;
 ; Top-level Entity Name              ; g03_lab2                                        ;
@@ -59,7 +59,7 @@ applicable agreement for further details.
 ;     Total combinational functions  ; 63                                              ;
 ;     Dedicated logic registers      ; 0                                               ;
 ; Total registers                    ; 0                                               ;
-; Total pins                         ; 119                                             ;
+; Total pins                         ; 135                                             ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 3,328                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
@@ -219,13 +219,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;     -- Dedicated logic registers            ; 0     ;
 ;     -- I/O registers                        ; 0     ;
 ;                                             ;       ;
-; I/O pins                                    ; 119   ;
+; I/O pins                                    ; 135   ;
 ; Total memory bits                           ; 3328  ;
 ; Embedded Multiplier 9-bit elements          ; 0     ;
 ; Maximum fan-out node                        ; clock ;
 ; Maximum fan-out                             ; 52    ;
 ; Total fan-out                               ; 624   ;
-; Average fan-out                             ; 2.67  ;
+; Average fan-out                             ; 2.50  ;
 +---------------------------------------------+-------+
 
 
@@ -234,7 +234,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                 ; Library Name ;
 +-------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
-; |g03_lab2                                       ; 63 (0)            ; 0 (0)        ; 3328        ; 0            ; 0       ; 0         ; 119  ; 0            ; |g03_lab2                                                                                                           ; work         ;
+; |g03_lab2                                       ; 63 (0)            ; 0 (0)        ; 3328        ; 0            ; 0       ; 0         ; 135  ; 0            ; |g03_lab2                                                                                                           ; work         ;
 ;    |g03_7_segment_decoder:inst|                 ; 17 (17)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab2|g03_7_segment_decoder:inst                                                                                ; work         ;
 ;    |g03_RANDU:inst3|                            ; 46 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab2|g03_RANDU:inst3                                                                                           ; work         ;
 ;       |lpmaddsub:u1|                            ; 46 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab2|g03_RANDU:inst3|lpmaddsub:u1                                                                              ; work         ;
@@ -430,7 +430,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Oct 19 16:48:18 2017
+    Info: Processing started: Thu Oct 19 17:47:58 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off g03_lab2 -c g03_lab2
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file g03_randu.vhd
@@ -546,14 +546,31 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "rand[30]" is stuck at GND
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 234 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 28 input pins
+Warning (21074): Design contains 16 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "seed[31]"
+    Warning (15610): No output dependent on input pin "seed[30]"
+    Warning (15610): No output dependent on input pin "seed[29]"
+    Warning (15610): No output dependent on input pin "seed[28]"
+    Warning (15610): No output dependent on input pin "seed[27]"
+    Warning (15610): No output dependent on input pin "seed[26]"
+    Warning (15610): No output dependent on input pin "seed[25]"
+    Warning (15610): No output dependent on input pin "seed[24]"
+    Warning (15610): No output dependent on input pin "seed[23]"
+    Warning (15610): No output dependent on input pin "seed[22]"
+    Warning (15610): No output dependent on input pin "seed[21]"
+    Warning (15610): No output dependent on input pin "seed[20]"
+    Warning (15610): No output dependent on input pin "seed[19]"
+    Warning (15610): No output dependent on input pin "seed[18]"
+    Warning (15610): No output dependent on input pin "seed[17]"
+    Warning (15610): No output dependent on input pin "seed[16]"
+Info (21057): Implemented 250 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 44 input pins
     Info (21059): Implemented 91 output pins
     Info (21061): Implemented 63 logic cells
     Info (21064): Implemented 52 RAM segments
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 64 warnings
-    Info: Peak virtual memory: 583 megabytes
-    Info: Processing ended: Thu Oct 19 16:48:22 2017
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 81 warnings
+    Info: Peak virtual memory: 579 megabytes
+    Info: Processing ended: Thu Oct 19 17:48:02 2017
     Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:03
 

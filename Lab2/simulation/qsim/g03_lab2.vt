@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "10/19/2017 16:46:51"
+// Generated on "10/19/2017 17:50:01"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    g03_lab2
 // 
@@ -38,7 +38,7 @@ input  clock;
 input [3:0] code;
 input  mode;
 input [5:0] N;
-input [15:0] seed;
+input [31:0] seed;
 output sampler_tx;
 
 reg sample;
@@ -731,7 +731,7 @@ reg clock;
 reg [3:0] code;
 reg mode;
 reg [5:0] N;
-reg [15:0] seed;
+reg [31:0] seed;
 // wires                                               
 wire [51:0] P_EN;
 wire [31:0] rand;
@@ -751,6 +751,86 @@ g03_lab2 i1 (
 	.seed(seed),
 	.segments_out(segments_out)
 );
+// seed[ 31 ]
+initial
+begin
+	seed[31] = 1'b0;
+end 
+// seed[ 30 ]
+initial
+begin
+	seed[30] = 1'b0;
+end 
+// seed[ 29 ]
+initial
+begin
+	seed[29] = 1'b0;
+end 
+// seed[ 28 ]
+initial
+begin
+	seed[28] = 1'b0;
+end 
+// seed[ 27 ]
+initial
+begin
+	seed[27] = 1'b0;
+end 
+// seed[ 26 ]
+initial
+begin
+	seed[26] = 1'b0;
+end 
+// seed[ 25 ]
+initial
+begin
+	seed[25] = 1'b0;
+end 
+// seed[ 24 ]
+initial
+begin
+	seed[24] = 1'b0;
+end 
+// seed[ 23 ]
+initial
+begin
+	seed[23] = 1'b0;
+end 
+// seed[ 22 ]
+initial
+begin
+	seed[22] = 1'b0;
+end 
+// seed[ 21 ]
+initial
+begin
+	seed[21] = 1'b0;
+end 
+// seed[ 20 ]
+initial
+begin
+	seed[20] = 1'b0;
+end 
+// seed[ 19 ]
+initial
+begin
+	seed[19] = 1'b0;
+end 
+// seed[ 18 ]
+initial
+begin
+	seed[18] = 1'b0;
+end 
+// seed[ 17 ]
+initial
+begin
+	seed[17] = 1'b0;
+end 
+// seed[ 16 ]
+initial
+begin
+	seed[16] = 1'b1;
+end 
 // seed[ 15 ]
 initial
 begin
@@ -800,77 +880,36 @@ end
 initial
 begin
 	seed[6] = 1'b0;
-	seed[6] = #630000 1'b1;
 end 
 // seed[ 5 ]
 initial
 begin
 	seed[5] = 1'b0;
-	seed[5] = #310000 1'b1;
-	seed[5] = #320000 1'b0;
-	seed[5] = #320000 1'b1;
 end 
 // seed[ 4 ]
 initial
 begin
 	seed[4] = 1'b0;
-	# 150000;
-	repeat(2)
-	begin
-		seed[4] = 1'b1;
-		seed[4] = #160000 1'b0;
-		# 160000;
-	end
-	seed[4] = 1'b1;
-	seed[4] = #160000 1'b0;
 end 
 // seed[ 3 ]
 initial
 begin
 	seed[3] = 1'b0;
-	# 70000;
-	repeat(5)
-	begin
-		seed[3] = 1'b1;
-		seed[3] = #80000 1'b0;
-		# 80000;
-	end
-	seed[3] = 1'b1;
-	seed[3] = #80000 1'b0;
 end 
 // seed[ 2 ]
 initial
 begin
 	seed[2] = 1'b0;
-	# 30000;
-	repeat(12)
-	begin
-		seed[2] = 1'b1;
-		seed[2] = #40000 1'b0;
-		# 40000;
-	end
-	seed[2] = 1'b1;
 end 
 // seed[ 1 ]
 initial
 begin
-	seed[1] = 1'b0;
-	# 10000;
-	repeat(24)
-	begin
-		seed[1] = 1'b1;
-		seed[1] = #20000 1'b0;
-		# 20000;
-	end
 	seed[1] = 1'b1;
-	seed[1] = #20000 1'b0;
 end 
 // seed[ 0 ]
-always
+initial
 begin
 	seed[0] = 1'b1;
-	seed[0] = #10000 1'b0;
-	#10000;
 end 
 
 g03_lab2_vlg_sample_tst tb_sample (
