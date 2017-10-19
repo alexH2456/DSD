@@ -6,7 +6,7 @@
 -- Author: Alexander Harris, Filip Bernevec
 -- Date: 18/10/2017
 
-library ieee; -- allows use of the std_logic_vector type
+library ieee;
 use ieee.std_logic_1164.all;
 library lpm;
 use lpm.lpm_components.all;
@@ -15,7 +15,7 @@ use lpm.lpm_components.all;
 entity g03_RANDU is
 	port( 
 		seed 	: in std_logic_vector(15 downto 0);
-		rand 	: out std_logic_vector(29 downto 0)
+		rand 	: out std_logic_vector(31 downto 0)
 	);
 end g03_RANDU;
 
@@ -59,6 +59,6 @@ u2 : lpmaddsub
 		result => result2
 	);
 	addb2(15 downto 0) <= seed;
-	rand <= result2(29 downto 0);
+	rand(29 downto 0) <= result2(29 downto 0);
 
 end random;

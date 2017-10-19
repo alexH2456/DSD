@@ -26,9 +26,10 @@
 # Loading cycloneii_ver.cycloneii_ram_block
 # Loading cycloneii_ver.cycloneii_ram_register
 # Loading cycloneii_ver.cycloneii_ram_pulse_generator
+# Loading cycloneii_ver.cycloneii_lcell_comb
 # Loading work.g03_lab2_vlg_sample_tst
 # Loading work.g03_lab2_vlg_check_tst
 # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
 # Simulation passed !
-# ** Note: $finish    : g03_lab2.vt(1067)
+# ** Note: $finish    : g03_lab2.vt(723)
 #    Time: 1 us  Iteration: 0  Instance: /g03_lab2_vlg_vec_tst/tb_out
