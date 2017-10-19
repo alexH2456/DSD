@@ -1,5 +1,5 @@
 Flow report for g03_lab2
-Wed Oct 18 19:22:45 2017
+Thu Oct 19 15:04:20 2017
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,20 +40,20 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Wed Oct 18 19:22:45 2017           ;
+; Flow Status                        ; Successful - Thu Oct 19 15:04:20 2017           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; g03_lab2                                        ;
 ; Top-level Entity Name              ; g03_lab2                                        ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C20F484C7                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 46 / 18,752 ( < 1 % )                           ;
-;     Total combinational functions  ; 46 / 18,752 ( < 1 % )                           ;
+; Total logic elements               ; 0 / 18,752 ( 0 % )                              ;
+;     Total combinational functions  ; 0 / 18,752 ( 0 % )                              ;
 ;     Dedicated logic registers      ; 0 / 18,752 ( 0 % )                              ;
 ; Total registers                    ; 0                                               ;
-; Total pins                         ; 46 / 315 ( 15 % )                               ;
+; Total pins                         ; 59 / 315 ( 19 % )                               ;
 ; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 0 / 239,616 ( 0 % )                             ;
+; Total memory bits                  ; 3,328 / 239,616 ( 1 % )                         ;
 ; Embedded Multiplier 9-bit elements ; 0 / 52 ( 0 % )                                  ;
 ; Total PLLs                         ; 0 / 4 ( 0 % )                                   ;
 +------------------------------------+-------------------------------------------------+
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/18/2017 19:18:34 ;
+; Start date & time ; 10/19/2017 15:00:55 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; g03_lab2            ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 216116579825936.150836871410132 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 216116579825936.150843965410840 ; --            ; --          ; --             ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                              ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                     ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)       ; <None>        ; --          ; --             ;
@@ -93,16 +93,14 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 575 MB              ; 00:00:02                           ;
-; Fitter                    ; 00:00:04     ; 1.0                     ; 792 MB              ; 00:00:04                           ;
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 576 MB              ; 00:00:02                           ;
+; Fitter                    ; 00:00:05     ; 1.0                     ; 785 MB              ; 00:00:05                           ;
 ; Assembler                 ; 00:00:02     ; 1.0                     ; 469 MB              ; 00:00:02                           ;
 ; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 466 MB              ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 435 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 435 MB              ; 00:00:01                           ;
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 443 MB              ; 00:00:01                           ;
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 443 MB              ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 443 MB              ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 443 MB              ; 00:00:01                           ;
-; Total                     ; 00:00:14     ; --                      ; --                  ; 00:00:14                           ;
+; Total                     ; 00:00:12     ; --                      ; --                  ; 00:00:13                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -118,8 +116,6 @@ applicable agreement for further details.
 ; EDA Netlist Writer        ; DESKTOP-85EUP61  ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-85EUP61  ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-85EUP61  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-85EUP61  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-85EUP61  ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -131,9 +127,7 @@ quartus_fit --read_settings_files=off --write_settings_files=off g03_lab2 -c g03
 quartus_asm --read_settings_files=off --write_settings_files=off g03_lab2 -c g03_lab2
 quartus_sta g03_lab2 -c g03_lab2
 quartus_eda --read_settings_files=off --write_settings_files=off g03_lab2 -c g03_lab2
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog g03_lab2 -c g03_lab2 --vector_source=C:/altera/13.0sp1/projects/Lab2/g03_lab2.vwf --testbench_file=./simulation/qsim/g03_lab2.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog g03_lab2 -c g03_lab2
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog g03_lab2 -c g03_lab2 --vector_source=C:/altera/13.0sp1/projects/Lab2/g03_lab2.vwf --testbench_file=./simulation/qsim/g03_lab2.vt
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog g03_lab2 -c g03_lab2 --vector_source=C:/altera/13.0sp1/projects/Lab2/g03_pop_enable.vwf --testbench_file=./simulation/qsim/g03_lab2.vt
 quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog g03_lab2 -c g03_lab2
 
 

@@ -1,4 +1,4 @@
--- this circuit implements the IBM RANDU version of a linear congruential generator
+-- This circuit implements the IBM RANDU version of a linear congruential generator
 --
 -- entity name: g03_RANDU
 --
@@ -13,21 +13,23 @@ use lpm.lpm_components.all;
 	
 	
 entity g03_RANDU is
-port ( seed 	: in std_logic_vector(15 downto 0);
-		 rand 	: out std_logic_vector(29 downto 0)
-		);
+	port( 
+		seed 	: in std_logic_vector(15 downto 0);
+		rand 	: out std_logic_vector(29 downto 0)
+	);
 end g03_RANDU;
 
 
 architecture random of g03_RANDU is
 
 component lpmaddsub
-port( cin		: IN STD_LOGIC;
+	port( 
+		cin		: IN STD_LOGIC;
 		dataa		: IN STD_LOGIC_VECTOR (31 DOWNTO 0);
 		datab		: IN STD_LOGIC_VECTOR (31 DOWNTO 0);
 		cout		: OUT STD_LOGIC;
 		result	: OUT STD_LOGIC_VECTOR (31 DOWNTO 0)
-	  );
+	);
 end component;
 
 signal cin2 					: std_logic;
@@ -38,7 +40,7 @@ signal result1, result2 	: std_logic_vector (31 downto 0);
 begin
 
 u1 : lpmaddsub
-	port map (
+	port map(
 		cin => '0',
 		dataa => adda1,
 		datab => addb1,
@@ -49,7 +51,7 @@ u1 : lpmaddsub
 	addb1(16 downto 1) <= seed; -- seed << 1
 
 u2 : lpmaddsub
-	port map (
+	port map(
 		cin => cout1,
 		dataa => result1,
 		datab => addb2,

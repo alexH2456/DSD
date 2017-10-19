@@ -32,177 +32,87 @@ HEADER
 	GRID_DUTY_CYCLE = 50;
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|seed")
+SIGNAL("g03_lab2_vlg_vec_tst|clock")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|N")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = BUS;
-	WIDTH = 16;
+	WIDTH = 6;
 	LSB_INDEX = 0;
 	DIRECTION = INPUT;
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|seed[15]")
+SIGNAL("g03_lab2_vlg_vec_tst|N[5]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
+	PARENT = "g03_lab2_vlg_vec_tst|N";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|seed[14]")
+SIGNAL("g03_lab2_vlg_vec_tst|N[4]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
+	PARENT = "g03_lab2_vlg_vec_tst|N";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|seed[13]")
+SIGNAL("g03_lab2_vlg_vec_tst|N[3]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
+	PARENT = "g03_lab2_vlg_vec_tst|N";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|seed[12]")
+SIGNAL("g03_lab2_vlg_vec_tst|N[2]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
+	PARENT = "g03_lab2_vlg_vec_tst|N";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|seed[11]")
+SIGNAL("g03_lab2_vlg_vec_tst|N[1]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
+	PARENT = "g03_lab2_vlg_vec_tst|N";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|seed[10]")
+SIGNAL("g03_lab2_vlg_vec_tst|N[0]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
+	PARENT = "g03_lab2_vlg_vec_tst|N";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|seed[9]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
-}
-
-SIGNAL("g03_lab2_vlg_vec_tst|seed[8]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
-}
-
-SIGNAL("g03_lab2_vlg_vec_tst|seed[7]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
-}
-
-SIGNAL("g03_lab2_vlg_vec_tst|seed[6]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
-}
-
-SIGNAL("g03_lab2_vlg_vec_tst|seed[5]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
-}
-
-SIGNAL("g03_lab2_vlg_vec_tst|seed[4]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
-}
-
-SIGNAL("g03_lab2_vlg_vec_tst|seed[3]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
-}
-
-SIGNAL("g03_lab2_vlg_vec_tst|seed[2]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
-}
-
-SIGNAL("g03_lab2_vlg_vec_tst|seed[1]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
-}
-
-SIGNAL("g03_lab2_vlg_vec_tst|seed[0]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "g03_lab2_vlg_vec_tst|seed";
-}
-
-SIGNAL("g03_lab2_vlg_vec_tst|rand[29]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[51]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -212,7 +122,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[29]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[28]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[50]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -222,7 +132,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[28]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[27]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[49]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -232,7 +142,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[27]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[26]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[48]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -242,7 +152,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[26]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[25]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[47]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -252,7 +162,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[25]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[24]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[46]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -262,7 +172,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[24]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[23]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[45]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -272,7 +182,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[23]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[22]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[44]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -282,7 +192,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[22]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[21]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[43]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -292,7 +202,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[21]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[20]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[42]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -302,7 +212,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[20]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[19]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[41]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -312,7 +222,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[19]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[18]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[40]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -322,7 +232,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[18]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[17]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[39]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -332,7 +242,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[17]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[16]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[38]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -342,7 +252,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[16]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[15]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[37]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -352,7 +262,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[15]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[14]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[36]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -362,7 +272,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[14]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[13]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[35]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -372,7 +282,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[13]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[12]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[34]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -382,7 +292,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[12]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[11]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[33]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -392,7 +302,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[11]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[10]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[32]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -402,7 +312,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[10]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[9]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[31]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -412,7 +322,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[9]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[8]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[30]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -422,7 +332,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[8]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[7]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[29]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -432,7 +342,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[7]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[6]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[28]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -442,7 +352,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[6]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[5]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[27]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -452,7 +362,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[5]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[4]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[26]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -462,7 +372,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[4]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[3]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[25]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -472,7 +382,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[3]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[2]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[24]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -482,7 +392,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[2]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[1]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[23]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -492,7 +402,227 @@ SIGNAL("g03_lab2_vlg_vec_tst|rand[1]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|rand[0]")
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[22]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[21]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[20]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[19]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[18]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[17]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[16]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[15]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[14]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[13]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[12]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[11]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[10]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[9]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[8]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[7]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[6]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|P_EN[0]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -572,7 +702,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|devoe")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~15")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|clock~combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -582,7 +712,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~17")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|clock~clkctrl_outclk")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -592,7 +722,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~19")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|N~combout[5]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -602,7 +732,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~21")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|N~combout[4]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -612,7 +742,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~23")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|N~combout[3]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -622,7 +752,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~25")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|N~combout[2]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -632,7 +762,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~27")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|N~combout[1]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -642,7 +772,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~29")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|N~combout[0]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -652,7 +782,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~31")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[51]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -662,7 +792,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~33")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[50]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -672,7 +802,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~35")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[49]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -682,7 +812,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~37")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[48]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -692,7 +822,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~39")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[47]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -702,7 +832,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~40_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[46]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -712,7 +842,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~38_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[45]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -722,7 +852,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~30_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[44]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -732,7 +862,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~24_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[43]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -742,7 +872,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~20_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[42]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -752,7 +882,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~16_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[41]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -762,7 +892,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~14_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[40]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -772,7 +902,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~41")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[39]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -782,7 +912,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~43_cout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[38]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -792,7 +922,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~45_cout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[37]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -802,7 +932,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~47")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[36]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -812,7 +942,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~49")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[35]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -822,7 +952,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~51")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[34]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -832,7 +962,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~53")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[33]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -842,7 +972,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~55")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[32]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -852,7 +982,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~57")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[31]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -862,7 +992,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~59")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[30]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -872,7 +1002,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~61")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[29]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -882,7 +1012,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~63")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[28]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -892,7 +1022,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~65")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[27]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -902,7 +1032,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~67")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[26]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -912,7 +1042,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~69")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[25]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -922,7 +1052,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~71")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[24]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -932,7 +1062,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~73")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[23]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -942,7 +1072,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~75")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[22]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -952,7 +1082,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~77")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[21]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -962,7 +1092,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~79")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[20]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -972,7 +1102,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~81")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[19]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -982,7 +1112,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~83")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[18]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -992,7 +1122,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~85")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[17]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1002,7 +1132,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~87")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[16]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1012,7 +1142,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~89")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[15]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1022,7 +1152,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~91")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[14]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1032,7 +1162,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~93")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[13]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1042,7 +1172,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~95")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[12]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1052,7 +1182,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~97")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[11]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1062,7 +1192,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~99")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[10]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1072,7 +1202,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~101")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[9]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1082,7 +1212,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~103")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[8]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1092,7 +1222,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~104_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[7]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1102,7 +1232,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~102_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[6]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1112,7 +1242,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~36_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[5]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1122,7 +1252,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~100_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[4]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1132,7 +1262,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~34_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[3]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1142,7 +1272,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~98_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[2]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1152,7 +1282,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~32_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[1]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1162,7 +1292,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~96_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[0]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1172,7 +1302,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~94_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[35]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1182,7 +1312,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~28_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[34]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1192,7 +1322,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~92_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[33]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1202,7 +1332,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~26_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[32]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1212,7 +1342,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~90_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[31]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1222,7 +1352,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~88_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[30]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1232,7 +1362,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~22_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[29]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1242,7 +1372,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~86_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[28]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1252,7 +1382,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~84_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[27]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1262,7 +1392,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~18_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[26]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1272,7 +1402,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~82_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[25]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1282,7 +1412,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~80_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[24]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1292,7 +1422,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~78_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[23]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1302,7 +1432,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~76_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[22]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1312,7 +1442,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~74_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[21]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1322,7 +1452,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~72_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[20]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1332,7 +1462,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~70_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[19]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1342,7 +1472,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~68_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[18]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1352,7 +1482,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~66_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[17]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1362,7 +1492,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~64_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[16]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1372,7 +1502,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~62_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[15]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1382,7 +1512,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~60_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[14]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1392,7 +1522,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~58_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[13]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1402,7 +1532,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~56_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[12]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1412,7 +1542,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~54_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[11]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1422,7 +1552,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~52_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[10]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1432,7 +1562,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~50_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[9]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1442,7 +1572,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~48_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[8]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1452,7 +1582,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~46_combout")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[7]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1462,7 +1592,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[15]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[6]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1472,7 +1602,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[15]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[14]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[5]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1482,7 +1612,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[14]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[13]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[4]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1492,7 +1622,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[13]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[12]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[3]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1502,7 +1632,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[12]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[11]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[2]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1512,7 +1642,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[11]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[10]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[1]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1522,7 +1652,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[10]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[9]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[0]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1532,7 +1662,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[9]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[8]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[15]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1542,7 +1672,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[8]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[7]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[14]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1552,7 +1682,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[7]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[6]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[13]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1562,7 +1692,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[6]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[5]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[12]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1572,7 +1702,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[5]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[4]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[11]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1582,7 +1712,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[4]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[3]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[10]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1592,7 +1722,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[3]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[2]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[9]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1602,7 +1732,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[2]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[1]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[8]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1612,7 +1742,7 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[1]")
 	PARENT = "";
 }
 
-SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[0]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[7]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -1622,475 +1752,999 @@ SIGNAL("g03_lab2_vlg_vec_tst|i1|seed~combout[0]")
 	PARENT = "";
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[15]")
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[6]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|clock")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[14]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|N[5]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 640.0;
+		LEVEL 1 FOR 360.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[13]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|N[4]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 320.0;
+		LEVEL 1 FOR 320.0;
+		LEVEL 0 FOR 320.0;
+		LEVEL 1 FOR 40.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[12]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|N[3]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[11]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|N[2]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[10]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|N[1]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[9]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|N[0]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[8]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[51]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 994.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[7]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[50]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 994.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[6]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[49]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 994.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[5]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[48]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 980.0;
+		LEVEL 0 FOR 14.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[4]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[47]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 960.0;
+		LEVEL 0 FOR 34.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[3]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[46]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 700.0;
-		LEVEL 1 FOR 300.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 940.0;
+		LEVEL 0 FOR 54.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[2]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[45]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 300.0;
-		LEVEL 1 FOR 400.0;
-		LEVEL 0 FOR 300.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 920.0;
+		LEVEL 0 FOR 74.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[1]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[44]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 900.0;
+		LEVEL 0 FOR 94.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|seed[0]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[43]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 880.0;
+		LEVEL 0 FOR 114.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[29]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[42]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 860.0;
+		LEVEL 0 FOR 134.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[28]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[41]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 840.0;
+		LEVEL 0 FOR 154.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[27]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[40]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 820.0;
+		LEVEL 0 FOR 174.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[26]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[39]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 800.0;
+		LEVEL 0 FOR 194.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[25]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[38]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 780.0;
+		LEVEL 0 FOR 214.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[24]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[37]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 760.0;
+		LEVEL 0 FOR 234.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[23]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[36]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 740.0;
+		LEVEL 0 FOR 254.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[22]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[35]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 720.0;
+		LEVEL 0 FOR 274.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[21]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[34]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 700.0;
+		LEVEL 0 FOR 294.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[20]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[33]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 680.0;
+		LEVEL 0 FOR 314.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[19]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[32]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 700.0;
-		LEVEL 1 FOR 300.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 660.0;
+		LEVEL 0 FOR 334.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[18]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[31]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 300.0;
-		LEVEL 1 FOR 400.0;
-		LEVEL 0 FOR 300.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 640.0;
+		LEVEL 0 FOR 354.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[17]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[30]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 620.0;
+		LEVEL 0 FOR 374.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[16]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[29]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 600.0;
+		LEVEL 0 FOR 394.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[15]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[28]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 580.0;
+		LEVEL 0 FOR 414.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[14]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[27]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 560.0;
+		LEVEL 0 FOR 434.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[13]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[26]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 540.0;
+		LEVEL 0 FOR 454.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[12]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[25]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 520.0;
+		LEVEL 0 FOR 474.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[11]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[24]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[10]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[9]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[8]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[7]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[6]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[4]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 500.0;
+		LEVEL 0 FOR 5.001;
 		LEVEL 1 FOR 500.0;
+		LEVEL 0 FOR 494.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[3]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[23]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 200.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 480.0;
+		LEVEL 0 FOR 514.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[22]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 460.0;
+		LEVEL 0 FOR 534.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[21]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 440.0;
+		LEVEL 0 FOR 554.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[20]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 420.0;
+		LEVEL 0 FOR 574.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[19]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 400.0;
+		LEVEL 0 FOR 594.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[18]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 380.0;
+		LEVEL 0 FOR 614.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[17]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 360.0;
+		LEVEL 0 FOR 634.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[16]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 340.0;
+		LEVEL 0 FOR 654.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[15]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 320.0;
+		LEVEL 0 FOR 674.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[14]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
 		LEVEL 1 FOR 300.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 300.0;
+		LEVEL 0 FOR 694.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[2]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[13]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 280.0;
+		LEVEL 0 FOR 714.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[1]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[12]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 260.0;
+		LEVEL 0 FOR 734.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|rand[0]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[11]")
 {
 	NODE
 	{
 		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 240.0;
+		LEVEL 0 FOR 754.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[10]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 220.0;
+		LEVEL 0 FOR 774.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[9]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 794.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[8]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 180.0;
+		LEVEL 0 FOR 814.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[7]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 834.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 140.0;
+		LEVEL 0 FOR 854.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 874.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
 		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
+		LEVEL 0 FOR 894.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 914.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 934.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 954.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|P_EN[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 974.999;
 	}
 }
 
@@ -2099,16 +2753,206 @@ TRANSITION_LIST("g03_lab2_vlg_vec_tst|sampler")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
+		LEVEL X FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
 	}
 }
 
@@ -2166,1209 +3010,1872 @@ TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|devoe")
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~15")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|clock~combout")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~17")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|clock~clkctrl_outclk")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~19")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|N~combout[5]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 640.0;
+		LEVEL 1 FOR 360.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~21")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|N~combout[4]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 320.0;
+		LEVEL 1 FOR 320.0;
+		LEVEL 0 FOR 320.0;
+		LEVEL 1 FOR 40.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~23")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|N~combout[3]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~25")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|N~combout[2]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~27")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|N~combout[1]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~29")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|N~combout[0]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~31")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[51]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 994.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~33")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[50]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 994.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~35")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[49]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 994.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~37")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[48]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 980.0;
+		LEVEL 0 FOR 14.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~39")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[47]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 960.0;
+		LEVEL 0 FOR 34.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~40_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[46]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 940.0;
+		LEVEL 0 FOR 54.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~38_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[45]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 920.0;
+		LEVEL 0 FOR 74.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~30_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[44]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 900.0;
+		LEVEL 0 FOR 94.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~24_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[43]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 880.0;
+		LEVEL 0 FOR 114.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~20_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[42]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 700.0;
-		LEVEL 1 FOR 300.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 860.0;
+		LEVEL 0 FOR 134.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~16_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[41]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 840.0;
+		LEVEL 0 FOR 154.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~14_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[40]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 820.0;
+		LEVEL 0 FOR 174.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~41")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[39]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 800.0;
+		LEVEL 0 FOR 194.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~43_cout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[38]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 780.0;
+		LEVEL 0 FOR 214.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~45_cout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[37]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 760.0;
+		LEVEL 0 FOR 234.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~47")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[36]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 740.0;
+		LEVEL 0 FOR 254.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~49")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[35]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 300.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 300.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 720.0;
+		LEVEL 0 FOR 274.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~51")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[34]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 300.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 700.0;
+		LEVEL 0 FOR 294.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~53")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[33]")
 {
 	NODE
 	{
 		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 680.0;
+		LEVEL 0 FOR 314.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[32]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 660.0;
+		LEVEL 0 FOR 334.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[31]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 640.0;
+		LEVEL 0 FOR 354.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[30]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 620.0;
+		LEVEL 0 FOR 374.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[29]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 600.0;
+		LEVEL 0 FOR 394.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[28]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 580.0;
+		LEVEL 0 FOR 414.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[27]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 560.0;
+		LEVEL 0 FOR 434.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[26]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 540.0;
+		LEVEL 0 FOR 454.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[25]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 520.0;
+		LEVEL 0 FOR 474.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[24]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
 		LEVEL 1 FOR 500.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 300.0;
+		LEVEL 0 FOR 494.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~55")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[23]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 480.0;
+		LEVEL 0 FOR 514.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~57")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[22]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 460.0;
+		LEVEL 0 FOR 534.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~59")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[21]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 440.0;
+		LEVEL 0 FOR 554.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~61")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[20]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 420.0;
+		LEVEL 0 FOR 574.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~63")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[19]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~65")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~67")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~69")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~71")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~73")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~75")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~77")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~79")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~81")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~83")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~85")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~87")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~89")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~91")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~93")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~95")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~97")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~99")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~101")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~103")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~104_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~102_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~36_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~100_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~34_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~98_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~32_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~96_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~94_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~28_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~92_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~26_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~90_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~88_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~22_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~86_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~84_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 700.0;
-		LEVEL 1 FOR 300.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~18_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 300.0;
+		LEVEL 0 FOR 5.001;
 		LEVEL 1 FOR 400.0;
-		LEVEL 0 FOR 300.0;
+		LEVEL 0 FOR 594.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~82_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[18]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 300.0;
-		LEVEL 1 FOR 400.0;
-		LEVEL 0 FOR 300.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 380.0;
+		LEVEL 0 FOR 614.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~80_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[17]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 100.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 360.0;
+		LEVEL 0 FOR 634.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[16]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 340.0;
+		LEVEL 0 FOR 654.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[15]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 320.0;
+		LEVEL 0 FOR 674.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[14]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 300.0;
+		LEVEL 0 FOR 694.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[13]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 280.0;
+		LEVEL 0 FOR 714.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[12]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 260.0;
+		LEVEL 0 FOR 734.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[11]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 240.0;
+		LEVEL 0 FOR 754.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[10]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 220.0;
+		LEVEL 0 FOR 774.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[9]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
 		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
+		LEVEL 0 FOR 794.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[8]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 180.0;
+		LEVEL 0 FOR 814.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[7]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 834.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 140.0;
+		LEVEL 0 FOR 854.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 874.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
 		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 894.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~78_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[3]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 914.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~76_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[2]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 934.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~74_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[1]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 954.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~72_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[0]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 974.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~70_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[35]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 994.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~68_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[34]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 994.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~66_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[33]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 994.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~64_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[32]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 980.0;
+		LEVEL 0 FOR 14.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~62_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[31]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 960.0;
+		LEVEL 0 FOR 34.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~60_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[30]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 940.0;
+		LEVEL 0 FOR 54.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~58_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[29]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 920.0;
+		LEVEL 0 FOR 74.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~56_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[28]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 900.0;
+		LEVEL 0 FOR 94.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~54_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[27]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 500.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 880.0;
+		LEVEL 0 FOR 114.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[26]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 860.0;
+		LEVEL 0 FOR 134.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[25]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 840.0;
+		LEVEL 0 FOR 154.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[24]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 820.0;
+		LEVEL 0 FOR 174.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[23]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 800.0;
+		LEVEL 0 FOR 194.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[22]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 780.0;
+		LEVEL 0 FOR 214.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[21]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 760.0;
+		LEVEL 0 FOR 234.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[20]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 740.0;
+		LEVEL 0 FOR 254.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[19]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 720.0;
+		LEVEL 0 FOR 274.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[18]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 700.0;
+		LEVEL 0 FOR 294.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[17]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 680.0;
+		LEVEL 0 FOR 314.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[16]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 660.0;
+		LEVEL 0 FOR 334.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[15]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 640.0;
+		LEVEL 0 FOR 354.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[14]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 620.0;
+		LEVEL 0 FOR 374.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[13]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 600.0;
+		LEVEL 0 FOR 394.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[12]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 580.0;
+		LEVEL 0 FOR 414.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[11]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 560.0;
+		LEVEL 0 FOR 434.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[10]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 540.0;
+		LEVEL 0 FOR 454.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[9]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 520.0;
+		LEVEL 0 FOR 474.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[8]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
 		LEVEL 1 FOR 500.0;
+		LEVEL 0 FOR 494.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~52_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[7]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 300.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 300.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 480.0;
+		LEVEL 0 FOR 514.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~50_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[6]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 460.0;
+		LEVEL 0 FOR 534.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~48_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[5]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 440.0;
+		LEVEL 0 FOR 554.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~46_combout")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[4]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 420.0;
+		LEVEL 0 FOR 574.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[15]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[3]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[14]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[13]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[12]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[11]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[10]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[9]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[8]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[7]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[6]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[4]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[3]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 700.0;
-		LEVEL 1 FOR 300.0;
-	}
-}
-
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 300.0;
+		LEVEL 0 FOR 5.001;
 		LEVEL 1 FOR 400.0;
-		LEVEL 0 FOR 300.0;
+		LEVEL 0 FOR 594.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[1]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[2]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 200.0;
-		LEVEL 0 FOR 200.0;
-		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 380.0;
+		LEVEL 0 FOR 614.999;
 	}
 }
 
-TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|seed~combout[0]")
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[1]")
 {
 	NODE
 	{
 		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 360.0;
+		LEVEL 0 FOR 634.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 340.0;
+		LEVEL 0 FOR 654.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[15]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 320.0;
+		LEVEL 0 FOR 674.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[14]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 300.0;
+		LEVEL 0 FOR 694.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[13]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 280.0;
+		LEVEL 0 FOR 714.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[12]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 260.0;
+		LEVEL 0 FOR 734.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[11]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 240.0;
+		LEVEL 0 FOR 754.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[10]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 220.0;
+		LEVEL 0 FOR 774.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[9]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 794.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[8]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 180.0;
+		LEVEL 0 FOR 814.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[7]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 834.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 140.0;
+		LEVEL 0 FOR 854.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 874.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
 		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
-		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 100.0;
+		LEVEL 0 FOR 894.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 914.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 934.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 954.999;
+	}
+}
+
+TRANSITION_LIST("g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.001;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 974.999;
 	}
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed";
+	CHANNEL = "g03_lab2_vlg_vec_tst|clock";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 0;
 	TREE_LEVEL = 0;
-	CHILDREN = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[15]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|N";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 1;
-	TREE_LEVEL = 1;
-	PARENT = 0;
+	TREE_LEVEL = 0;
+	CHILDREN = 2, 3, 4, 5, 6, 7;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[14]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|N[5]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 2;
 	TREE_LEVEL = 1;
-	PARENT = 0;
+	PARENT = 1;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[13]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|N[4]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 3;
 	TREE_LEVEL = 1;
-	PARENT = 0;
+	PARENT = 1;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[12]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|N[3]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 4;
 	TREE_LEVEL = 1;
-	PARENT = 0;
+	PARENT = 1;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[11]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|N[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 5;
 	TREE_LEVEL = 1;
-	PARENT = 0;
+	PARENT = 1;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[10]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|N[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 6;
 	TREE_LEVEL = 1;
-	PARENT = 0;
+	PARENT = 1;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[9]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|N[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 7;
 	TREE_LEVEL = 1;
-	PARENT = 0;
+	PARENT = 1;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[8]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[51]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 8;
-	TREE_LEVEL = 1;
-	PARENT = 0;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[7]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[50]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 9;
-	TREE_LEVEL = 1;
-	PARENT = 0;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[6]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[49]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 10;
-	TREE_LEVEL = 1;
-	PARENT = 0;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[5]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[48]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 11;
-	TREE_LEVEL = 1;
-	PARENT = 0;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[4]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[47]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 12;
-	TREE_LEVEL = 1;
-	PARENT = 0;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[3]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[46]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 13;
-	TREE_LEVEL = 1;
-	PARENT = 0;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[2]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[45]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 14;
-	TREE_LEVEL = 1;
-	PARENT = 0;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[1]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[44]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 15;
-	TREE_LEVEL = 1;
-	PARENT = 0;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|seed[0]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[43]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 16;
-	TREE_LEVEL = 1;
-	PARENT = 0;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[29]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[42]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 17;
@@ -3377,7 +4884,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[28]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[41]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 18;
@@ -3386,7 +4893,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[27]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[40]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 19;
@@ -3395,7 +4902,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[26]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[39]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 20;
@@ -3404,7 +4911,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[25]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[38]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 21;
@@ -3413,7 +4920,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[24]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[37]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 22;
@@ -3422,7 +4929,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[23]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[36]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 23;
@@ -3431,7 +4938,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[22]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[35]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 24;
@@ -3440,7 +4947,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[21]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[34]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 25;
@@ -3449,7 +4956,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[20]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[33]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 26;
@@ -3458,7 +4965,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[19]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[32]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 27;
@@ -3467,7 +4974,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[18]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[31]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 28;
@@ -3476,7 +4983,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[17]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[30]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 29;
@@ -3485,7 +4992,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[16]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[29]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 30;
@@ -3494,7 +5001,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[15]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[28]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 31;
@@ -3503,7 +5010,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[14]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[27]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 32;
@@ -3512,7 +5019,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[13]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[26]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 33;
@@ -3521,7 +5028,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[12]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[25]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 34;
@@ -3530,7 +5037,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[11]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[24]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 35;
@@ -3539,7 +5046,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[10]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[23]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 36;
@@ -3548,7 +5055,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[9]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[22]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 37;
@@ -3557,7 +5064,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[8]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[21]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 38;
@@ -3566,7 +5073,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[7]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[20]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 39;
@@ -3575,7 +5082,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[6]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[19]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 40;
@@ -3584,7 +5091,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[5]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[18]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 41;
@@ -3593,7 +5100,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[4]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[17]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 42;
@@ -3602,7 +5109,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[3]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[16]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 43;
@@ -3611,7 +5118,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[2]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[15]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 44;
@@ -3620,7 +5127,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[1]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[14]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 45;
@@ -3629,7 +5136,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|rand[0]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[13]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 46;
@@ -3638,7 +5145,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|sampler";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[12]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 47;
@@ -3647,7 +5154,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|gnd";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[11]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 48;
@@ -3656,7 +5163,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|vcc";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[10]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 49;
@@ -3665,7 +5172,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|unknown";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[9]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 50;
@@ -3674,7 +5181,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|devclrn";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[8]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 51;
@@ -3683,7 +5190,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|devpor";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[7]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 52;
@@ -3692,7 +5199,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|devoe";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[6]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 53;
@@ -3701,7 +5208,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~15";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[5]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 54;
@@ -3710,7 +5217,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~17";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[4]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 55;
@@ -3719,7 +5226,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~19";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[3]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 56;
@@ -3728,7 +5235,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~21";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 57;
@@ -3737,7 +5244,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~23";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 58;
@@ -3746,7 +5253,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~25";
+	CHANNEL = "g03_lab2_vlg_vec_tst|P_EN[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 59;
@@ -3755,7 +5262,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~27";
+	CHANNEL = "g03_lab2_vlg_vec_tst|sampler";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 60;
@@ -3764,7 +5271,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~29";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|gnd";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 61;
@@ -3773,7 +5280,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~31";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|vcc";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 62;
@@ -3782,7 +5289,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~33";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|unknown";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 63;
@@ -3791,7 +5298,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~35";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|devclrn";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 64;
@@ -3800,7 +5307,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~37";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|devpor";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 65;
@@ -3809,7 +5316,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~39";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|devoe";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 66;
@@ -3818,7 +5325,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~40_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|clock~combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 67;
@@ -3827,7 +5334,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~38_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|clock~clkctrl_outclk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 68;
@@ -3836,7 +5343,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~30_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|N~combout[5]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 69;
@@ -3845,7 +5352,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~24_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|N~combout[4]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 70;
@@ -3854,7 +5361,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~20_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|N~combout[3]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 71;
@@ -3863,7 +5370,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~16_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|N~combout[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 72;
@@ -3872,7 +5379,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~14_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|N~combout[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 73;
@@ -3881,7 +5388,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~41";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|N~combout[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 74;
@@ -3890,7 +5397,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~43_cout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[51]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 75;
@@ -3899,7 +5406,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~45_cout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[50]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 76;
@@ -3908,7 +5415,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~47";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[49]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 77;
@@ -3917,7 +5424,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~49";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[48]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 78;
@@ -3926,7 +5433,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~51";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[47]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 79;
@@ -3935,7 +5442,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~53";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[46]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 80;
@@ -3944,7 +5451,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~55";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[45]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 81;
@@ -3953,7 +5460,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~57";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[44]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 82;
@@ -3962,7 +5469,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~59";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[43]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 83;
@@ -3971,7 +5478,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~61";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[42]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 84;
@@ -3980,7 +5487,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~63";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[41]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 85;
@@ -3989,7 +5496,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~65";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[40]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 86;
@@ -3998,7 +5505,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~67";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[39]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 87;
@@ -4007,7 +5514,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~69";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[38]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 88;
@@ -4016,7 +5523,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~71";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[37]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 89;
@@ -4025,7 +5532,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~73";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[36]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 90;
@@ -4034,7 +5541,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~75";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[35]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 91;
@@ -4043,7 +5550,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~77";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[34]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 92;
@@ -4052,7 +5559,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~79";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[33]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 93;
@@ -4061,7 +5568,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~81";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[32]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 94;
@@ -4070,7 +5577,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~83";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[31]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 95;
@@ -4079,7 +5586,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~85";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[30]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 96;
@@ -4088,7 +5595,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~87";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[29]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 97;
@@ -4097,7 +5604,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~89";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[28]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 98;
@@ -4106,7 +5613,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~91";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[27]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 99;
@@ -4115,7 +5622,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~93";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[26]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 100;
@@ -4124,7 +5631,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~95";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[25]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 101;
@@ -4133,7 +5640,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~97";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[24]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 102;
@@ -4142,7 +5649,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~99";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[23]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 103;
@@ -4151,7 +5658,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~101";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[22]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 104;
@@ -4160,7 +5667,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~103";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[21]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 105;
@@ -4169,7 +5676,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~104_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[20]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 106;
@@ -4178,7 +5685,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~102_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[19]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 107;
@@ -4187,7 +5694,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~36_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[18]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 108;
@@ -4196,7 +5703,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~100_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[17]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 109;
@@ -4205,7 +5712,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~34_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[16]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 110;
@@ -4214,7 +5721,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~98_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[15]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 111;
@@ -4223,7 +5730,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~32_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[14]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 112;
@@ -4232,7 +5739,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~96_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[13]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 113;
@@ -4241,7 +5748,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~94_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[12]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 114;
@@ -4250,7 +5757,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~28_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[11]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 115;
@@ -4259,7 +5766,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~92_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[10]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 116;
@@ -4268,7 +5775,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~26_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[9]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 117;
@@ -4277,7 +5784,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~90_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[8]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 118;
@@ -4286,7 +5793,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~88_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[7]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 119;
@@ -4295,7 +5802,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~22_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[6]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 120;
@@ -4304,7 +5811,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~86_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[5]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 121;
@@ -4313,7 +5820,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~84_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[4]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 122;
@@ -4322,7 +5829,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~18_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[3]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 123;
@@ -4331,7 +5838,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~82_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 124;
@@ -4340,7 +5847,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~80_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 125;
@@ -4349,7 +5856,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~78_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|q_a[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 126;
@@ -4358,7 +5865,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~76_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[35]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 127;
@@ -4367,7 +5874,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~74_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[34]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 128;
@@ -4376,7 +5883,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~72_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[33]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 129;
@@ -4385,7 +5892,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~70_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[32]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 130;
@@ -4394,7 +5901,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~68_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[31]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 131;
@@ -4403,7 +5910,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~66_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[30]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 132;
@@ -4412,7 +5919,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~64_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[29]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 133;
@@ -4421,7 +5928,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~62_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[28]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 134;
@@ -4430,7 +5937,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~60_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[27]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 135;
@@ -4439,7 +5946,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~58_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[26]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 136;
@@ -4448,7 +5955,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~56_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[25]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 137;
@@ -4457,7 +5964,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~54_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[24]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 138;
@@ -4466,7 +5973,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~52_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[23]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 139;
@@ -4475,7 +5982,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~50_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[22]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 140;
@@ -4484,7 +5991,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~48_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[21]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 141;
@@ -4493,7 +6000,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|u1|LPM_ADD_SUB_component|auto_generated|op_1~46_combout";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[20]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 142;
@@ -4502,7 +6009,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[15]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[19]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 143;
@@ -4511,7 +6018,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[14]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[18]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 144;
@@ -4520,7 +6027,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[13]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[17]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 145;
@@ -4529,7 +6036,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[12]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[16]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 146;
@@ -4538,7 +6045,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[11]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[15]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 147;
@@ -4547,7 +6054,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[10]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[14]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 148;
@@ -4556,7 +6063,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[9]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[13]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 149;
@@ -4565,7 +6072,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[8]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[12]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 150;
@@ -4574,7 +6081,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[7]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[11]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 151;
@@ -4583,7 +6090,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[6]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[10]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 152;
@@ -4592,7 +6099,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[5]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[9]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 153;
@@ -4601,7 +6108,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[4]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[8]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 154;
@@ -4610,7 +6117,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[3]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[7]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 155;
@@ -4619,7 +6126,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[2]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[6]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 156;
@@ -4628,7 +6135,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[1]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[5]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 157;
@@ -4637,10 +6144,190 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "g03_lab2_vlg_vec_tst|i1|seed~combout[0]";
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[4]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 158;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 159;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 160;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 161;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a16_PORTADATAOUT_bus[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 162;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[15]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 163;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[14]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 164;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[13]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 165;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[12]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 166;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[11]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 167;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[10]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 168;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[9]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 169;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[8]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 170;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[7]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 171;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[6]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 172;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 173;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 174;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 175;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 176;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 177;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g03_lab2_vlg_vec_tst|i1|inst|lookup_table|srom|rom_block|auto_generated|ram_block1a0_PORTADATAOUT_bus[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 178;
 	TREE_LEVEL = 0;
 }
 ;
