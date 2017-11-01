@@ -1,5 +1,5 @@
 Analysis & Synthesis report for g03_lab2
-Thu Oct 19 17:48:02 2017
+Sun Oct 29 21:53:01 2017
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -50,16 +50,16 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Oct 19 17:48:01 2017           ;
+; Analysis & Synthesis Status        ; Successful - Sun Oct 29 21:53:01 2017           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; g03_lab2                                        ;
 ; Top-level Entity Name              ; g03_lab2                                        ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 63                                              ;
-;     Total combinational functions  ; 63                                              ;
+; Total logic elements               ; 65                                              ;
+;     Total combinational functions  ; 65                                              ;
 ;     Dedicated logic registers      ; 0                                               ;
 ; Total registers                    ; 0                                               ;
-; Total pins                         ; 135                                             ;
+; Total pins                         ; 141                                             ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 3,328                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
@@ -172,6 +172,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; g03_lab2.bdf                     ; yes             ; User Block Diagram/Schematic File      ; C:/altera/13.0sp1/projects/Lab2/g03_lab2.bdf                              ;         ;
 ; g03_7_segment_decoder.vhd        ; yes             ; User VHDL File                         ; C:/altera/13.0sp1/projects/Lab2/g03_7_segment_decoder.vhd                 ;         ;
 ; g03_pop_enable.vhd               ; yes             ; User VHDL File                         ; C:/altera/13.0sp1/projects/Lab2/g03_pop_enable.vhd                        ;         ;
+; paritycheck.vhd                  ; yes             ; User VHDL File                         ; C:/altera/13.0sp1/projects/Lab2/paritycheck.vhd                           ;         ;
 ; lpm_rom.tdf                      ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_rom.tdf             ;         ;
 ; altrom.inc                       ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/altrom.inc              ;         ;
 ; aglobal130.inc                   ; yes             ; Megafunction                           ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc          ;         ;
@@ -203,29 +204,29 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 63    ;
+; Estimated Total logic elements              ; 65    ;
 ;                                             ;       ;
-; Total combinational functions               ; 63    ;
+; Total combinational functions               ; 65    ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 13    ;
+;     -- 4 input functions                    ; 14    ;
 ;     -- 3 input functions                    ; 20    ;
-;     -- <=2 input functions                  ; 30    ;
+;     -- <=2 input functions                  ; 31    ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 18    ;
+;     -- normal mode                          ; 20    ;
 ;     -- arithmetic mode                      ; 45    ;
 ;                                             ;       ;
 ; Total registers                             ; 0     ;
 ;     -- Dedicated logic registers            ; 0     ;
 ;     -- I/O registers                        ; 0     ;
 ;                                             ;       ;
-; I/O pins                                    ; 135   ;
+; I/O pins                                    ; 141   ;
 ; Total memory bits                           ; 3328  ;
 ; Embedded Multiplier 9-bit elements          ; 0     ;
 ; Maximum fan-out node                        ; clock ;
 ; Maximum fan-out                             ; 52    ;
-; Total fan-out                               ; 624   ;
-; Average fan-out                             ; 2.50  ;
+; Total fan-out                               ; 631   ;
+; Average fan-out                             ; 2.45  ;
 +---------------------------------------------+-------+
 
 
@@ -234,7 +235,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                 ; Library Name ;
 +-------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
-; |g03_lab2                                       ; 63 (0)            ; 0 (0)        ; 3328        ; 0            ; 0       ; 0         ; 135  ; 0            ; |g03_lab2                                                                                                           ; work         ;
+; |g03_lab2                                       ; 65 (0)            ; 0 (0)        ; 3328        ; 0            ; 0       ; 0         ; 141  ; 0            ; |g03_lab2                                                                                                           ; work         ;
+;    |Parity_check_4bit:inst1|                    ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab2|Parity_check_4bit:inst1                                                                                   ; work         ;
 ;    |g03_7_segment_decoder:inst|                 ; 17 (17)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab2|g03_7_segment_decoder:inst                                                                                ; work         ;
 ;    |g03_RANDU:inst3|                            ; 46 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab2|g03_RANDU:inst3                                                                                           ; work         ;
 ;       |lpmaddsub:u1|                            ; 46 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab2|g03_RANDU:inst3|lpmaddsub:u1                                                                              ; work         ;
@@ -430,7 +432,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Oct 19 17:47:58 2017
+    Info: Processing started: Sun Oct 29 21:52:58 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off g03_lab2 -c g03_lab2
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file g03_randu.vhd
@@ -444,7 +446,23 @@ Info (12021): Found 2 design units, including 1 entities, in source file g03_7_s
 Info (12021): Found 2 design units, including 1 entities, in source file g03_pop_enable.vhd
     Info (12022): Found design unit 1: g03_pop_enable-behaviour
     Info (12023): Found entity 1: g03_pop_enable
+Info (12021): Found 2 design units, including 1 entities, in source file paritycheck.vhd
+    Info (12022): Found design unit 1: Parity_check_4bit-example
+    Info (12023): Found entity 1: Parity_check_4bit
 Info (12127): Elaborating entity "g03_lab2" for the top level hierarchy
+Info (12128): Elaborating entity "Parity_check_4bit" for hierarchy "Parity_check_4bit:inst1"
+Warning (10492): VHDL Process Statement warning at paritycheck.vhd(22): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at paritycheck.vhd(23): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at paritycheck.vhd(24): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at paritycheck.vhd(25): signal "Data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at paritycheck.vhd(28): signal "int3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at paritycheck.vhd(28): signal "int2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at paritycheck.vhd(28): signal "int1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at paritycheck.vhd(28): signal "int0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at paritycheck.vhd(31): signal "int3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at paritycheck.vhd(31): signal "int2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at paritycheck.vhd(31): signal "int1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at paritycheck.vhd(31): signal "int0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info (12128): Elaborating entity "g03_pop_enable" for hierarchy "g03_pop_enable:inst4"
 Info (12128): Elaborating entity "LPM_ROM" for hierarchy "g03_pop_enable:inst4|LPM_ROM:lookup_table"
 Info (12130): Elaborated megafunction instantiation "g03_pop_enable:inst4|LPM_ROM:lookup_table"
@@ -563,15 +581,15 @@ Warning (21074): Design contains 16 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "seed[18]"
     Warning (15610): No output dependent on input pin "seed[17]"
     Warning (15610): No output dependent on input pin "seed[16]"
-Info (21057): Implemented 250 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 44 input pins
-    Info (21059): Implemented 91 output pins
-    Info (21061): Implemented 63 logic cells
+Info (21057): Implemented 258 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 49 input pins
+    Info (21059): Implemented 92 output pins
+    Info (21061): Implemented 65 logic cells
     Info (21064): Implemented 52 RAM segments
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 81 warnings
-    Info: Peak virtual memory: 579 megabytes
-    Info: Processing ended: Thu Oct 19 17:48:02 2017
-    Info: Elapsed time: 00:00:04
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 93 warnings
+    Info: Peak virtual memory: 578 megabytes
+    Info: Processing ended: Sun Oct 29 21:53:01 2017
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 
 

@@ -20,16 +20,16 @@
 # Loading cycloneii_ver.cycloneii_mux21
 # Loading cycloneii_ver.cycloneii_dffe
 # Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_lcell_comb
 # Loading cycloneii_ver.cycloneii_clkctrl
 # Loading cycloneii_ver.cycloneii_mux41
 # Loading cycloneii_ver.cycloneii_ena_reg
 # Loading cycloneii_ver.cycloneii_ram_block
 # Loading cycloneii_ver.cycloneii_ram_register
 # Loading cycloneii_ver.cycloneii_ram_pulse_generator
-# Loading cycloneii_ver.cycloneii_lcell_comb
 # Loading work.g03_lab2_vlg_sample_tst
 # Loading work.g03_lab2_vlg_check_tst
 # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
 # Simulation passed !
-# ** Note: $finish    : g03_lab2.vt(723)
+# ** Note: $finish    : g03_lab2.vt(175)
 #    Time: 1 us  Iteration: 0  Instance: /g03_lab2_vlg_vec_tst/tb_out

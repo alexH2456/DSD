@@ -64,5 +64,6 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name VECTOR_WAVEFORM_FILE g03_7_segment_decoder.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE g03_7_segment_decode.vwf
+set_global_assignment -name VHDL_FILE paritycheck.vhd
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/altera/13.0sp1/projects/Lab2/Waveform.vwf"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/altera/13.0sp1/projects/Lab2/g03_randu.vwf"
