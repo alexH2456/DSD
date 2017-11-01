@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
-// DATE "10/31/2017 22:00:43"
+// DATE "10/31/2017 22:17:37"
 
 // 
 // Device: Altera EP2C20F484C7 Package FBGA484
@@ -687,21 +687,6 @@ wire \inst|inst109|auto_generated|_~132_combout ;
 wire \inst|inst109|auto_generated|result_node[0]~86_combout ;
 wire \inst|inst109|auto_generated|result_node[0]~93_combout ;
 wire \inst|inst109|auto_generated|result_node[0]~102_combout ;
-wire [5:0] \inst|inst24|dffs ;
-wire [5:0] \inst|inst22|dffs ;
-wire [5:0] \inst|inst20|dffs ;
-wire [5:0] \inst|inst18|dffs ;
-wire [5:0] \inst|inst16|dffs ;
-wire [5:0] \inst|inst14|dffs ;
-wire [5:0] \inst|inst12|dffs ;
-wire [5:0] \inst|inst10|dffs ;
-wire [5:0] \inst|inst8|dffs ;
-wire [5:0] \inst|inst6|dffs ;
-wire [5:0] \inst|inst4|dffs ;
-wire [5:0] \inst|inst|dffs ;
-wire [1:0] \mode~combout ;
-wire [5:0] \data~combout ;
-wire [5:0] \address~combout ;
 wire [0:0] \inst|inst110|auto_generated|aneb_result_wire ;
 wire [0:0] \inst|inst112|auto_generated|aneb_result_wire ;
 wire [5:0] \inst|inst108|auto_generated|safe_q ;
@@ -745,6 +730,21 @@ wire [5:0] \inst|inst32|dffs ;
 wire [5:0] \inst|inst30|dffs ;
 wire [5:0] \inst|inst28|dffs ;
 wire [5:0] \inst|inst26|dffs ;
+wire [5:0] \inst|inst24|dffs ;
+wire [5:0] \inst|inst22|dffs ;
+wire [5:0] \inst|inst20|dffs ;
+wire [5:0] \inst|inst18|dffs ;
+wire [5:0] \inst|inst16|dffs ;
+wire [5:0] \inst|inst14|dffs ;
+wire [5:0] \inst|inst12|dffs ;
+wire [5:0] \inst|inst10|dffs ;
+wire [5:0] \inst|inst8|dffs ;
+wire [5:0] \inst|inst6|dffs ;
+wire [5:0] \inst|inst4|dffs ;
+wire [5:0] \inst|inst|dffs ;
+wire [1:0] \mode~combout ;
+wire [5:0] \data~combout ;
+wire [5:0] \address~combout ;
 
 
 // Location: LCFF_X22_Y23_N25
