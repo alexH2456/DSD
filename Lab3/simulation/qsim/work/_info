@@ -8,7 +8,7 @@ Z1 !s100 _ol1VMc=jK8_JbFTZ;]hW0
 Z2 I@VUKZZlmz5KDKd7;IBn:_2
 Z3 V48Em7cmJJ@1Z:U`Xzf:T02
 Z4 dC:\altera\13.0sp1\projects\Lab3\simulation\qsim
-Z5 w1509501643
+Z5 w1509558762
 Z6 8g03_lab3.vo
 Z7 Fg03_lab3.vo
 L0 31
@@ -19,7 +19,7 @@ Z9 !s90 -work|work|g03_lab3.vo|
 Z10 o-work work -O0
 !i10b 1
 !s85 0
-Z11 !s108 1509501644.360000
+Z11 !s108 1509558763.511000
 Z12 !s107 g03_lab3.vo|
 !s101 -O0
 vg03_lab3_vlg_check_tst
@@ -28,7 +28,7 @@ Z13 !s100 oLQm1TmkW>[3U3mYnR0Wj0
 Z14 INF:hV:878Ch]egc[HZmn83
 Z15 VX?X1fI_Xd04mon7gIe?H11
 R4
-Z16 w1509501642
+Z16 w1509558761
 Z17 8g03_lab3.vt
 Z18 Fg03_lab3.vt
 L0 67
@@ -36,7 +36,7 @@ R8
 r1
 !s85 0
 31
-Z19 !s108 1509501644.607000
+Z19 !s108 1509558763.942000
 Z20 !s107 g03_lab3.vt|
 Z21 !s90 -work|work|g03_lab3.vt|
 !s101 -O0
@@ -62,8 +62,8 @@ R21
 R10
 vg03_lab3_vlg_vec_tst
 !i10b 1
-!s100 IRSDS96DZ`IH]:B8_HgGM2
-If7^l=M>DM[^a0@m6iC_GS2
+!s100 eTd1D;WPg;oX[T2A7ke4M1
+IYVaMan[l1SeC2j^4BJA_e3
 Z25 V;HEEd?[YzI?FGHRhK0ABl3
 R4
 R16

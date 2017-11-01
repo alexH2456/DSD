@@ -7976,7 +7976,7 @@ applicable agreement for further details.
 	(annotation_block (parameter)(rect 1232 12848 1376 12918))
 )
 (symbol
-	(rect 344 -8 520 72)
+	(rect 360 -8 536 72)
 	(text "g03_pop_enable" (rect 5 0 84 12)(font "Arial" ))
 	(text "inst107" (rect 8 64 43 76)(font "Arial" ))
 	(port
@@ -8005,7 +8005,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 368 272 480 368)
+	(rect 336 336 448 432)
 	(text "LPM_MUX" (rect 23 0 94 16)(font "Arial" (font_size 10)))
 	(text "inst109" (rect 3 84 38 96)(font "Arial" ))
 	(port
@@ -8083,7 +8083,7 @@ applicable agreement for further details.
 		(line (pt 44 16)(pt 68 32))
 		(line (pt 44 88)(pt 68 72))
 	)
-	(annotation_block (parameter)(rect 480 200 717 270))
+	(annotation_block (parameter)(rect 448 264 685 334))
 )
 (symbol
 	(rect -96 896 -32 944)
@@ -12995,23 +12995,6 @@ applicable agreement for further details.
 	(pt 1048 3736)
 )
 (connector
-	(text "clock" (rect 296 8 321 20)(font "Arial" ))
-	(pt 344 24)
-	(pt 288 24)
-)
-(connector
-	(text "address[5..0]" (rect 299 24 363 36)(font "Arial" ))
-	(pt 288 40)
-	(pt 344 40)
-	(bus)
-)
-(connector
-	(text "P_EN[51..0]" (rect 528 8 588 20)(font "Arial" ))
-	(pt 520 24)
-	(pt 576 24)
-	(bus)
-)
-(connector
 	(text "nop" (rect 312 144 329 156)(font "Arial" ))
 	(pt 352 160)
 	(pt 304 160)
@@ -13020,24 +13003,6 @@ applicable agreement for further details.
 	(text "P_EN[51..0]" (rect 328 128 388 140)(font "Arial" ))
 	(pt 352 144)
 	(pt 304 144)
-	(bus)
-)
-(connector
-	(text "value[5..0]" (rect 488 312 541 324)(font "Arial" ))
-	(pt 480 328)
-	(pt 520 328)
-	(bus)
-)
-(connector
-	(text "address[5..0]" (rect 408 337 420 401)(font "Arial" )(vertical))
-	(pt 424 368)
-	(pt 424 408)
-	(bus)
-)
-(connector
-	(text "value51[5..0],value50[5..0],value49[5..0],value48[5..0],value47[5..0],value46[5..0],value45[5..0],value44[5..0],value43[5..0],value42[5..0],value41[5..0],value40[5..0],value39[5..0],value38[5..0],value37[5..0],value36[5..0],value35[5..0],value34[5..0],value33[5..0],value32[5..0],value31[5..0],value30[5..0],value29[5..0],value28[5..0],value27[5..0],value26[5..0],value25[5..0],value24[5..0],value23[5..0],value22[5..0],value21[5..0],value20[5..0],value19[5..0],value18[5..0],value17[5..0],value16[5..0],value15[5..0],value14[5..0],value13[5..0],value12[5..0],value11[5..0],value10[5..0],value9[5..0],value8[5..0],value7[5..0],value6[5..0],value5[5..0],value4[5..0],value3[5..0],value2[5..0],value1[5..0],value0[5..0]" (rect 341 304 3837 316)(font "Arial" )(invisible))
-	(pt 368 320)
-	(pt 320 320)
 	(bus)
 )
 (connector
@@ -13978,8 +13943,43 @@ applicable agreement for further details.
 )
 (connector
 	(text "enable" (rect -40 941 -28 972)(font "Arial" )(vertical))
+	(pt -24 976)
 	(pt -24 936)
-	(pt -24 984)
+)
+(connector
+	(text "address[5..0]" (rect 376 401 388 465)(font "Arial" )(vertical))
+	(pt 392 432)
+	(pt 392 472)
+	(bus)
+)
+(connector
+	(text "value51[5..0],value50[5..0],value49[5..0],value48[5..0],value47[5..0],value46[5..0],value45[5..0],value44[5..0],value43[5..0],value42[5..0],value41[5..0],value40[5..0],value39[5..0],value38[5..0],value37[5..0],value36[5..0],value35[5..0],value34[5..0],value33[5..0],value32[5..0],value31[5..0],value30[5..0],value29[5..0],value28[5..0],value27[5..0],value26[5..0],value25[5..0],value24[5..0],value23[5..0],value22[5..0],value21[5..0],value20[5..0],value19[5..0],value18[5..0],value17[5..0],value16[5..0],value15[5..0],value14[5..0],value13[5..0],value12[5..0],value11[5..0],value10[5..0],value9[5..0],value8[5..0],value7[5..0],value6[5..0],value5[5..0],value4[5..0],value3[5..0],value2[5..0],value1[5..0],value0[5..0]" (rect 309 368 3805 380)(font "Arial" )(invisible))
+	(pt 336 384)
+	(pt 288 384)
+	(bus)
+)
+(connector
+	(text "value[5..0]" (rect 456 376 509 388)(font "Arial" ))
+	(pt 448 392)
+	(pt 488 392)
+	(bus)
+)
+(connector
+	(text "clock" (rect 312 8 337 20)(font "Arial" ))
+	(pt 304 24)
+	(pt 360 24)
+)
+(connector
+	(text "address[5..0]" (rect 315 24 379 36)(font "Arial" ))
+	(pt 304 40)
+	(pt 360 40)
+	(bus)
+)
+(connector
+	(text "P_EN[51..0]" (rect 544 8 604 20)(font "Arial" ))
+	(pt 536 24)
+	(pt 592 24)
+	(bus)
 )
 (junction (pt 1248 496))
 (junction (pt 1264 744))
@@ -14033,3 +14033,15 @@ applicable agreement for further details.
 (junction (pt 1264 12752))
 (junction (pt 1264 240))
 (junction (pt 1248 13008))
+(text "Disables counter if nop or init = 1 and when enable = 0" (rect -216 992 94 1006)(font "Arial" (font_size 8)))
+(text "Set load variable, disables all ff if enable is 0 or when trying" (rect 288 1048 627 1062)(font "Arial" (font_size 8)))
+(text " to push onto a full stack or pop from an empty stack" (rect 288 1064 586 1078)(font "Arial" (font_size 8)))
+(text "Comparators for checking when stack is full or empty" (rect -80 1344 224 1358)(font "Arial" (font_size 8)))
+(text "Logic for determining desired mode" (rect -176 640 23 654)(font "Arial" (font_size 8)))
+(text "Logic for selectively enabling and disabling certain ff for the pop operation, will enable all ff if pop or nop are false" (rect 168 216 814 230)(font "Arial" (font_size 8)))
+(text "Mux for selecting the desired value from the stack" (rect 280 488 564 502)(font "Arial" (font_size 8)))
+(text "Sets contents to zero when poping last element in stack" (rect 528 13048 846 13062)(font "Arial" (font_size 8)))
+(text "00 - NOP" (rect -176 664 -126 678)(font "Arial" (font_size 8)))
+(text "01 - INIT" (rect -176 680 -130 694)(font "Arial" (font_size 8)))
+(text "10 - POP" (rect -120 664 -71 678)(font "Arial" (font_size 8)))
+(text "11 - PUSH" (rect -120 680 -63 694)(font "Arial" (font_size 8)))
