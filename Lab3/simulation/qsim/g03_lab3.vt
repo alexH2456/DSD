@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "11/01/2017 13:52:41"
+// Generated on "11/01/2017 18:10:09"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    g03_lab3
 // 
@@ -27,16 +27,16 @@
 
 `timescale 1 ps/ 1 ps
 module g03_lab3_vlg_sample_tst(
-	address,
-	clock,
+	addr,
+	clk,
 	data,
 	enable,
 	mode,
 	reset,
 	sampler_tx
 );
-input [5:0] address;
-input  clock;
+input [5:0] addr;
+input  clk;
 input [5:0] data;
 input  enable;
 input [1:0] mode;
@@ -45,7 +45,7 @@ output sampler_tx;
 
 reg sample;
 time current_time;
-always @(address or clock or data or enable or mode or reset)
+always @(addr or clk or data or enable or mode or reset)
                                                                                 
 begin                                                 
  if ($realtime > 0)                                   
@@ -421,8 +421,8 @@ endmodule
 module g03_lab3_vlg_vec_tst();
 // constants                                           
 // general purpose registers
-reg [5:0] address;
-reg clock;
+reg [5:0] addr;
+reg clk;
 reg [5:0] data;
 reg enable;
 reg [1:0] mode;
@@ -438,8 +438,8 @@ wire sampler;
 // assign statements (if any)                          
 g03_lab3 i1 (
 // port map - connection between master ports and signals/registers   
-	.address(address),
-	.clock(clock),
+	.addr(addr),
+	.clk(clk),
 	.data(data),
 	.empty(empty),
 	.enable(enable),
@@ -449,6 +449,58 @@ g03_lab3 i1 (
 	.reset(reset),
 	.value(value)
 );
+
+// clk
+always
+begin
+	clk = 1'b0;
+	clk = #50000 1'b1;
+	#50000;
+end 
+// addr[ 5 ]
+initial
+begin
+	addr[5] = 1'b0;
+end 
+// addr[ 4 ]
+initial
+begin
+	addr[4] = 1'b0;
+end 
+// addr[ 3 ]
+initial
+begin
+	addr[3] = 1'b0;
+end 
+// addr[ 2 ]
+initial
+begin
+	addr[2] = 1'b0;
+end 
+// addr[ 1 ]
+initial
+begin
+	addr[1] = 1'b0;
+end 
+// addr[ 0 ]
+initial
+begin
+	addr[0] = 1'b0;
+end 
+// mode[ 1 ]
+initial
+begin
+	mode[1] = 1'b0;
+	mode[1] = #600000 1'b1;
+end 
+// mode[ 0 ]
+initial
+begin
+	mode[0] = 1'b0;
+	mode[0] = #300000 1'b1;
+	mode[0] = #300000 1'b0;
+	mode[0] = #300000 1'b1;
+end 
 // data[ 5 ]
 initial
 begin
@@ -500,46 +552,6 @@ begin
 	end
 	data[0] = 1'b0;
 end 
-// address[ 5 ]
-initial
-begin
-	address[5] = 1'b0;
-end 
-// address[ 4 ]
-initial
-begin
-	address[4] = 1'b0;
-end 
-// address[ 3 ]
-initial
-begin
-	address[3] = 1'b1;
-end 
-// address[ 2 ]
-initial
-begin
-	address[2] = 1'b0;
-end 
-// address[ 1 ]
-initial
-begin
-	address[1] = 1'b0;
-end 
-// address[ 0 ]
-initial
-begin
-	address[0] = 1'b0;
-end 
-// mode[ 1 ]
-initial
-begin
-	mode[1] = 1'b1;
-end 
-// mode[ 0 ]
-initial
-begin
-	mode[0] = 1'b1;
-end 
 
 // enable
 initial
@@ -551,27 +563,11 @@ end
 initial
 begin
 	reset = 1'b0;
-	reset = #280000 1'b1;
-	reset = #280000 1'b0;
-	reset = #280000 1'b1;
-end 
-
-// clock
-initial
-begin
-	repeat(16)
-	begin
-		clock = 1'b0;
-		clock = #30000 1'b1;
-		# 30000;
-	end
-	clock = 1'b0;
-	clock = #30000 1'b1;
 end 
 
 g03_lab3_vlg_sample_tst tb_sample (
-	.address(address),
-	.clock(clock),
+	.addr(addr),
+	.clk(clk),
 	.data(data),
 	.enable(enable),
 	.mode(mode),
