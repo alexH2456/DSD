@@ -89,23 +89,6 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 312 24 480 40)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "clear" (rect 5 0 28 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 256 40 312 56))
-)
-(pin
-	(input)
 	(rect 96 24 264 40)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "mode_floor" (rect 5 0 60 12)(font "Arial" ))
@@ -256,9 +239,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 408 264 648 456)
+	(rect 408 264 648 424)
 	(text "g03_testbed" (rect 5 0 75 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 176 25 188)(font "Arial" ))
+	(text "inst" (rect 8 144 25 156)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -290,30 +273,23 @@ applicable agreement for further details.
 	(port
 		(pt 0 96)
 		(input)
-		(text "clear" (rect 0 0 28 14)(font "Arial" (font_size 8)))
-		(text "clear" (rect 21 91 49 105)(font "Arial" (font_size 8)))
+		(text "mode_floor" (rect 0 0 63 14)(font "Arial" (font_size 8)))
+		(text "mode_floor" (rect 21 91 84 105)(font "Arial" (font_size 8)))
 		(line (pt 0 96)(pt 16 96))
 	)
 	(port
 		(pt 0 112)
 		(input)
-		(text "mode_floor" (rect 0 0 63 14)(font "Arial" (font_size 8)))
-		(text "mode_floor" (rect 21 107 84 121)(font "Arial" (font_size 8)))
-		(line (pt 0 112)(pt 16 112))
+		(text "mode[1..0]" (rect 0 0 59 14)(font "Arial" (font_size 8)))
+		(text "mode[1..0]" (rect 21 107 80 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
 	)
 	(port
 		(pt 0 128)
 		(input)
-		(text "mode[1..0]" (rect 0 0 59 14)(font "Arial" (font_size 8)))
-		(text "mode[1..0]" (rect 21 123 80 137)(font "Arial" (font_size 8)))
-		(line (pt 0 128)(pt 16 128)(line_width 3))
-	)
-	(port
-		(pt 0 144)
-		(input)
 		(text "mode_mod" (rect 0 0 61 14)(font "Arial" (font_size 8)))
-		(text "mode_mod" (rect 21 139 82 153)(font "Arial" (font_size 8)))
-		(line (pt 0 144)(pt 16 144))
+		(text "mode_mod" (rect 21 123 82 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
 	)
 	(port
 		(pt 240 32)
@@ -358,7 +334,7 @@ applicable agreement for further details.
 		(line (pt 240 112)(pt 224 112)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 224 176))
+		(rectangle (rect 16 16 224 144))
 	)
 )
 (connector
@@ -371,27 +347,6 @@ applicable agreement for further details.
 	(pt 352 312)
 	(pt 408 312)
 	(bus)
-)
-(connector
-	(text "clear" (rect 360 344 383 356)(font "Arial" ))
-	(pt 352 360)
-	(pt 408 360)
-)
-(connector
-	(text "mode_floor" (rect 360 360 415 372)(font "Arial" ))
-	(pt 352 376)
-	(pt 408 376)
-)
-(connector
-	(text "mode[1..0]" (rect 360 376 413 388)(font "Arial" ))
-	(pt 352 392)
-	(pt 408 392)
-	(bus)
-)
-(connector
-	(text "mode_mod" (rect 360 392 414 404)(font "Arial" ))
-	(pt 352 408)
-	(pt 408 408)
 )
 (connector
 	(text "empty" (rect 656 280 687 292)(font "Arial" ))
@@ -435,5 +390,21 @@ applicable agreement for further details.
 	(text "value[5..0]" (rect 656 360 709 372)(font "Arial" ))
 	(pt 648 376)
 	(pt 704 376)
+	(bus)
+)
+(connector
+	(text "mode_floor" (rect 360 344 415 356)(font "Arial" ))
+	(pt 352 360)
+	(pt 408 360)
+)
+(connector
+	(text "mode_mod" (rect 360 376 414 388)(font "Arial" ))
+	(pt 352 392)
+	(pt 408 392)
+)
+(connector
+	(text "mode[1..0]" (rect 360 360 413 372)(font "Arial" ))
+	(pt 352 376)
+	(pt 408 376)
 	(bus)
 )
