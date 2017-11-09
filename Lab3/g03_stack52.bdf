@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect -168 -8 0 8)
+	(rect -320 -8 -152 8)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "data[5..0]" (rect 5 0 52 12)(font "Arial" ))
 	(pt 168 8)
@@ -37,7 +37,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -168 32 0 48)
+	(rect -320 32 -152 48)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "mode[1..0]" (rect 5 0 58 12)(font "Arial" ))
 	(pt 168 8)
@@ -53,7 +53,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -168 72 0 88)
+	(rect -320 72 -152 88)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "address[5..0]" (rect 5 0 69 12)(font "Arial" ))
 	(pt 168 8)
@@ -69,7 +69,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -168 112 0 128)
+	(rect -320 112 -152 128)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "enable" (rect 5 0 36 12)(font "Arial" ))
 	(pt 168 8)
@@ -85,7 +85,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -168 152 0 168)
+	(rect -320 152 -152 168)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "reset" (rect 5 0 29 12)(font "Arial" ))
 	(pt 168 8)
@@ -101,7 +101,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -168 192 0 208)
+	(rect -320 192 -152 208)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "clock" (rect 5 0 30 12)(font "Arial" ))
 	(pt 168 8)
@@ -117,7 +117,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 48 -8 224 8)
+	(rect -104 -8 72 8)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "value[5..0]" (rect 90 0 143 12)(font "Arial" ))
 	(pt 0 8)
@@ -133,7 +133,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 48 32 224 48)
+	(rect -104 32 72 48)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "empty" (rect 90 0 121 12)(font "Arial" ))
 	(pt 0 8)
@@ -149,7 +149,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 48 72 224 88)
+	(rect -104 72 72 88)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "full" (rect 90 0 105 12)(font "Arial" ))
 	(pt 0 8)
@@ -165,7 +165,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 48 112 224 128)
+	(rect -104 112 72 128)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "num[5..0]" (rect 90 0 137 12)(font "Arial" ))
 	(pt 0 8)

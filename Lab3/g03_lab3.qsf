@@ -92,7 +92,6 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
 set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
 set_global_assignment -name BDF_FILE output_files/g03_lab3.bdf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/altera/13.0sp1/projects/Lab3/g03_lab3.vwf"
 set_location_assignment PIN_U22 -to empty
 set_location_assignment PIN_U21 -to full
 set_global_assignment -name ENABLE_SIGNALTAP ON
@@ -170,6 +169,9 @@ set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_BITS=24" 
 set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_CRC_LOWORD=61704" -section_id auto_signaltap_0
 set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_CRC_HIWORD=36577" -section_id auto_signaltap_0
 set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ADVANCED_TRIGGER_ENTITY=sld_reserved_g03_lab3_auto_signaltap_0_1_5968," -section_id auto_signaltap_0
+set_global_assignment -name VECTOR_WAVEFORM_FILE stupid.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE g03_stack52.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/altera/13.0sp1/projects/Lab3/g03_stack52.vwf"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
