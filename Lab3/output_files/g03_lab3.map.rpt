@@ -1,5 +1,5 @@
 Analysis & Synthesis report for g03_lab3
-Wed Nov 08 17:44:44 2017
+Thu Nov 09 16:32:53 2017
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -170,13 +170,13 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Nov 08 17:44:44 2017           ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 09 16:32:52 2017           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; g03_lab3                                        ;
 ; Top-level Entity Name              ; g03_lab3                                        ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 1,844                                           ;
-;     Total combinational functions  ; 1,140                                           ;
+; Total logic elements               ; 1,846                                           ;
+;     Total combinational functions  ; 1,142                                           ;
 ;     Dedicated logic registers      ; 975                                             ;
 ; Total registers                    ; 975                                             ;
 ; Total pins                         ; 41                                              ;
@@ -380,16 +380,16 @@ applicable agreement for further details.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 1,844 ;
+; Estimated Total logic elements              ; 1,846 ;
 ;                                             ;       ;
-; Total combinational functions               ; 1140  ;
+; Total combinational functions               ; 1142  ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 806   ;
-;     -- 3 input functions                    ; 174   ;
+;     -- 4 input functions                    ; 807   ;
+;     -- 3 input functions                    ; 175   ;
 ;     -- <=2 input functions                  ; 160   ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 1044  ;
+;     -- normal mode                          ; 1046  ;
 ;     -- arithmetic mode                      ; 96    ;
 ;                                             ;       ;
 ; Total registers                             ; 975   ;
@@ -401,7 +401,7 @@ applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0     ;
 ; Maximum fan-out node                        ; clock ;
 ; Maximum fan-out                             ; 661   ;
-; Total fan-out                               ; 7814  ;
+; Total fan-out                               ; 7821  ;
 ; Average fan-out                             ; 3.58  ;
 +---------------------------------------------+-------+
 
@@ -411,7 +411,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                     ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                                                             ; Library Name ;
 +------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |g03_lab3                                                                                      ; 1140 (1)          ; 975 (0)      ; 3072        ; 0            ; 0       ; 0         ; 41   ; 0            ; |g03_lab3                                                                                                                                                                                                                                                                                                                                                                                       ; work         ;
+; |g03_lab3                                                                                      ; 1142 (1)          ; 975 (0)      ; 3072        ; 0            ; 0       ; 0         ; 41   ; 0            ; |g03_lab3                                                                                                                                                                                                                                                                                                                                                                                       ; work         ;
 ;    |g03_testbed:inst|                                                                          ; 683 (0)           ; 368 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab3|g03_testbed:inst                                                                                                                                                                                                                                                                                                                                                                      ; work         ;
 ;       |g03_7_segment_decoder:inst6|                                                            ; 18 (18)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab3|g03_testbed:inst|g03_7_segment_decoder:inst6                                                                                                                                                                                                                                                                                                                                          ; work         ;
 ;       |g03_7_segment_decoder:inst7|                                                            ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab3|g03_testbed:inst|g03_7_segment_decoder:inst7                                                                                                                                                                                                                                                                                                                                          ; work         ;
@@ -501,8 +501,8 @@ applicable agreement for further details.
 ;          |cntr_2bi:auto_generated|                                                             ; 25 (25)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab3|g03_testbed:inst|lpm_counter:inst4532|cntr_2bi:auto_generated                                                                                                                                                                                                                                                                                                                         ; work         ;
 ;       |lpm_counter:inst|                                                                       ; 25 (0)            ; 25 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab3|g03_testbed:inst|lpm_counter:inst                                                                                                                                                                                                                                                                                                                                                     ; work         ;
 ;          |cntr_2bi:auto_generated|                                                             ; 25 (25)           ; 25 (25)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab3|g03_testbed:inst|lpm_counter:inst|cntr_2bi:auto_generated                                                                                                                                                                                                                                                                                                                             ; work         ;
-;    |sld_hub:auto_hub|                                                                          ; 117 (1)           ; 86 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab3|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                                                                      ; work         ;
-;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                                           ; 116 (78)          ; 86 (58)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab3|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                                                                                                                                                                                                                         ; work         ;
+;    |sld_hub:auto_hub|                                                                          ; 119 (1)           ; 86 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab3|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                                                                      ; work         ;
+;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                                           ; 118 (80)          ; 86 (58)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab3|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                                                                                                                                                                                                                         ; work         ;
 ;          |sld_rom_sr:hub_info_reg|                                                             ; 21 (21)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab3|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg                                                                                                                                                                                                                                                                                                 ; work         ;
 ;          |sld_shadow_jsm:shadow_jsm|                                                           ; 17 (17)           ; 19 (19)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab3|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_shadow_jsm:shadow_jsm                                                                                                                                                                                                                                                                                               ; work         ;
 ;    |sld_signaltap:auto_signaltap_0|                                                            ; 339 (1)           ; 521 (48)     ; 3072        ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab3|sld_signaltap:auto_signaltap_0                                                                                                                                                                                                                                                                                                                                                        ; work         ;
@@ -2644,8 +2644,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------------------------------+--------------+
 ; Partition Name                 ; Elapsed Time ;
 +--------------------------------+--------------+
-; Top                            ; 00:00:05     ;
-; sld_signaltap:auto_signaltap_0 ; 00:00:02     ;
+; Top                            ; 00:00:04     ;
+; sld_signaltap:auto_signaltap_0 ; 00:00:01     ;
 ; sld_hub:auto_hub               ; 00:00:00     ;
 +--------------------------------+--------------+
 
@@ -2713,7 +2713,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Nov 08 17:44:19 2017
+    Info: Processing started: Thu Nov 09 16:32:35 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off g03_lab3 -c g03_lab3
 Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file nop_pop_circuit.bdf
@@ -3720,15 +3720,15 @@ Warning (13024): Output pins are stuck at VCC or GND
 Info (35024): Succesfully connected in-system debug instance "auto_signaltap_0" to all 49 required data inputs, trigger inputs, acquisition clocks, and dynamic pins
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1932 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1934 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 16 input pins
     Info (21059): Implemented 29 output pins
-    Info (21061): Implemented 1862 logic cells
+    Info (21061): Implemented 1864 logic cells
     Info (21064): Implemented 24 RAM segments
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 377 warnings
-    Info: Peak virtual memory: 640 megabytes
-    Info: Processing ended: Wed Nov 08 17:44:44 2017
-    Info: Elapsed time: 00:00:25
-    Info: Total CPU time (on all processors): 00:00:22
+    Info: Peak virtual memory: 632 megabytes
+    Info: Processing ended: Thu Nov 09 16:32:53 2017
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:17
 
 
