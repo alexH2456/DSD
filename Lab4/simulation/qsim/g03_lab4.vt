@@ -1,0 +1,243 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "11/17/2017 20:35:14"
+                                                                        
+// Verilog Self-Checking Test Bench (with test vectors) for design :    g03_lab4
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module g03_lab4_vlg_sample_tst(
+	play,
+	top,
+	sampler_tx
+);
+input [5:0] play;
+input [5:0] top;
+output sampler_tx;
+
+reg sample;
+time current_time;
+always @(play or top)
+                                                                                
+begin                                                 
+ if ($realtime > 0)                                   
+ begin                                                
+	if ($realtime == 0 || $realtime != current_time)  
+	begin									          
+		if (sample === 1'bx)                          
+			sample = 0;                               
+		else                                          
+			sample = ~sample;                         
+	end										          
+	current_time = $realtime;					      
+ end                                                  
+end                                                   
+
+assign sampler_tx = sample;
+endmodule
+
+module g03_lab4_vlg_check_tst (
+	legal,
+	sampler_rx
+);
+input  legal;
+input sampler_rx;
+
+reg  legal_expected;
+
+reg  legal_prev;
+
+reg  legal_expected_prev;
+
+reg  last_legal_exp;
+
+reg trigger;
+
+integer i;
+integer nummismatches;
+
+reg [1:1] on_first_change ;
+
+
+initial
+begin
+trigger = 0;
+i = 0;
+nummismatches = 0;
+on_first_change = 1'b1;
+end
+
+// update real /o prevs
+
+always @(trigger)
+begin
+	legal_prev = legal;
+end
+
+// update expected /o prevs
+
+always @(trigger)
+begin
+	legal_expected_prev = legal_expected;
+end
+
+
+
+// expected legal
+initial
+begin
+	legal_expected = 1'bX;
+end 
+// generate trigger
+always @(legal_expected or legal)
+begin
+	trigger <= ~trigger;
+end
+
+always @(posedge sampler_rx or negedge sampler_rx)
+begin
+`ifdef debug_tbench
+	$display("Scanning pattern %d @time = %t",i,$realtime );
+	i = i + 1;
+	$display("| expected legal = %b | ",legal_expected_prev);
+	$display("| real legal = %b | ",legal_prev);
+`endif
+	if (
+		( legal_expected_prev !== 1'bx ) && ( legal_prev !== legal_expected_prev )
+		&& ((legal_expected_prev !== last_legal_exp) ||
+			on_first_change[1])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port legal :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", legal_expected_prev);
+		$display ("     Real value = %b", legal_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[1] = 1'b0;
+		last_legal_exp = legal_expected_prev;
+	end
+
+	trigger <= ~trigger;
+end
+initial 
+
+begin 
+$timeformat(-12,3," ps",6);
+#1000000;
+if (nummismatches > 0)
+	$display ("%d mismatched vectors : Simulation failed !",nummismatches);
+else
+	$display ("Simulation passed !");
+$finish;
+end 
+endmodule
+
+module g03_lab4_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [5:0] play;
+reg [5:0] top;
+// wires                                               
+wire legal;
+
+wire sampler;                             
+
+// assign statements (if any)                          
+g03_lab4 i1 (
+// port map - connection between master ports and signals/registers   
+	.legal(legal),
+	.play(play),
+	.top(top)
+);
+// play[ 5 ]
+initial
+begin
+	play[5] = 1'b0;
+end 
+// play[ 4 ]
+initial
+begin
+	play[4] = 1'b0;
+end 
+// play[ 3 ]
+initial
+begin
+	play[3] = 1'b1;
+end 
+// play[ 2 ]
+initial
+begin
+	play[2] = 1'b1;
+end 
+// play[ 1 ]
+initial
+begin
+	play[1] = 1'b0;
+end 
+// play[ 0 ]
+initial
+begin
+	play[0] = 1'b0;
+end 
+// top[ 5 ]
+initial
+begin
+	top[5] = 1'b0;
+end 
+// top[ 4 ]
+initial
+begin
+	top[4] = 1'b0;
+end 
+// top[ 3 ]
+initial
+begin
+	top[3] = 1'b1;
+end 
+// top[ 2 ]
+initial
+begin
+	top[2] = 1'b1;
+end 
+// top[ 1 ]
+initial
+begin
+	top[1] = 1'b0;
+end 
+// top[ 0 ]
+initial
+begin
+	top[0] = 1'b0;
+end 
+
+g03_lab4_vlg_sample_tst tb_sample (
+	.play(play),
+	.top(top),
+	.sampler_tx(sampler)
+);
+
+g03_lab4_vlg_check_tst tb_out(
+	.legal(legal),
+	.sampler_rx(sampler)
+);
+endmodule
+

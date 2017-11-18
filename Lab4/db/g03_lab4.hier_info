@@ -1,0 +1,38 @@
+|g03_lab4
+legal <= g03_rules:inst1.legal_play
+top[0] => g03_rules:inst1.current_hand[0]
+top[1] => g03_rules:inst1.current_hand[1]
+top[2] => g03_rules:inst1.current_hand[2]
+top[3] => g03_rules:inst1.current_hand[3]
+top[4] => g03_rules:inst1.current_hand[4]
+top[5] => g03_rules:inst1.current_hand[5]
+play[0] => g03_rules:inst1.next_card[0]
+play[1] => g03_rules:inst1.next_card[1]
+play[2] => g03_rules:inst1.next_card[2]
+play[3] => g03_rules:inst1.next_card[3]
+play[4] => g03_rules:inst1.next_card[4]
+play[5] => g03_rules:inst1.next_card[5]
+
+
+|g03_lab4|g03_rules:inst1
+current_hand[0] => Add1.IN12
+current_hand[0] => Add2.IN6
+current_hand[1] => Add1.IN11
+current_hand[1] => Add2.IN5
+current_hand[2] => Add1.IN10
+current_hand[2] => Add2.IN4
+current_hand[3] => Add1.IN9
+current_hand[3] => Add2.IN3
+current_hand[4] => Add1.IN8
+current_hand[4] => Add2.IN2
+current_hand[5] => Add1.IN7
+current_hand[5] => Add2.IN1
+next_card[0] => Mod0.IN11
+next_card[1] => Mod0.IN10
+next_card[2] => Mod0.IN9
+next_card[3] => Mod0.IN8
+next_card[4] => Mod0.IN7
+next_card[5] => Mod0.IN6
+legal_play <= LessThan2.DB_MAX_OUTPUT_PORT_TYPE
+
+
