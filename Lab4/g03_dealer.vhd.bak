@@ -1,0 +1,38 @@
+-- This circuit implements the dealer module for the card game.
+-- entity name: g03_dealer
+--
+-- Version 1.0
+-- Author: Alexander Harris, Filip Bernevec
+-- Date: 24/11/2017
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity g03_dealer is
+	port (
+		request_deal : in std_logic;
+		rand_lt_num  : in std_logic;
+		reset 		 : in std_logic;
+		clk 		 : in std_logic;
+		stack_enable : out std_logic;
+		rand_enable  : out std_logic);
+end g03_dealer;
+
+architecture dealer of g03_dealer is
+
+begin
+
+dealer : process (request_deal, rand_lt_num, reset, clk, stack_enable, rand_enable)
+
+variable deal_input : std_logic_vector(3 downto 0);
+variable state := '00';
+
+begin
+
+	case deal_input is
+   	when '0001' =>
+   	when '1001' =>
+    	 state := '01';
+	end case;
+

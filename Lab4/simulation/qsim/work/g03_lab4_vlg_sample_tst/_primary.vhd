@@ -2,8 +2,10 @@ library verilog;
 use verilog.vl_types.all;
 entity g03_lab4_vlg_sample_tst is
     port(
-        play            : in     vl_logic_vector(5 downto 0);
-        top             : in     vl_logic_vector(5 downto 0);
+        clk             : in     vl_logic;
+        rand_lt_num     : in     vl_logic;
+        request_deal    : in     vl_logic;
+        reset           : in     vl_logic;
         sampler_tx      : out    vl_logic
     );
 end g03_lab4_vlg_sample_tst;
