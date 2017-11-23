@@ -107,6 +107,13 @@ applicable agreement for further details.
 		(text "face_value[3..0]" (rect 111 107 203 121)(font "Arial" (font_size 8)))
 		(line (pt 224 112)(pt 208 112)(line_width 3))
 	)
+	(port
+		(pt 224 128)
+		(output)
+		(text "stack_value[5..0]" (rect 0 0 96 14)(font "Arial" (font_size 8)))
+		(text "stack_value[5..0]" (rect 107 123 203 137)(font "Arial" (font_size 8)))
+		(line (pt 224 128)(pt 208 128)(line_width 3))
+	)
 	(drawing
 		(rectangle (rect 16 16 208 144))
 	)

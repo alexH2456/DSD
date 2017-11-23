@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Tue Nov 21 19:49:22 2017
+Analysis & Synthesis Status : Successful - Thu Nov 23 17:25:01 2017
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : g03_lab4
 Top-level Entity Name : g03_lab4
 Family : Cyclone II
-Total logic elements : 2,136
-    Total combinational functions : 1,353
-    Dedicated logic registers : 1,144
-Total registers : 1144
-Total pins : 32
+Total logic elements : 2,030
+    Total combinational functions : 1,181
+    Dedicated logic registers : 1,206
+Total registers : 1206
+Total pins : 38
 Total virtual pins : 0
-Total memory bits : 3,968
+Total memory bits : 4,736
 Embedded Multiplier 9-bit elements : 0
 Total PLLs : 0

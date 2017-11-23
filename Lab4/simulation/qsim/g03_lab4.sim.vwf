@@ -45,6 +45,16 @@ SIGNAL("clk")
 	PARENT = "";
 }
 
+SIGNAL("deal_request")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
 SIGNAL("rand_enable")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -56,16 +66,6 @@ SIGNAL("rand_enable")
 }
 
 SIGNAL("rand_lt_num")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("request_deal")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -142,14 +142,32 @@ TRANSITION_LIST("clk")
 		LEVEL 1 FOR 25.0;
 	}
 }
+TRANSITION_LIST("deal_request")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 110.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 330.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 210.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 140.0;
+	}
+}
 TRANSITION_LIST("rand_enable")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 175.0;
+		LEVEL 0 FOR 225.0;
 		LEVEL 1 FOR 100.0;
-		LEVEL 0 FOR 725.0;
+		LEVEL 0 FOR 300.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 125.0;
 	}
 }
 TRANSITION_LIST("rand_lt_num")
@@ -157,18 +175,11 @@ TRANSITION_LIST("rand_lt_num")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-TRANSITION_LIST("request_deal")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 50.0;
-		LEVEL 0 FOR 860.0;
+		LEVEL 0 FOR 260.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 340.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 260.0;
 	}
 }
 TRANSITION_LIST("reset")
@@ -176,9 +187,9 @@ TRANSITION_LIST("reset")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 240.0;
+		LEVEL 0 FOR 650.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 740.0;
+		LEVEL 0 FOR 330.0;
 	}
 }
 TRANSITION_LIST("stack_enable")
@@ -186,14 +197,16 @@ TRANSITION_LIST("stack_enable")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 325.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 625.0;
 	}
 }
 
 
 DISPLAY_LINE
 {
-	CHANNEL = "request_deal";
+	CHANNEL = "deal_request";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 0;

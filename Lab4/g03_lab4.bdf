@@ -220,6 +220,22 @@ applicable agreement for further details.
 		(line (pt 78 12)(pt 82 8))
 	)
 )
+(pin
+	(output)
+	(rect 312 264 494 280)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "stack_value[5..0]" (rect 90 0 176 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 312 336 536 496)
 	(text "g03_testbed_dealer" (rect 5 0 118 14)(font "Arial" (font_size 8)))
@@ -308,6 +324,13 @@ applicable agreement for further details.
 		(text "face_value[3..0]" (rect 111 107 203 121)(font "Arial" (font_size 8)))
 		(line (pt 224 112)(pt 208 112)(line_width 3))
 	)
+	(port
+		(pt 224 128)
+		(output)
+		(text "stack_value[5..0]" (rect 0 0 96 14)(font "Arial" (font_size 8)))
+		(text "stack_value[5..0]" (rect 107 123 203 137)(font "Arial" (font_size 8)))
+		(line (pt 224 128)(pt 208 128)(line_width 3))
+	)
 	(drawing
 		(rectangle (rect 16 16 208 144))
 	)
@@ -375,5 +398,11 @@ applicable agreement for further details.
 	(text "face_value[3..0]" (rect 616 440 697 452)(font "Arial" ))
 	(pt 536 448)
 	(pt 600 448)
+	(bus)
+)
+(connector
+	(text "stack_value[5..0]" (rect 614 456 700 468)(font "Arial" ))
+	(pt 536 464)
+	(pt 600 464)
 	(bus)
 )

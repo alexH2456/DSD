@@ -2,20 +2,26 @@
 # ** Warning: (vlib-34) Library already exists at "work".
 # 
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module g03_lab4
+# -- Compiling module g03_lab4_dealer
 # 
 # Top level modules:
-# 	g03_lab4
+# 	g03_lab4_dealer
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module g03_lab4_vlg_sample_tst
-# -- Compiling module g03_lab4_vlg_check_tst
-# -- Compiling module g03_lab4_vlg_vec_tst
+# -- Compiling module g03_lab4_dealer_vlg_sample_tst
+# -- Compiling module g03_lab4_dealer_vlg_check_tst
+# -- Compiling module g03_lab4_dealer_vlg_vec_tst
 # 
 # Top level modules:
-# 	g03_lab4_vlg_vec_tst
-# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.g03_lab4_vlg_vec_tst 
-# Loading work.g03_lab4_vlg_vec_tst
-# Loading work.g03_lab4
+# 	g03_lab4_dealer_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.g03_lab4_dealer_vlg_vec_tst 
+# Loading work.g03_lab4_dealer_vlg_vec_tst
+# Loading work.g03_lab4_dealer
+# Loading cycloneii_ver.cycloneii_jtag
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_ram_block
+# Loading cycloneii_ver.cycloneii_ram_register
+# Loading cycloneii_ver.cycloneii_ram_pulse_generator
 # Loading cycloneii_ver.cycloneii_io
 # Loading cycloneii_ver.cycloneii_mux21
 # Loading cycloneii_ver.cycloneii_dffe
@@ -23,11 +29,20 @@
 # Loading cycloneii_ver.cycloneii_clkctrl
 # Loading cycloneii_ver.cycloneii_mux41
 # Loading cycloneii_ver.cycloneii_ena_reg
-# Loading cycloneii_ver.cycloneii_lcell_comb
-# Loading cycloneii_ver.cycloneii_lcell_ff
-# Loading work.g03_lab4_vlg_sample_tst
-# Loading work.g03_lab4_vlg_check_tst
+# Loading work.g03_lab4_dealer_vlg_sample_tst
+# Loading work.g03_lab4_dealer_vlg_check_tst
+# ** Warning: (vsim-3017) g03_lab4.vt(207): [TFMPC] - Too few port connections. Expected 10, found 6.
+# 
+#         Region: /g03_lab4_dealer_vlg_vec_tst/i1
+# ** Warning: (vsim-3722) g03_lab4.vt(207): [TFMPC] - Missing connection for port 'altera_reserved_tms'.
+# 
+# ** Warning: (vsim-3722) g03_lab4.vt(207): [TFMPC] - Missing connection for port 'altera_reserved_tck'.
+# 
+# ** Warning: (vsim-3722) g03_lab4.vt(207): [TFMPC] - Missing connection for port 'altera_reserved_tdi'.
+# 
+# ** Warning: (vsim-3722) g03_lab4.vt(207): [TFMPC] - Missing connection for port 'altera_reserved_tdo'.
+# 
 # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
 # Simulation passed !
 # ** Note: $finish    : g03_lab4.vt(181)
-#    Time: 1 us  Iteration: 0  Instance: /g03_lab4_vlg_vec_tst/tb_out
+#    Time: 1 us  Iteration: 0  Instance: /g03_lab4_dealer_vlg_vec_tst/tb_out

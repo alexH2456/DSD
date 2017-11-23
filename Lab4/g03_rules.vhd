@@ -29,7 +29,7 @@ variable sum 	   : unsigned(5 downto 0);
 begin
 	
 	hand_card := unsigned(current_hand);
-	play_card := unsigned(next_card);
+	play_card := unsigned(next_card) mod 13 + 1;
 	
 	if play_card = 1 and (hand_card + 11) <= 21 then
 		play_card := to_unsigned(11, 6);
