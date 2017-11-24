@@ -50,6 +50,12 @@ clock => g03_debouncer:inst9.clock
 clock => g03_stack52:inst.clock
 clock => LPM_DFF:inst12.clock
 request_deal => g03_debouncer:inst5.button
+num[0] <= g03_stack52:inst.num[0]
+num[1] <= g03_stack52:inst.num[1]
+num[2] <= g03_stack52:inst.num[2]
+num[3] <= g03_stack52:inst.num[3]
+num[4] <= g03_stack52:inst.num[4]
+num[5] <= g03_stack52:inst.num[5]
 dealer_reset => g03_debouncer:inst8.button
 stack_reset => g03_debouncer:inst9.button
 address[0] <= LPM_DFF:inst12.q[0]
@@ -78,12 +84,6 @@ stack_value[2] <= g03_stack52:inst.value[2]
 stack_value[3] <= g03_stack52:inst.value[3]
 stack_value[4] <= g03_stack52:inst.value[4]
 stack_value[5] <= g03_stack52:inst.value[5]
-num[0] <= g03_stack52:inst.num[0]
-num[1] <= g03_stack52:inst.num[1]
-num[2] <= g03_stack52:inst.num[2]
-num[3] <= g03_stack52:inst.num[3]
-num[4] <= g03_stack52:inst.num[4]
-num[5] <= g03_stack52:inst.num[5]
 
 
 |g03_lab4|g03_testbed_dealer:inst|g03_stack52:inst
@@ -13492,22 +13492,22 @@ result[24] <= <VCC>
 
 
 |g03_lab4|g03_testbed_dealer:inst|LPM_COMPARE:inst7
-dataa[0] => cmpr_p7j:auto_generated.dataa[0]
-dataa[1] => cmpr_p7j:auto_generated.dataa[1]
-dataa[2] => cmpr_p7j:auto_generated.dataa[2]
-dataa[3] => cmpr_p7j:auto_generated.dataa[3]
-dataa[4] => cmpr_p7j:auto_generated.dataa[4]
-dataa[5] => cmpr_p7j:auto_generated.dataa[5]
-datab[0] => cmpr_p7j:auto_generated.datab[0]
-datab[1] => cmpr_p7j:auto_generated.datab[1]
-datab[2] => cmpr_p7j:auto_generated.datab[2]
-datab[3] => cmpr_p7j:auto_generated.datab[3]
-datab[4] => cmpr_p7j:auto_generated.datab[4]
-datab[5] => cmpr_p7j:auto_generated.datab[5]
+dataa[0] => cmpr_ggk:auto_generated.dataa[0]
+dataa[1] => cmpr_ggk:auto_generated.dataa[1]
+dataa[2] => cmpr_ggk:auto_generated.dataa[2]
+dataa[3] => cmpr_ggk:auto_generated.dataa[3]
+dataa[4] => cmpr_ggk:auto_generated.dataa[4]
+dataa[5] => cmpr_ggk:auto_generated.dataa[5]
+datab[0] => cmpr_ggk:auto_generated.datab[0]
+datab[1] => cmpr_ggk:auto_generated.datab[1]
+datab[2] => cmpr_ggk:auto_generated.datab[2]
+datab[3] => cmpr_ggk:auto_generated.datab[3]
+datab[4] => cmpr_ggk:auto_generated.datab[4]
+datab[5] => cmpr_ggk:auto_generated.datab[5]
 clock => ~NO_FANOUT~
 aclr => ~NO_FANOUT~
 clken => ~NO_FANOUT~
-alb <= cmpr_p7j:auto_generated.alb
+alb <= cmpr_ggk:auto_generated.alb
 aeb <= <GND>
 agb <= <GND>
 aleb <= <GND>
@@ -13515,7 +13515,7 @@ aneb <= <GND>
 ageb <= <GND>
 
 
-|g03_lab4|g03_testbed_dealer:inst|LPM_COMPARE:inst7|cmpr_p7j:auto_generated
+|g03_lab4|g03_testbed_dealer:inst|LPM_COMPARE:inst7|cmpr_ggk:auto_generated
 alb <= alb_int.DB_MAX_OUTPUT_PORT_TYPE
 dataa[0] => op_1.IN11
 dataa[1] => op_1.IN9
@@ -14521,15 +14521,6 @@ result[28] <= <GND>
 result[29] <= <GND>
 result[30] <= <GND>
 result[31] <= <GND>
-
-
-|g03_lab4|g03_testbed_dealer:inst|LPM_CONSTANT:inst11
-result[0] <= <GND>
-result[1] <= <GND>
-result[2] <= <VCC>
-result[3] <= <GND>
-result[4] <= <VCC>
-result[5] <= <VCC>
 
 
 |g03_lab4|g03_testbed_dealer:inst|g03_debouncer:inst8

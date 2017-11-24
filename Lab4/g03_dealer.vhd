@@ -14,7 +14,7 @@ entity g03_dealer is
 		request_deal : in std_logic;
 		rand_lt_num  : in std_logic;
 		reset 		 : in std_logic;
-		clk 		 : in std_logic;
+		clk 		    : in std_logic;
 		stack_enable : out std_logic;
 		rand_enable  : out std_logic);
 end g03_dealer;
@@ -67,6 +67,7 @@ begin
 				state := "00";
 
 		end case;
+		
 
 	end if;
 

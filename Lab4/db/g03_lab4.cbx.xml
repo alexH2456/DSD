@@ -8,7 +8,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab4|g03_testbed_dealer:inst|lpm_add_sub:inst18" CBX_FILE_NAME="add_sub_snh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab4|g03_testbed_dealer:inst|g03_stack52:inst|LPM_FF:inst44|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_694.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab4|g03_testbed_dealer:inst|g03_stack52:inst|LPM_FF:inst80|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_q84.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab4|g03_testbed_dealer:inst|LPM_COMPARE:inst7" CBX_FILE_NAME="cmpr_p7j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab4|g03_testbed_dealer:inst|LPM_COMPARE:inst7" CBX_FILE_NAME="cmpr_ggk.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab4|g03_testbed_dealer:inst|g03_stack52:inst|LPM_FF:inst28|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_ha4.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab4|g03_testbed_dealer:inst|g03_stack52:inst|LPM_FF:inst46|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_594.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab4|g03_testbed_dealer:inst|g03_stack52:inst|LPM_FF:inst64|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_aa4.tdf"/>
@@ -144,7 +144,6 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab4|g03_testbed_dealer:inst|g03_stack52:inst|LPM_FF:inst60|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_ca4.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab4|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_ela_control:ela_control|sld_ela_trigger:\multi_level_advanced_trigger_gen:advanced_trigger_wrapper|sld_ela_trigger_hjo:auto_generated|sld_reserved_g03_lab4_auto_signaltap_0_1_115f:mgl_prim1|lpm_compare:constant_compare_40" CBX_FILE_NAME="cmpr_agk.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab4|g03_testbed_dealer:inst|g03_debouncer:inst5|LPM_CONSTANT:inst8" CBX_FILE_NAME="lpm_constant_dj4.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab4|g03_testbed_dealer:inst|LPM_CONSTANT:inst11" CBX_FILE_NAME="lpm_constant_o84.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab4|g03_testbed_dealer:inst|g03_stack52:inst|LPM_FF:inst26|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_ia4.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab4|g03_testbed_dealer:inst|g03_stack52:inst|LPM_FF:inst62|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_ba4.tdf"/>
 	</PROJECT>
