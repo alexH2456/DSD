@@ -48,7 +48,7 @@ clock => g03_debouncer:inst8.clock
 clock => g03_dealer:inst3.clk
 clock => g03_debouncer:inst9.clock
 clock => g03_stack52:inst.clock
-clock => LPM_DFF:inst12.clock
+clock => LPM_DFF:inst16.clock
 request_deal => g03_debouncer:inst5.button
 num[0] <= g03_stack52:inst.num[0]
 num[1] <= g03_stack52:inst.num[1]
@@ -58,12 +58,12 @@ num[4] <= g03_stack52:inst.num[4]
 num[5] <= g03_stack52:inst.num[5]
 dealer_reset => g03_debouncer:inst8.button
 stack_reset => g03_debouncer:inst9.button
-address[0] <= LPM_DFF:inst12.q[0]
-address[1] <= LPM_DFF:inst12.q[1]
-address[2] <= LPM_DFF:inst12.q[2]
-address[3] <= LPM_DFF:inst12.q[3]
-address[4] <= LPM_DFF:inst12.q[4]
-address[5] <= LPM_DFF:inst12.q[5]
+address[0] <= LPM_DFF:inst16.q[0]
+address[1] <= LPM_DFF:inst16.q[1]
+address[2] <= LPM_DFF:inst16.q[2]
+address[3] <= LPM_DFF:inst16.q[3]
+address[4] <= LPM_DFF:inst16.q[4]
+address[5] <= LPM_DFF:inst16.q[5]
 mode[0] => g03_stack52:inst.mode[0]
 mode[1] => g03_stack52:inst.mode[1]
 full <= g03_stack52:inst.full
@@ -13531,7 +13531,7 @@ datab[4] => op_1.IN4
 datab[5] => op_1.IN2
 
 
-|g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst2
+|g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst29
 seed[0] => lpmaddsub:u1.dataa[16]
 seed[0] => lpmaddsub:u1.datab[1]
 seed[0] => lpmaddsub:u2.datab[0]
@@ -13630,7 +13630,7 @@ rand[30] <= <GND>
 rand[31] <= <GND>
 
 
-|g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1
+|g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1
 cin => lpm_add_sub:LPM_ADD_SUB_component.cin
 dataa[0] => lpm_add_sub:LPM_ADD_SUB_component.dataa[0]
 dataa[1] => lpm_add_sub:LPM_ADD_SUB_component.dataa[1]
@@ -13731,7 +13731,7 @@ result[30] <= lpm_add_sub:LPM_ADD_SUB_component.result[30]
 result[31] <= lpm_add_sub:LPM_ADD_SUB_component.result[31]
 
 
-|g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component
+|g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component
 dataa[0] => add_sub_efi:auto_generated.dataa[0]
 dataa[1] => add_sub_efi:auto_generated.dataa[1]
 dataa[2] => add_sub_efi:auto_generated.dataa[2]
@@ -13837,7 +13837,7 @@ cout <= add_sub_efi:auto_generated.cout
 overflow <= <GND>
 
 
-|g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated
+|g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated
 cin => op_1.IN66
 cin => op_1.IN67
 cout <= op_1.DB_MAX_OUTPUT_PORT_TYPE
@@ -13939,7 +13939,7 @@ result[30] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2
+|g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2
 cin => lpm_add_sub:LPM_ADD_SUB_component.cin
 dataa[0] => lpm_add_sub:LPM_ADD_SUB_component.dataa[0]
 dataa[1] => lpm_add_sub:LPM_ADD_SUB_component.dataa[1]
@@ -14040,7 +14040,7 @@ result[30] <= lpm_add_sub:LPM_ADD_SUB_component.result[30]
 result[31] <= lpm_add_sub:LPM_ADD_SUB_component.result[31]
 
 
-|g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component
+|g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component
 dataa[0] => add_sub_efi:auto_generated.dataa[0]
 dataa[1] => add_sub_efi:auto_generated.dataa[1]
 dataa[2] => add_sub_efi:auto_generated.dataa[2]
@@ -14146,7 +14146,7 @@ cout <= add_sub_efi:auto_generated.cout
 overflow <= <GND>
 
 
-|g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated
+|g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated
 cin => op_1.IN66
 cin => op_1.IN67
 cout <= op_1.DB_MAX_OUTPUT_PORT_TYPE
@@ -14453,7 +14453,7 @@ result[30] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|g03_lab4|g03_testbed_dealer:inst|LPM_CONSTANT:inst6
+|g03_lab4|g03_testbed_dealer:inst|LPM_CONSTANT:inst27
 result[0] <= lpm_constant_1j4:ag.result[0]
 result[1] <= lpm_constant_1j4:ag.result[1]
 result[2] <= lpm_constant_1j4:ag.result[2]
@@ -14488,7 +14488,7 @@ result[30] <= lpm_constant_1j4:ag.result[30]
 result[31] <= lpm_constant_1j4:ag.result[31]
 
 
-|g03_lab4|g03_testbed_dealer:inst|LPM_CONSTANT:inst6|lpm_constant_1j4:ag
+|g03_lab4|g03_testbed_dealer:inst|LPM_CONSTANT:inst27|lpm_constant_1j4:ag
 result[0] <= <VCC>
 result[1] <= <GND>
 result[2] <= <GND>
@@ -15097,7 +15097,7 @@ result[23] <= <GND>
 result[24] <= <VCC>
 
 
-|g03_lab4|g03_testbed_dealer:inst|LPM_DFF:inst12
+|g03_lab4|g03_testbed_dealer:inst|LPM_DFF:inst16
 data[0] => _.IN1
 data[1] => _.IN1
 data[2] => _.IN1

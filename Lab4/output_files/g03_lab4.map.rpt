@@ -1,5 +1,5 @@
 Analysis & Synthesis report for g03_lab4
-Fri Nov 24 16:25:35 2017
+Fri Nov 24 22:31:06 2017
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -141,22 +141,22 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
 133. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_debouncer:inst5|LPM_COUNTER:inst11
 134. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_debouncer:inst5|LPM_CONSTANT:inst8
 135. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|LPM_COMPARE:inst7
-136. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component
-137. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component
+136. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component
+137. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component
 138. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|lpm_add_sub:inst23
-139. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|LPM_CONSTANT:inst6
+139. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|LPM_CONSTANT:inst27
 140. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_debouncer:inst8|LPM_COMPARE:inst5
 141. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_debouncer:inst8|LPM_COUNTER:inst11
 142. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_debouncer:inst8|LPM_CONSTANT:inst8
 143. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_debouncer:inst9|LPM_COMPARE:inst5
 144. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_debouncer:inst9|LPM_COUNTER:inst11
 145. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_debouncer:inst9|LPM_CONSTANT:inst8
-146. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|LPM_DFF:inst12
+146. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|LPM_DFF:inst16
 147. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|lpm_add_sub:inst18
 148. Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|LPM_CONSTANT:inst19
 149. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
-150. Port Connectivity Checks: "g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2"
-151. Port Connectivity Checks: "g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1"
+150. Port Connectivity Checks: "g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2"
+151. Port Connectivity Checks: "g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1"
 152. SignalTap II Logic Analyzer Settings
 153. Elapsed Time Per Partition
 154. Connections to In-System Debugging Instance "auto_signaltap_0"
@@ -186,13 +186,13 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Nov 24 16:25:35 2017           ;
+; Analysis & Synthesis Status        ; Successful - Fri Nov 24 22:31:05 2017           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; g03_lab4                                        ;
 ; Top-level Entity Name              ; g03_lab4                                        ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 2,032                                           ;
-;     Total combinational functions  ; 1,183                                           ;
+; Total logic elements               ; 2,034                                           ;
+;     Total combinational functions  ; 1,185                                           ;
 ;     Dedicated logic registers      ; 1,206                                           ;
 ; Total registers                    ; 1206                                            ;
 ; Total pins                         ; 38                                              ;
@@ -413,16 +413,16 @@ applicable agreement for further details.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 2,032 ;
+; Estimated Total logic elements              ; 2,034 ;
 ;                                             ;       ;
-; Total combinational functions               ; 1183  ;
+; Total combinational functions               ; 1185  ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 748   ;
-;     -- 3 input functions                    ; 172   ;
-;     -- <=2 input functions                  ; 263   ;
+;     -- 4 input functions                    ; 750   ;
+;     -- 3 input functions                    ; 171   ;
+;     -- <=2 input functions                  ; 264   ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 978   ;
+;     -- normal mode                          ; 980   ;
 ;     -- arithmetic mode                      ; 205   ;
 ;                                             ;       ;
 ; Total registers                             ; 1206  ;
@@ -434,7 +434,7 @@ applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0     ;
 ; Maximum fan-out node                        ; clock ;
 ; Maximum fan-out                             ; 823   ;
-; Total fan-out                               ; 8686  ;
+; Total fan-out                               ; 8693  ;
 ; Average fan-out                             ; 3.52  ;
 +---------------------------------------------+-------+
 
@@ -444,13 +444,13 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                     ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                                                              ; Library Name ;
 +------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |g03_lab4                                                                                      ; 1183 (1)          ; 1206 (0)     ; 4736        ; 0            ; 0       ; 0         ; 38   ; 0            ; |g03_lab4                                                                                                                                                                                                                                                                                                                                                                                        ; work         ;
+; |g03_lab4                                                                                      ; 1185 (1)          ; 1206 (0)     ; 4736        ; 0            ; 0       ; 0         ; 38   ; 0            ; |g03_lab4                                                                                                                                                                                                                                                                                                                                                                                        ; work         ;
 ;    |g03_testbed_dealer:inst|                                                                   ; 640 (1)           ; 426 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst                                                                                                                                                                                                                                                                                                                                                                ; work         ;
 ;       |g03_7_segment_decoder:inst20|                                                           ; 12 (12)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|g03_7_segment_decoder:inst20                                                                                                                                                                                                                                                                                                                                   ; work         ;
-;       |g03_RANDU:inst2|                                                                        ; 46 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst2                                                                                                                                                                                                                                                                                                                                                ; work         ;
-;          |lpmaddsub:u1|                                                                        ; 46 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1                                                                                                                                                                                                                                                                                                                                   ; work         ;
-;             |lpm_add_sub:LPM_ADD_SUB_component|                                                ; 46 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component                                                                                                                                                                                                                                                                                                 ; work         ;
-;                |add_sub_efi:auto_generated|                                                    ; 46 (46)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated                                                                                                                                                                                                                                                                      ; work         ;
+;       |g03_RANDU:inst29|                                                                       ; 46 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst29                                                                                                                                                                                                                                                                                                                                               ; work         ;
+;          |lpmaddsub:u1|                                                                        ; 46 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1                                                                                                                                                                                                                                                                                                                                  ; work         ;
+;             |lpm_add_sub:LPM_ADD_SUB_component|                                                ; 46 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component                                                                                                                                                                                                                                                                                                ; work         ;
+;                |add_sub_efi:auto_generated|                                                    ; 46 (46)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated                                                                                                                                                                                                                                                                     ; work         ;
 ;       |g03_dealer:inst3|                                                                       ; 7 (7)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|g03_dealer:inst3                                                                                                                                                                                                                                                                                                                                               ; work         ;
 ;       |g03_debouncer:inst10|                                                                   ; 33 (0)            ; 25 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|g03_debouncer:inst10                                                                                                                                                                                                                                                                                                                                           ; work         ;
 ;          |lpm_compare:inst5|                                                                   ; 8 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|g03_debouncer:inst10|lpm_compare:inst5                                                                                                                                                                                                                                                                                                                         ; work         ;
@@ -552,10 +552,10 @@ applicable agreement for further details.
 ;          |add_sub_dph:auto_generated|                                                          ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|lpm_add_sub:inst23|add_sub_dph:auto_generated                                                                                                                                                                                                                                                                                                                  ; work         ;
 ;       |lpm_compare:inst7|                                                                      ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|lpm_compare:inst7                                                                                                                                                                                                                                                                                                                                              ; work         ;
 ;          |cmpr_ggk:auto_generated|                                                             ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|lpm_compare:inst7|cmpr_ggk:auto_generated                                                                                                                                                                                                                                                                                                                      ; work         ;
-;       |lpm_dff:inst12|                                                                         ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|lpm_dff:inst12                                                                                                                                                                                                                                                                                                                                                 ; work         ;
-;    |sld_hub:auto_hub|                                                                          ; 118 (1)           ; 86 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                                                                       ; work         ;
-;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                                           ; 117 (78)          ; 86 (58)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                                                                                                                                                                                                                          ; work         ;
-;          |sld_rom_sr:hub_info_reg|                                                             ; 22 (22)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg                                                                                                                                                                                                                                                                                                  ; work         ;
+;       |lpm_dff:inst16|                                                                         ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|g03_testbed_dealer:inst|lpm_dff:inst16                                                                                                                                                                                                                                                                                                                                                 ; work         ;
+;    |sld_hub:auto_hub|                                                                          ; 120 (1)           ; 86 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                                                                       ; work         ;
+;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                                           ; 119 (81)          ; 86 (58)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                                                                                                                                                                                                                          ; work         ;
+;          |sld_rom_sr:hub_info_reg|                                                             ; 21 (21)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg                                                                                                                                                                                                                                                                                                  ; work         ;
 ;          |sld_shadow_jsm:shadow_jsm|                                                           ; 17 (17)           ; 19 (19)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_shadow_jsm:shadow_jsm                                                                                                                                                                                                                                                                                                ; work         ;
 ;    |sld_signaltap:auto_signaltap_0|                                                            ; 424 (1)           ; 694 (74)     ; 4736        ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|sld_signaltap:auto_signaltap_0                                                                                                                                                                                                                                                                                                                                                         ; work         ;
 ;       |sld_signaltap_impl:sld_signaltap_body|                                                  ; 423 (0)           ; 620 (0)      ; 4736        ; 0            ; 0       ; 0         ; 0    ; 0            ; |g03_lab4|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body                                                                                                                                                                                                                                                                                                                   ; work         ;
@@ -769,52 +769,52 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                                                                                                                                                                                                                                                                                         ; IP Include File                                                                    ;
 +--------+--------------+---------+--------------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
 ; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |g03_lab4|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_ela_control:ela_control|sld_ela_trigger:\multi_level_advanced_trigger_gen:advanced_trigger_wrapper|sld_ela_trigger_hjo:auto_generated|sld_reserved_g03_lab4_auto_signaltap_0_1_115f:mgl_prim1 ; C:/altera/13.0sp1/projects/Lab4/db/sld_reserved_g03_lab4_auto_signaltap_0_1_115f.v ;
-; Altera ; LPM_ADD_SUB  ; N/A     ; N/A          ; N/A          ; |g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1                                                                                                                                                                                                                                                          ; C:/altera/13.0sp1/projects/Lab4/lpmaddsub.vhd                                      ;
-; Altera ; LPM_ADD_SUB  ; N/A     ; N/A          ; N/A          ; |g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2                                                                                                                                                                                                                                                          ; C:/altera/13.0sp1/projects/Lab4/lpmaddsub.vhd                                      ;
+; Altera ; LPM_ADD_SUB  ; N/A     ; N/A          ; N/A          ; |g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1                                                                                                                                                                                                                                                         ; C:/altera/13.0sp1/projects/Lab4/lpmaddsub.vhd                                      ;
+; Altera ; LPM_ADD_SUB  ; N/A     ; N/A          ; N/A          ; |g03_lab4|g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2                                                                                                                                                                                                                                                         ; C:/altera/13.0sp1/projects/Lab4/lpmaddsub.vhd                                      ;
 +--------+--------------+---------+--------------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------+
-; Logic Cells Representing Combinational Loops                                                                                             ;
-+-------------------------------------------------------------------------------------------------------------------------------------+----+
-; Logic Cell Name                                                                                                                     ;    ;
-+-------------------------------------------------------------------------------------------------------------------------------------+----+
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[30]~0  ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[29]~1  ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[28]~2  ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[27]~3  ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~27           ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~26           ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~25           ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~24           ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~23           ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~22           ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~21           ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~20           ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~19           ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~18           ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~17           ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~16           ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~15           ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~14           ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[15]~15 ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[14]~16 ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[13]~17 ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[12]~18 ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[11]~19 ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[10]~20 ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[9]~21  ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[8]~22  ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[7]~23  ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[6]~24  ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[5]~25  ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[4]~26  ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[3]~27  ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[2]~28  ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[1]~29  ;    ;
-; g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[16]~14 ;    ;
-; Number of logic cells representing combinational loops                                                                              ; 34 ;
-+-------------------------------------------------------------------------------------------------------------------------------------+----+
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; Logic Cells Representing Combinational Loops                                                                                              ;
++--------------------------------------------------------------------------------------------------------------------------------------+----+
+; Logic Cell Name                                                                                                                      ;    ;
++--------------------------------------------------------------------------------------------------------------------------------------+----+
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[30]~0  ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[29]~1  ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[28]~2  ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[27]~3  ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~27           ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~26           ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~25           ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~24           ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~23           ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~22           ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~21           ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~20           ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~19           ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~18           ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~17           ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~16           ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~15           ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|op_1~14           ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[15]~15 ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[14]~16 ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[13]~17 ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[12]~18 ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[11]~19 ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[10]~20 ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[9]~21  ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[8]~22  ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[7]~23  ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[6]~24  ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[5]~25  ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[4]~26  ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[3]~27  ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[2]~28  ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[1]~29  ;    ;
+; g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated|result_int[16]~14 ;    ;
+; Number of logic cells representing combinational loops                                                                               ; 34 ;
++--------------------------------------------------------------------------------------------------------------------------------------+----+
 Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
@@ -823,7 +823,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Register name                                                                                                                                                                          ; Reason for Removal                                                                                                                                                                                 ;
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; g03_testbed_dealer:inst|lpm_dff:inst12|dffs[4,5]                                                                                                                                       ; Stuck at GND due to stuck port data_in                                                                                                                                                             ;
+; g03_testbed_dealer:inst|lpm_dff:inst16|dffs[4,5]                                                                                                                                       ; Stuck at GND due to stuck port data_in                                                                                                                                                             ;
 ; Total Number of Removed Registers = 2                                                                                                                                                  ;                                                                                                                                                                                                    ;
 ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|segment_shift_clk_ena                                                      ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|buffer_write_enable_delayed                                                ;
 ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:offset_count[0] ; Merged with sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|\buffer_manager:next_address[0] ;
@@ -2740,59 +2740,59 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component ;
-+------------------------+-------------+----------------------------------------------------------------------------------------------+
-; Parameter Name         ; Value       ; Type                                                                                         ;
-+------------------------+-------------+----------------------------------------------------------------------------------------------+
-; LPM_WIDTH              ; 32          ; Signed Integer                                                                               ;
-; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                                                      ;
-; LPM_DIRECTION          ; ADD         ; Untyped                                                                                      ;
-; ONE_INPUT_IS_CONSTANT  ; NO          ; Untyped                                                                                      ;
-; LPM_PIPELINE           ; 0           ; Untyped                                                                                      ;
-; MAXIMIZE_SPEED         ; 5           ; Untyped                                                                                      ;
-; REGISTERED_AT_END      ; 0           ; Untyped                                                                                      ;
-; OPTIMIZE_FOR_SPEED     ; 5           ; Untyped                                                                                      ;
-; USE_CS_BUFFERS         ; 1           ; Untyped                                                                                      ;
-; CARRY_CHAIN            ; MANUAL      ; Untyped                                                                                      ;
-; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                                           ;
-; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                                                      ;
-; USE_WYS                ; OFF         ; Untyped                                                                                      ;
-; STYLE                  ; FAST        ; Untyped                                                                                      ;
-; CBXI_PARAMETER         ; add_sub_efi ; Untyped                                                                                      ;
-; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                                                   ;
-; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                                                 ;
-; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                                                 ;
-; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                                               ;
-+------------------------+-------------+----------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component ;
++------------------------+-------------+-----------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                                                          ;
++------------------------+-------------+-----------------------------------------------------------------------------------------------+
+; LPM_WIDTH              ; 32          ; Signed Integer                                                                                ;
+; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                                                       ;
+; LPM_DIRECTION          ; ADD         ; Untyped                                                                                       ;
+; ONE_INPUT_IS_CONSTANT  ; NO          ; Untyped                                                                                       ;
+; LPM_PIPELINE           ; 0           ; Untyped                                                                                       ;
+; MAXIMIZE_SPEED         ; 5           ; Untyped                                                                                       ;
+; REGISTERED_AT_END      ; 0           ; Untyped                                                                                       ;
+; OPTIMIZE_FOR_SPEED     ; 5           ; Untyped                                                                                       ;
+; USE_CS_BUFFERS         ; 1           ; Untyped                                                                                       ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                                                       ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                                            ;
+; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                                                       ;
+; USE_WYS                ; OFF         ; Untyped                                                                                       ;
+; STYLE                  ; FAST        ; Untyped                                                                                       ;
+; CBXI_PARAMETER         ; add_sub_efi ; Untyped                                                                                       ;
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                                                    ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                                                  ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                                                  ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                                                ;
++------------------------+-------------+-----------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component ;
-+------------------------+-------------+----------------------------------------------------------------------------------------------+
-; Parameter Name         ; Value       ; Type                                                                                         ;
-+------------------------+-------------+----------------------------------------------------------------------------------------------+
-; LPM_WIDTH              ; 32          ; Signed Integer                                                                               ;
-; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                                                      ;
-; LPM_DIRECTION          ; ADD         ; Untyped                                                                                      ;
-; ONE_INPUT_IS_CONSTANT  ; NO          ; Untyped                                                                                      ;
-; LPM_PIPELINE           ; 0           ; Untyped                                                                                      ;
-; MAXIMIZE_SPEED         ; 5           ; Untyped                                                                                      ;
-; REGISTERED_AT_END      ; 0           ; Untyped                                                                                      ;
-; OPTIMIZE_FOR_SPEED     ; 5           ; Untyped                                                                                      ;
-; USE_CS_BUFFERS         ; 1           ; Untyped                                                                                      ;
-; CARRY_CHAIN            ; MANUAL      ; Untyped                                                                                      ;
-; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                                           ;
-; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                                                      ;
-; USE_WYS                ; OFF         ; Untyped                                                                                      ;
-; STYLE                  ; FAST        ; Untyped                                                                                      ;
-; CBXI_PARAMETER         ; add_sub_efi ; Untyped                                                                                      ;
-; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                                                   ;
-; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                                                 ;
-; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                                                 ;
-; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                                               ;
-+------------------------+-------------+----------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2|lpm_add_sub:LPM_ADD_SUB_component ;
++------------------------+-------------+-----------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                                                          ;
++------------------------+-------------+-----------------------------------------------------------------------------------------------+
+; LPM_WIDTH              ; 32          ; Signed Integer                                                                                ;
+; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                                                       ;
+; LPM_DIRECTION          ; ADD         ; Untyped                                                                                       ;
+; ONE_INPUT_IS_CONSTANT  ; NO          ; Untyped                                                                                       ;
+; LPM_PIPELINE           ; 0           ; Untyped                                                                                       ;
+; MAXIMIZE_SPEED         ; 5           ; Untyped                                                                                       ;
+; REGISTERED_AT_END      ; 0           ; Untyped                                                                                       ;
+; OPTIMIZE_FOR_SPEED     ; 5           ; Untyped                                                                                       ;
+; USE_CS_BUFFERS         ; 1           ; Untyped                                                                                       ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                                                       ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                                            ;
+; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                                                       ;
+; USE_WYS                ; OFF         ; Untyped                                                                                       ;
+; STYLE                  ; FAST        ; Untyped                                                                                       ;
+; CBXI_PARAMETER         ; add_sub_efi ; Untyped                                                                                       ;
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                                                    ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                                                  ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                                                  ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                                                ;
++------------------------+-------------+-----------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -2824,16 +2824,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-----------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|LPM_CONSTANT:inst6 ;
-+--------------------+------------------+-------------------------------------------------+
-; Parameter Name     ; Value            ; Type                                            ;
-+--------------------+------------------+-------------------------------------------------+
-; LPM_WIDTH          ; 32               ; Untyped                                         ;
-; LPM_CVALUE         ; 1                ; Untyped                                         ;
-; ENABLE_RUNTIME_MOD ; NO               ; Untyped                                         ;
-; CBXI_PARAMETER     ; lpm_constant_1j4 ; Untyped                                         ;
-+--------------------+------------------+-------------------------------------------------+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|LPM_CONSTANT:inst27 ;
++--------------------+------------------+--------------------------------------------------+
+; Parameter Name     ; Value            ; Type                                             ;
++--------------------+------------------+--------------------------------------------------+
+; LPM_WIDTH          ; 32               ; Untyped                                          ;
+; LPM_CVALUE         ; 1                ; Untyped                                          ;
+; ENABLE_RUNTIME_MOD ; NO               ; Untyped                                          ;
+; CBXI_PARAMETER     ; lpm_constant_1j4 ; Untyped                                          ;
++--------------------+------------------+--------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -2966,7 +2966,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|LPM_DFF:inst12 ;
+; Parameter Settings for User Entity Instance: g03_testbed_dealer:inst|LPM_DFF:inst16 ;
 +------------------------+------------+-----------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                          ;
 +------------------------+------------+-----------------------------------------------+
@@ -3084,7 +3084,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u2"                                         ;
+; Port Connectivity Checks: "g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u2"                                        ;
 +----------------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port           ; Type   ; Severity ; Details                                                                             ;
 +----------------+--------+----------+-------------------------------------------------------------------------------------+
@@ -3094,16 +3094,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------+
-; Port Connectivity Checks: "g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1" ;
-+---------------+-------+----------+-----------------------------------------------+
-; Port          ; Type  ; Severity ; Details                                       ;
-+---------------+-------+----------+-----------------------------------------------+
-; cin           ; Input ; Info     ; Stuck at GND                                  ;
-; dataa[15..0]  ; Input ; Info     ; Stuck at GND                                  ;
-; datab[31..17] ; Input ; Info     ; Stuck at GND                                  ;
-; datab[0]      ; Input ; Info     ; Stuck at GND                                  ;
-+---------------+-------+----------+-----------------------------------------------+
++-----------------------------------------------------------------------------------+
+; Port Connectivity Checks: "g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1" ;
++---------------+-------+----------+------------------------------------------------+
+; Port          ; Type  ; Severity ; Details                                        ;
++---------------+-------+----------+------------------------------------------------+
+; cin           ; Input ; Info     ; Stuck at GND                                   ;
+; dataa[15..0]  ; Input ; Info     ; Stuck at GND                                   ;
+; datab[31..17] ; Input ; Info     ; Stuck at GND                                   ;
+; datab[0]      ; Input ; Info     ; Stuck at GND                                   ;
++---------------+-------+----------+------------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -3120,7 +3120,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------------------------------+--------------+
 ; Partition Name                 ; Elapsed Time ;
 +--------------------------------+--------------+
-; sld_signaltap:auto_signaltap_0 ; 00:00:03     ;
+; sld_signaltap:auto_signaltap_0 ; 00:00:02     ;
 ; Top                            ; 00:00:02     ;
 ; sld_hub:auto_hub               ; 00:00:00     ;
 +--------------------------------+--------------+
@@ -3131,14 +3131,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+---------------+-----------+----------------+-------------------+--------------------------------------------------------------------------------------------------------------------+---------+
 ; Name           ; Type          ; Status    ; Partition Name ; Netlist Type Used ; Actual Connection                                                                                                  ; Details ;
 +----------------+---------------+-----------+----------------+-------------------+--------------------------------------------------------------------------------------------------------------------+---------+
-; address[0]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst12|dffs[0]                                                                     ; N/A     ;
-; address[0]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst12|dffs[0]                                                                     ; N/A     ;
-; address[1]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst12|dffs[1]                                                                     ; N/A     ;
-; address[1]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst12|dffs[1]                                                                     ; N/A     ;
-; address[2]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst12|dffs[2]                                                                     ; N/A     ;
-; address[2]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst12|dffs[2]                                                                     ; N/A     ;
-; address[3]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst12|dffs[3]                                                                     ; N/A     ;
-; address[3]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst12|dffs[3]                                                                     ; N/A     ;
+; address[0]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst16|dffs[0]                                                                     ; N/A     ;
+; address[0]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst16|dffs[0]                                                                     ; N/A     ;
+; address[1]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst16|dffs[1]                                                                     ; N/A     ;
+; address[1]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst16|dffs[1]                                                                     ; N/A     ;
+; address[2]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst16|dffs[2]                                                                     ; N/A     ;
+; address[2]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst16|dffs[2]                                                                     ; N/A     ;
+; address[3]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst16|dffs[3]                                                                     ; N/A     ;
+; address[3]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; g03_testbed_dealer:inst|lpm_dff:inst16|dffs[3]                                                                     ; N/A     ;
 ; address[4]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; ~GND                                                                                                               ; N/A     ;
 ; address[4]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; ~GND                                                                                                               ; N/A     ;
 ; address[5]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; ~GND                                                                                                               ; N/A     ;
@@ -3215,7 +3215,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Nov 24 16:25:18 2017
+    Info: Processing started: Fri Nov 24 22:30:48 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off g03_lab4 -c g03_lab4
 Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file g03_lab4.bdf
@@ -3236,6 +3236,10 @@ Info (12021): Found 1 design units, including 1 entities, in source file g03_lab
     Info (12023): Found entity 1: g03_lab4_dealer
 Info (12021): Found 1 design units, including 1 entities, in source file g03_debouncer.bdf
     Info (12023): Found entity 1: g03_debouncer
+Info (12021): Found 1 design units, including 1 entities, in source file g03_testbed_dealer_mod.bdf
+    Info (12023): Found entity 1: g03_testbed_dealer_mod
+Info (12021): Found 1 design units, including 1 entities, in source file g03_testbed_dealer_fixed.bdf
+    Info (12023): Found entity 1: g03_testbed_dealer_fixed
 Info (12127): Elaborating entity "g03_lab4" for the top level hierarchy
 Warning (12125): Using design file g03_testbed_dealer.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: g03_testbed_dealer
@@ -4093,7 +4097,7 @@ Info (12128): Elaborating entity "cmpr_ggk" for hierarchy "g03_testbed_dealer:in
 Warning (12125): Using design file g03_randu.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: g03_RANDU-random
     Info (12023): Found entity 1: g03_RANDU
-Info (12128): Elaborating entity "g03_RANDU" for hierarchy "g03_testbed_dealer:inst|g03_RANDU:inst2"
+Info (12128): Elaborating entity "g03_RANDU" for hierarchy "g03_testbed_dealer:inst|g03_RANDU:inst29"
 Warning (10036): Verilog HDL or VHDL warning at g03_randu.vhd(36): object "cout2" assigned a value but never read
 Warning (10873): Using initial value X (don't care) for net "rand[31..30]" at g03_randu.vhd(18)
 Warning (10873): Using initial value X (don't care) for net "adda1[15..0]" at g03_randu.vhd(37)
@@ -4103,10 +4107,10 @@ Warning (10873): Using initial value X (don't care) for net "addb2[31..16]" at g
 Warning (12125): Using design file lpmaddsub.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: lpmaddsub-SYN
     Info (12023): Found entity 1: lpmaddsub
-Info (12128): Elaborating entity "lpmaddsub" for hierarchy "g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1"
-Info (12128): Elaborating entity "lpm_add_sub" for hierarchy "g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component"
-Info (12130): Elaborated megafunction instantiation "g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component"
-Info (12133): Instantiated megafunction "g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component" with the following parameter:
+Info (12128): Elaborating entity "lpmaddsub" for hierarchy "g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1"
+Info (12128): Elaborating entity "lpm_add_sub" for hierarchy "g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component"
+Info (12130): Elaborated megafunction instantiation "g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component"
+Info (12133): Instantiated megafunction "g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component" with the following parameter:
     Info (12134): Parameter "lpm_direction" = "ADD"
     Info (12134): Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=NO,CIN_USED=YES"
     Info (12134): Parameter "lpm_representation" = "UNSIGNED"
@@ -4114,7 +4118,7 @@ Info (12133): Instantiated megafunction "g03_testbed_dealer:inst|g03_RANDU:inst2
     Info (12134): Parameter "lpm_width" = "32"
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_efi.tdf
     Info (12023): Found entity 1: add_sub_efi
-Info (12128): Elaborating entity "add_sub_efi" for hierarchy "g03_testbed_dealer:inst|g03_RANDU:inst2|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated"
+Info (12128): Elaborating entity "add_sub_efi" for hierarchy "g03_testbed_dealer:inst|g03_RANDU:inst29|lpmaddsub:u1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_efi:auto_generated"
 Info (12128): Elaborating entity "lpm_add_sub" for hierarchy "g03_testbed_dealer:inst|lpm_add_sub:inst23"
 Info (12130): Elaborated megafunction instantiation "g03_testbed_dealer:inst|lpm_add_sub:inst23"
 Info (12133): Instantiated megafunction "g03_testbed_dealer:inst|lpm_add_sub:inst23" with the following parameter:
@@ -4125,17 +4129,17 @@ Info (12133): Instantiated megafunction "g03_testbed_dealer:inst|lpm_add_sub:ins
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_dph.tdf
     Info (12023): Found entity 1: add_sub_dph
 Info (12128): Elaborating entity "add_sub_dph" for hierarchy "g03_testbed_dealer:inst|lpm_add_sub:inst23|add_sub_dph:auto_generated"
-Info (12128): Elaborating entity "LPM_CONSTANT" for hierarchy "g03_testbed_dealer:inst|LPM_CONSTANT:inst6"
-Info (12130): Elaborated megafunction instantiation "g03_testbed_dealer:inst|LPM_CONSTANT:inst6"
-Info (12133): Instantiated megafunction "g03_testbed_dealer:inst|LPM_CONSTANT:inst6" with the following parameter:
+Info (12128): Elaborating entity "LPM_CONSTANT" for hierarchy "g03_testbed_dealer:inst|LPM_CONSTANT:inst27"
+Info (12130): Elaborated megafunction instantiation "g03_testbed_dealer:inst|LPM_CONSTANT:inst27"
+Info (12133): Instantiated megafunction "g03_testbed_dealer:inst|LPM_CONSTANT:inst27" with the following parameter:
     Info (12134): Parameter "LPM_CVALUE" = "1"
     Info (12134): Parameter "LPM_WIDTH" = "32"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_constant_1j4.tdf
     Info (12023): Found entity 1: lpm_constant_1j4
-Info (12128): Elaborating entity "lpm_constant_1j4" for hierarchy "g03_testbed_dealer:inst|LPM_CONSTANT:inst6|lpm_constant_1j4:ag"
-Info (12128): Elaborating entity "LPM_DFF" for hierarchy "g03_testbed_dealer:inst|LPM_DFF:inst12"
-Info (12130): Elaborated megafunction instantiation "g03_testbed_dealer:inst|LPM_DFF:inst12"
-Info (12133): Instantiated megafunction "g03_testbed_dealer:inst|LPM_DFF:inst12" with the following parameter:
+Info (12128): Elaborating entity "lpm_constant_1j4" for hierarchy "g03_testbed_dealer:inst|LPM_CONSTANT:inst27|lpm_constant_1j4:ag"
+Info (12128): Elaborating entity "LPM_DFF" for hierarchy "g03_testbed_dealer:inst|LPM_DFF:inst16"
+Info (12130): Elaborated megafunction instantiation "g03_testbed_dealer:inst|LPM_DFF:inst16"
+Info (12133): Instantiated megafunction "g03_testbed_dealer:inst|LPM_DFF:inst16" with the following parameter:
     Info (12134): Parameter "LPM_WIDTH" = "6"
 Warning (12125): Using design file g03_7_segment_decoder.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: g03_7_segment_decoder-behaviour
@@ -4321,14 +4325,14 @@ Warning (13024): Output pins are stuck at VCC or GND
 Info (35024): Succesfully connected in-system debug instance "auto_signaltap_0" to all 75 required data inputs, trigger inputs, acquisition clocks, and dynamic pins
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 2148 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2150 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 10 input pins
     Info (21059): Implemented 32 output pins
-    Info (21061): Implemented 2068 logic cells
+    Info (21061): Implemented 2070 logic cells
     Info (21064): Implemented 37 RAM segments
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 398 warnings
-    Info: Peak virtual memory: 653 megabytes
-    Info: Processing ended: Fri Nov 24 16:25:36 2017
+    Info: Peak virtual memory: 652 megabytes
+    Info: Processing ended: Fri Nov 24 22:31:06 2017
     Info: Elapsed time: 00:00:18
     Info: Total CPU time (on all processors): 00:00:16
 

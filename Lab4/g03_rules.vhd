@@ -24,12 +24,16 @@ rule: process (current_hand, next_card)
 
 variable hand_card : unsigned(5 downto 0);
 variable play_card : unsigned(5 downto 0);
-variable sum 	   : unsigned(5 downto 0);
+variable sum 	    : unsigned(5 downto 0);
 
 begin
 	
 	hand_card := unsigned(current_hand);
 	play_card := unsigned(next_card) mod 13 + 1;
+	
+	if play_card > 10 then
+		play_card := to_unsigned(10,6);
+		end if;
 	
 	if play_card = 1 and (hand_card + 11) <= 21 then
 		play_card := to_unsigned(11, 6);
