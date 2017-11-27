@@ -1,0 +1,32 @@
+|g03_lab5
+request_deal <= g03_computer_FSM:inst.request_deal
+turn => g03_computer_FSM:inst.turn
+legal_play => g03_computer_FSM:inst.legal_play
+reset => g03_computer_FSM:inst.reset
+clk => g03_computer_FSM:inst.clk
+done <= g03_computer_FSM:inst.done
+state[0] <= g03_computer_FSM:inst.state_out[0]
+state[1] <= g03_computer_FSM:inst.state_out[1]
+
+
+|g03_lab5|g03_computer_FSM:inst
+turn => state.OUTPUTSELECT
+turn => state.OUTPUTSELECT
+turn => state.OUTPUTSELECT
+turn => state.OUTPUTSELECT
+legal_play => state.OUTPUTSELECT
+legal_play => state.OUTPUTSELECT
+reset => state[0].ACLR
+reset => state[1].ACLR
+reset => done~reg0.ENA
+reset => request_deal~reg0.ENA
+clk => request_deal~reg0.CLK
+clk => done~reg0.CLK
+clk => state[0].CLK
+clk => state[1].CLK
+request_deal <= request_deal~reg0.DB_MAX_OUTPUT_PORT_TYPE
+done <= done~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state_out[0] <= state[0].DB_MAX_OUTPUT_PORT_TYPE
+state_out[1] <= state[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
