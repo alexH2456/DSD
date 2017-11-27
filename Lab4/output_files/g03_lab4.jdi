@@ -1,6 +1,6 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="b342f2a4e049c273efbd"/>
+    <hash md5_digest_80b="d3787d719d08deffbb00"/>
   </project>
   <file_info>
     <file device="EP2C20F484C7" path="g03_lab4.sof" usercode="0xFFFFFFFF"/>
@@ -14,11 +14,11 @@
         <parameter name="SLD_IP_VERSION" type="dec" value="6"/>
         <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="0"/>
         <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
-        <parameter name="sld_data_bits" type="unknown" value="31"/>
-        <parameter name="sld_trigger_bits" type="unknown" value="31"/>
+        <parameter name="sld_data_bits" type="unknown" value="37"/>
+        <parameter name="sld_trigger_bits" type="unknown" value="37"/>
         <parameter name="SLD_NODE_CRC_BITS" type="dec" value="32"/>
-        <parameter name="sld_node_crc_hiword" type="unknown" value="28381"/>
-        <parameter name="sld_node_crc_loword" type="unknown" value="49821"/>
+        <parameter name="sld_node_crc_hiword" type="unknown" value="936"/>
+        <parameter name="sld_node_crc_loword" type="unknown" value="50122"/>
         <parameter name="SLD_INCREMENTAL_ROUTING" type="dec" value="0"/>
         <parameter name="sld_sample_depth" type="unknown" value="128"/>
         <parameter name="sld_segment_size" type="unknown" value="128"/>
@@ -33,7 +33,7 @@
         <parameter name="SLD_HPS_TRIGGER_OUT_ENABLED" type="dec" value="0"/>
         <parameter name="SLD_HPS_EVENT_ENABLED" type="dec" value="0"/>
         <parameter name="SLD_HPS_EVENT_ID" type="dec" value="0"/>
-        <parameter name="sld_advanced_trigger_entity" type="unknown" value="sld_reserved_g03_lab4_auto_signaltap_0_1_d0b,"/>
+        <parameter name="sld_advanced_trigger_entity" type="unknown" value="sld_reserved_g03_lab4_auto_signaltap_0_1_115f,"/>
         <parameter name="sld_trigger_level_pipeline" type="unknown" value="1"/>
         <parameter name="sld_enable_advanced_trigger" type="unknown" value="1"/>
         <parameter name="SLD_ADVANCED_TRIGGER_1" type="string" value="NONE"/>
