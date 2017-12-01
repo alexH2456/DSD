@@ -38,17 +38,17 @@ begin
 			& rand_gen(3) & rand_gen(2) & rand_gen(1) & rand_gen(0) & feedback);
 			
 			num := unsigned(num_cards);
+		
+			rand_out := rand_gen(5 downto 0);
+		
+			if (rand_out >= num and num /= 0) then
+				rand_out := rand_out mod num;
+			elsif(num = 0) then
+				rand_out := "000000";
+			end if;
+		
+			rand <= std_logic_vector(rand_out);
 		end if;
-		
-		rand_out := rand_gen(5 downto 0);
-		
-		if (rand_out >= num and num /= 0) then
-			rand_out := rand_out mod num;
-		elsif(num = 0) then
-			rand_out := "000000";
-		end if;
-		
-		rand <= std_logic_vector(rand_out);
 	end process;
 end behaviour;
 	

@@ -67,9 +67,11 @@ begin
 			end if;
 		end if;
 	
-		if hand < 16 then legal_play <= '1';
+		if hand < 14 then legal_play <= '1';
 		else legal_play <= '0';
 		end if;
+		
+		hand_out <= std_logic_vector(hand);
 	end if;
 	
 end process;

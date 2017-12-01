@@ -19,7 +19,7 @@
 ## PROGRAM "Quartus II"
 ## VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
-## DATE    "Thu Nov 30 21:06:05 2017"
+## DATE    "Fri Dec 01 14:42:57 2017"
 
 ##
 ## DEVICE  "EP2C20F484C7"
@@ -38,6 +38,7 @@ set_time_format -unit ns -decimal_places 3
 # Create Clock
 #**************************************************************
 
+derive_clocks -period "1.0"
 
 
 #**************************************************************

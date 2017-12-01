@@ -470,35 +470,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 344 608 552 688)
-	(text "g03_rand" (rect 5 0 49 12)(font "Arial" ))
-	(text "inst4" (rect 8 64 31 76)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "clk" (rect 0 0 14 12)(font "Arial" ))
-		(text "clk" (rect 21 27 35 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "num_cards[5..0]" (rect 0 0 80 12)(font "Arial" ))
-		(text "num_cards[5..0]" (rect 21 43 101 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
-	)
-	(port
-		(pt 208 32)
-		(output)
-		(text "rand[5..0]" (rect 0 0 47 12)(font "Arial" ))
-		(text "rand[5..0]" (rect 148 27 195 39)(font "Arial" ))
-		(line (pt 208 32)(pt 192 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 192 64))
-	)
-)
-(symbol
 	(rect 776 568 968 728)
 	(text "g03_stack52" (rect 5 0 78 14)(font "Arial" (font_size 8)))
 	(text "inst5" (rect 8 144 31 156)(font "Arial" ))
@@ -1296,6 +1267,52 @@ applicable agreement for further details.
 		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
 	)
 )
+(symbol
+	(rect 344 608 552 688)
+	(text "g03_rand" (rect 5 0 49 12)(font "Arial" ))
+	(text "inst4" (rect 8 64 31 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "num_cards[5..0]" (rect 0 0 80 12)(font "Arial" ))
+		(text "num_cards[5..0]" (rect 21 43 101 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 208 32)
+		(output)
+		(text "rand[5..0]" (rect 0 0 47 12)(font "Arial" ))
+		(text "rand[5..0]" (rect 148 27 187 39)(font "Arial" ))
+		(line (pt 208 32)(pt 192 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 192 64))
+	)
+)
+(symbol
+	(rect -72 608 -40 640)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst8" (rect 3 21 26 33)(font "Arial" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
 (connector
 	(text "clk" (rect 296 88 310 100)(font "Arial" ))
 	(pt 328 104)
@@ -1436,12 +1453,6 @@ applicable agreement for further details.
 	(pt 280 504)
 )
 (connector
-	(text "num_cards[5..0]" (rect 264 640 344 652)(font "Arial" ))
-	(pt 344 656)
-	(pt 280 656)
-	(bus)
-)
-(connector
 	(text "clk" (rect 304 624 318 636)(font "Arial" ))
 	(pt 344 640)
 	(pt 296 640)
@@ -1574,11 +1585,6 @@ applicable agreement for further details.
 	(text "stack_enable" (rect 712 632 776 644)(font "Arial" ))
 	(pt 776 648)
 	(pt 704 648)
-)
-(connector
-	(text "reset" (rect 712 648 736 660)(font "Arial" ))
-	(pt 776 664)
-	(pt 704 664)
 )
 (connector
 	(text "card[5..0]" (rect 976 584 1023 596)(font "Arial" ))
@@ -1830,4 +1836,20 @@ applicable agreement for further details.
 	(text "pop_player" (rect 118 304 172 316)(font "Arial" ))
 	(pt 184 304)
 	(pt 120 304)
+)
+(connector
+	(text "num_cards[5..0]" (rect 264 664 344 676)(font "Arial" ))
+	(pt 344 656)
+	(pt 280 656)
+	(bus)
+)
+(connector
+	(text "G" (rect 712 648 720 660)(font "Arial" ))
+	(pt 776 664)
+	(pt 704 664)
+)
+(connector
+	(text "G" (rect -72 569 -60 577)(font "Arial" )(vertical))
+	(pt -56 608)
+	(pt -56 560)
 )

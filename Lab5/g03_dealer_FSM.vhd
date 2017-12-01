@@ -42,6 +42,7 @@ begin
 					done <= '0';
 					request_deal <= '1';
 					if legal_play = '0' then
+						request_deal <= '0';
 						state := "10";
 					end if;
 				when "10" =>

@@ -36,7 +36,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|LPM_COUNTER:inst108" CBX_FILE_NAME="cntr_f1n.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|LPM_FF:inst78|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_p84.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|LPM_FF:inst96|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_9a4.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_debouncer:inst21|LPM_CONSTANT:inst8" CBX_FILE_NAME="lpm_constant_dj4.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_debouncer:inst21|LPM_CONSTANT:inst8" CBX_FILE_NAME="lpm_constant_km4.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_debouncer:inst21|LPM_COUNTER:inst11" CBX_FILE_NAME="cntr_2bi.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|BUSMUX:inst11|LPM_MUX:$00000" CBX_FILE_NAME="mux_qmc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|LPM_FF:inst|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_h84.tdf"/>
@@ -46,7 +46,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|LPM_CONSTANT:inst1" CBX_FILE_NAME="lpm_constant_h84.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|LPM_FF:inst100|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_l84.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|LPM_FF:inst98|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_k84.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_debouncer:inst23|LPM_CONSTANT:inst8" CBX_FILE_NAME="lpm_constant_dj4.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_debouncer:inst23|LPM_CONSTANT:inst8" CBX_FILE_NAME="lpm_constant_km4.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_debouncer:inst23|LPM_COUNTER:inst11" CBX_FILE_NAME="cntr_2bi.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|BUSMUX:inst13|LPM_MUX:$00000" CBX_FILE_NAME="mux_qmc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|BUSMUX:inst31|LPM_MUX:$00000" CBX_FILE_NAME="mux_qmc.tdf"/>
@@ -88,6 +88,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|BUSMUX:inst9|LPM_MUX:$00000" CBX_FILE_NAME="mux_qmc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|LPM_CONSTANT:inst106" CBX_FILE_NAME="lpm_constant_h84.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_counter:read_pointer_counter" CBX_FILE_NAME="cntr_02j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_rules_dealer:inst6|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_45m.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|BUSMUX:inst19|LPM_MUX:$00000" CBX_FILE_NAME="mux_qmc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|BUSMUX:inst37|LPM_MUX:$00000" CBX_FILE_NAME="mux_qmc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|BUSMUX:inst55|LPM_MUX:$00000" CBX_FILE_NAME="mux_qmc.tdf"/>
@@ -98,7 +99,6 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|LPM_FF:inst62|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_ba4.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|LPM_FF:inst80|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_q84.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|LPM_FF:inst8|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_h94.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_rules_player:inst7|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_45m.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|BUSMUX:inst29|LPM_MUX:$00000" CBX_FILE_NAME="mux_qmc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|BUSMUX:inst47|LPM_MUX:$00000" CBX_FILE_NAME="mux_qmc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|BUSMUX:inst65|LPM_MUX:$00000" CBX_FILE_NAME="mux_qmc.tdf"/>
@@ -139,7 +139,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|BUSMUX:inst99|LPM_MUX:$00000" CBX_FILE_NAME="mux_qmc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|LPM_FF:inst88|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_5a4.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|lpm_counter:status_advance_pointer_counter" CBX_FILE_NAME="cntr_sbi.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_debouncer:inst22|LPM_CONSTANT:inst8" CBX_FILE_NAME="lpm_constant_dj4.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_debouncer:inst22|LPM_CONSTANT:inst8" CBX_FILE_NAME="lpm_constant_km4.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|g03_lab5|g03_blackjack:inst|g03_stack52:inst5|LPM_FF:inst10|LPM_CONSTANT:sc" CBX_FILE_NAME="lpm_constant_g94.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
