@@ -30,17 +30,17 @@ begin
 	variable state : std_logic_vector(1 downto 0); -- A(00), B(01), C(10), D(11)
 	
 	begin
-		if reset = '1' then
+		if reset = '1' then 	--async reset signal
 			state := "00";
 		elsif rising_edge(clk) then
 			case state is
-				when "00" =>
+				when "00" => 	-- wait state, wait for turn to go low to start
 					done <= '0';
 					request_deal <= '0';
 					if turn = '0' then
 						state := "01";
 					end if;
-				when "01" =>
+				when "01" =>	-- wait for player to hit or stay
 					done <= '0';
 					request_deal <= '0';
 					if hit = '1' then
@@ -48,7 +48,7 @@ begin
 					elsif stay = '1' then
 						state := "11";
 					end if;
-				when "10" =>
+				when "10" =>	-- if hit, go back to previous state if play was legal (no bust), else go to end state
 					done <= '0';
 					request_deal <= '1';
 					if legal_play = '1' then
@@ -56,7 +56,7 @@ begin
 					else 
 						state := "11";
 					end if;
-				when "11" =>
+				when "11" =>	-- end state, set done to 1, wait for turn to go high to go back to wait state
 					done <= '1';
 					request_deal <= '0';
 					if turn = '1' then

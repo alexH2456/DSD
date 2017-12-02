@@ -28,10 +28,10 @@ begin
 	
 	begin
 	if rising_edge(clk) then
-		if request_dealer = '1' or request_player = '1' or pop_dealer = '1' or pop_player = '1' then
+		if request_dealer = '1' or request_player = '1' or pop_dealer = '1' or pop_player = '1' then		-- when dealing out hands at start of game or during play set the mode of the stack to POP and enable it.
 			mode <= "10";
 			stack_enable <= '1';
-		elsif init = '1' then
+		elsif init = '1' then 	-- when initializing the stack for a new game, set the mode to INIT and enable the stack.
 			mode <= "01";
 			stack_enable <= '1';
 		else

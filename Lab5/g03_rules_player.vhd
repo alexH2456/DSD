@@ -1,4 +1,6 @@
--- This circuit implements the rules module for the card game.
+-- This circuit implements the player rules module for the card game.
+-- Keeps track of number of aces to provide most advantageous output.
+-- Player does not need to select the value of an ace as this is dealt with for him.
 -- entity name: g03_rules_player
 --
 -- Version 1.0

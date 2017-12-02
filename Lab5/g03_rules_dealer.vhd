@@ -1,4 +1,5 @@
--- This circuit implements the rules module for the card game.
+-- This circuit implements the dealer rules module for the card game.
+-- Keeps track of number of aces to provide most advantageous output.
 -- entity name: g03_rules_dealer
 --
 -- Version 1.0
@@ -67,7 +68,7 @@ begin
 			end if;
 		end if;
 	
-		if hand < 14 then legal_play <= '1';
+		if hand < 16 then legal_play <= '1';	-- if the dealers hand is smaller than 16, get another card
 		else legal_play <= '0';
 		end if;
 		

@@ -32,20 +32,22 @@ begin
 			state := "00";
 		elsif rising_edge(clk) then
 			case state is
-				when "00" =>
+				when "00" =>	-- wait state, wait for turn to go high to start
 					done <= '0';
 					request_deal <= '0';
 					if turn = '1' then
 						state := "01";
 					end if;
-				when "01" =>
+				when "01" =>	-- request new cards until legal_play is 0, then stop requesting and go to end state. Go back to wait state before requesting another card
 					done <= '0';
 					request_deal <= '1';
 					if legal_play = '0' then
 						request_deal <= '0';
 						state := "10";
+					else
+						state := "00";
 					end if;
-				when "10" =>
+				when "10" =>	-- end state, set done signal to 1 and wait for turn to go low to go back to wait state
 					done <= '1';
 					request_deal <= '0';
 					if turn = '0' then
