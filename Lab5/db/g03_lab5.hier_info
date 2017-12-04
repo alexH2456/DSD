@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 |g03_lab5_rules_player
 legal_play <= g03_rules_player:inst.legal_play
 clk => g03_rules_player:inst.clk
@@ -18,13 +19,35 @@ hand_out[5] <= g03_rules_player:inst.hand_out[5]
 
 
 |g03_lab5_rules_player|g03_rules_player:inst
+=======
+|g02_lab5_rules_dealer
+legal_play <= g03_rules_dealer:inst.legal_play
+clk => g03_rules_dealer:inst.clk
+reset => g03_rules_dealer:inst.reset
+enable => g03_rules_dealer:inst.enable
+next_card[0] => g03_rules_dealer:inst.next_card[0]
+next_card[1] => g03_rules_dealer:inst.next_card[1]
+next_card[2] => g03_rules_dealer:inst.next_card[2]
+next_card[3] => g03_rules_dealer:inst.next_card[3]
+next_card[4] => g03_rules_dealer:inst.next_card[4]
+next_card[5] => g03_rules_dealer:inst.next_card[5]
+hand_out[0] <= g03_rules_dealer:inst.hand_out[0]
+hand_out[1] <= g03_rules_dealer:inst.hand_out[1]
+hand_out[2] <= g03_rules_dealer:inst.hand_out[2]
+hand_out[3] <= g03_rules_dealer:inst.hand_out[3]
+hand_out[4] <= g03_rules_dealer:inst.hand_out[4]
+hand_out[5] <= g03_rules_dealer:inst.hand_out[5]
+
+
+|g02_lab5_rules_dealer|g03_rules_dealer:inst
+clk => legal_play~reg0.CLK
+>>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
 clk => hand_out[0]~reg0.CLK
 clk => hand_out[1]~reg0.CLK
 clk => hand_out[2]~reg0.CLK
 clk => hand_out[3]~reg0.CLK
 clk => hand_out[4]~reg0.CLK
 clk => hand_out[5]~reg0.CLK
-clk => legal_play~reg0.CLK
 clk => num_aces[0].CLK
 clk => num_aces[1].CLK
 clk => num_aces[2].CLK
@@ -34,6 +57,12 @@ clk => hand[2].CLK
 clk => hand[3].CLK
 clk => hand[4].CLK
 clk => hand[5].CLK
+reset => hand_out[0]~reg0.ACLR
+reset => hand_out[1]~reg0.ACLR
+reset => hand_out[2]~reg0.ACLR
+reset => hand_out[3]~reg0.ACLR
+reset => hand_out[4]~reg0.ACLR
+reset => hand_out[5]~reg0.ACLR
 reset => num_aces[0].ACLR
 reset => num_aces[1].ACLR
 reset => num_aces[2].ACLR
@@ -43,21 +72,15 @@ reset => hand[2].ACLR
 reset => hand[3].ACLR
 reset => hand[4].ACLR
 reset => hand[5].ACLR
-reset => hand_out[4]~reg0.ENA
-reset => hand_out[3]~reg0.ENA
-reset => hand_out[2]~reg0.ENA
-reset => hand_out[1]~reg0.ENA
-reset => hand_out[0]~reg0.ENA
-reset => hand_out[5]~reg0.ENA
 reset => legal_play~reg0.ENA
-enable => hand_out[0].OUTPUTSELECT
-enable => hand_out[1].OUTPUTSELECT
-enable => hand_out[2].OUTPUTSELECT
-enable => hand_out[3].OUTPUTSELECT
-enable => hand_out[4].OUTPUTSELECT
-enable => hand_out[5].OUTPUTSELECT
 enable => legal_play.OUTPUTSELECT
 enable => num_aces[0].ENA
+enable => hand_out[5]~reg0.ENA
+enable => hand_out[4]~reg0.ENA
+enable => hand_out[3]~reg0.ENA
+enable => hand_out[2]~reg0.ENA
+enable => hand_out[1]~reg0.ENA
+enable => hand_out[0]~reg0.ENA
 enable => num_aces[1].ENA
 enable => num_aces[2].ENA
 enable => hand[0].ENA

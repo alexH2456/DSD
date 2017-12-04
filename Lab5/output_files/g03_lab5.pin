@@ -81,9 +81,15 @@ GND*                         : A10       :        :                   :         
 GND*                         : A11       :        :                   :         : 3         :                
 GND+                         : A12       :        :                   :         : 4         :                
 GND*                         : A13       :        :                   :         : 4         :                
+<<<<<<< HEAD
 GND*                         : A14       :        :                   :         : 4         :                
 GND*                         : A15       :        :                   :         : 4         :                
 GND*                         : A16       :        :                   :         : 4         :                
+=======
+next_card[1]                 : A14       : input  : 3.3-V LVTTL       :         : 4         : N              
+legal_play                   : A15       : output : 3.3-V LVTTL       :         : 4         : N              
+hand_out[2]                  : A16       : output : 3.3-V LVTTL       :         : 4         : N              
+>>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
 GND*                         : A17       :        :                   :         : 4         :                
 GND*                         : A18       :        :                   :         : 4         :                
 next_card[0]                 : A19       : input  : 3.3-V LVTTL       :         : 4         : N              
@@ -147,9 +153,15 @@ GND*                         : B10       :        :                   :         
 GND*                         : B11       :        :                   :         : 3         :                
 GND+                         : B12       :        :                   :         : 4         :                
 GND*                         : B13       :        :                   :         : 4         :                
+<<<<<<< HEAD
 GND*                         : B14       :        :                   :         : 4         :                
 GND*                         : B15       :        :                   :         : 4         :                
 GND*                         : B16       :        :                   :         : 4         :                
+=======
+next_card[0]                 : B14       : input  : 3.3-V LVTTL       :         : 4         : N              
+hand_out[0]                  : B15       : output : 3.3-V LVTTL       :         : 4         : N              
+hand_out[1]                  : B16       : output : 3.3-V LVTTL       :         : 4         : N              
+>>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
 GND*                         : B17       :        :                   :         : 4         :                
 next_card[4]                 : B18       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : B19       :        :                   :         : 4         :                
@@ -168,7 +180,11 @@ GND*                         : C9        :        :                   :         
 GND*                         : C10       :        :                   :         : 3         :                
 VCCIO3                       : C11       : power  :                   : 3.3V    : 3         :                
 VCCIO4                       : C12       : power  :                   : 3.3V    : 4         :                
+<<<<<<< HEAD
 GND*                         : C13       :        :                   :         : 4         :                
+=======
+next_card[4]                 : C13       : input  : 3.3-V LVTTL       :         : 4         : N              
+>>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
 GND*                         : C14       :        :                   :         : 4         :                
 GND                          : C15       : gnd    :                   :         :           :                
 GND*                         : C16       :        :                   :         : 4         :                
@@ -191,7 +207,7 @@ GND                          : D10       : gnd    :                   :         
 GND*                         : D11       :        :                   :         : 3         :                
 GND+                         : D12       :        :                   :         : 3         :                
 GND                          : D13       : gnd    :                   :         :           :                
-GND*                         : D14       :        :                   :         : 4         :                
+hand_out[3]                  : D14       : output : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : D15       :        :                   :         : 4         :                
 GND*                         : D16       :        :                   :         : 4         :                
 VCCIO4                       : D17       : power  :                   : 3.3V    : 4         :                
@@ -213,7 +229,7 @@ VCCIO3                       : E10       : power  :                   : 3.3V    
 GND*                         : E11       :        :                   :         : 3         :                
 GND+                         : E12       :        :                   :         : 3         :                
 VCCIO4                       : E13       : power  :                   : 3.3V    : 4         :                
-GND*                         : E14       :        :                   :         : 4         :                
+enable                       : E14       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : E15       :        :                   :         : 4         :                
 GNDA_PLL2                    : E16       : gnd    :                   :         :           :                
 GND_PLL2                     : E17       : gnd    :                   :         :           :                
@@ -233,9 +249,15 @@ GND*                         : F8        :        :                   :         
 GND*                         : F9        :        :                   :         : 3         :                
 GND*                         : F10       :        :                   :         : 3         :                
 GND*                         : F11       :        :                   :         : 3         :                
+<<<<<<< HEAD
 GND*                         : F12       :        :                   :         : 4         :                
 GND*                         : F13       :        :                   :         : 4         :                
 GND*                         : F14       :        :                   :         : 4         :                
+=======
+next_card[3]                 : F12       : input  : 3.3-V LVTTL       :         : 4         : N              
+hand_out[5]                  : F13       : output : 3.3-V LVTTL       :         : 4         : N              
+hand_out[4]                  : F14       : output : 3.3-V LVTTL       :         : 4         : N              
+>>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
 GND*                         : F15       :        :                   :         : 4         :                
 VCCA_PLL2                    : F16       : power  :                   : 1.2V    :           :                
 VCCD_PLL2                    : F17       : power  :                   : 1.2V    :           :                
@@ -255,7 +277,11 @@ GND*                         : G8        :        :                   :         
 VCCIO3                       : G9        : power  :                   : 3.3V    : 3         :                
 GND                          : G10       : gnd    :                   :         :           :                
 GND*                         : G11       :        :                   :         : 3         :                
+<<<<<<< HEAD
 GND*                         : G12       :        :                   :         : 4         :                
+=======
+next_card[2]                 : G12       : input  : 3.3-V LVTTL       :         : 4         : N              
+>>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
 GND                          : G13       : gnd    :                   :         :           :                
 VCCIO4                       : G14       : power  :                   : 3.3V    : 4         :                
 GND*                         : G15       :        :                   :         : 4         :                
@@ -263,9 +289,15 @@ GND*                         : G16       :        :                   :         
 GND*                         : G17       :        :                   :         : 5         :                
 GND*                         : G18       :        :                   :         : 5         :                
 VCCIO5                       : G19       : power  :                   : 3.3V    : 5         :                
+<<<<<<< HEAD
 next_card[5]                 : G20       : input  : 3.3-V LVTTL       :         : 5         : N              
 hand_out[2]                  : G21       : output : 3.3-V LVTTL       :         : 5         : N              
 hand_out[0]                  : G22       : output : 3.3-V LVTTL       :         : 5         : N              
+=======
+GND*                         : G20       :        :                   :         : 5         :                
+GND*                         : G21       :        :                   :         : 5         :                
+GND*                         : G22       :        :                   :         : 5         :                
+>>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
 GND*                         : H1        :        :                   :         : 2         :                
 GND*                         : H2        :        :                   :         : 2         :                
 GND*                         : H3        :        :                   :         : 2         :                
@@ -277,7 +309,7 @@ GND*                         : H8        :        :                   :         
 GND*                         : H9        :        :                   :         : 3         :                
 GND*                         : H10       :        :                   :         : 3         :                
 GND*                         : H11       :        :                   :         : 3         :                
-GND*                         : H12       :        :                   :         : 4         :                
+next_card[5]                 : H12       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : H13       :        :                   :         : 4         :                
 GND*                         : H14       :        :                   :         : 4         :                
 GND*                         : H15       :        :                   :         : 4         :                

@@ -35,6 +35,7 @@ begin
 	if reset = '1' then
 		hand := "000000";
 		num_aces := "000";
+		hand_out <= std_logic_vector(hand);
 	elsif rising_edge(clk) and enable = '1' then
 		play_card := unsigned(next_card) mod 13 + 1;
 	
