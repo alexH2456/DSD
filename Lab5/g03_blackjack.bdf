@@ -213,7 +213,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1280 704 1456 720)
+	(rect 1296 736 1472 752)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "dealer_led1" (rect 90 0 145 12)(font "Arial" ))
 	(pt 0 8)
@@ -229,7 +229,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1592 712 1768 728)
+	(rect 1608 744 1784 760)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "player_led1" (rect 90 0 146 12)(font "Arial" ))
 	(pt 0 8)
@@ -388,7 +388,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 720 80 912 192)
+	(rect 712 96 904 208)
 	(text "g03_dealer_FSM" (rect 5 0 86 12)(font "Arial" ))
 	(text "inst2" (rect 8 96 31 108)(font "Arial" ))
 	(port
@@ -438,7 +438,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 720 232 912 376)
+	(rect 712 248 904 392)
 	(text "g03_player_FSM" (rect 5 0 87 12)(font "Arial" ))
 	(text "inst3" (rect 8 128 31 140)(font "Arial" ))
 	(port
@@ -502,7 +502,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 776 592 968 752)
+	(rect 712 680 904 840)
 	(text "g03_stack52" (rect 5 0 78 14)(font "Arial" (font_size 8)))
 	(text "inst5" (rect 8 144 31 156)(font "Arial" ))
 	(port
@@ -580,7 +580,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 328 72 544 184)
+	(rect 320 96 536 208)
 	(text "g03_rules_dealer" (rect 5 0 87 12)(font "Arial" ))
 	(text "inst6" (rect 8 96 31 108)(font "Arial" ))
 	(port
@@ -630,7 +630,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 328 232 544 344)
+	(rect 320 248 536 360)
 	(text "g03_rules_player" (rect 5 0 88 12)(font "Arial" ))
 	(text "inst7" (rect 8 96 31 108)(font "Arial" ))
 	(port
@@ -680,7 +680,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 760 408 976 552)
+	(rect 696 496 912 640)
 	(text "g03_stack_controller" (rect 5 0 106 12)(font "Arial" ))
 	(text "inst11" (rect 8 128 37 140)(font "Arial" ))
 	(port
@@ -744,7 +744,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1136 96 1352 176)
+	(rect 1168 96 1384 176)
 	(text "g03_mod10" (rect 5 0 61 12)(font "Arial" ))
 	(text "inst15" (rect 8 64 37 76)(font "Arial" ))
 	(port
@@ -773,7 +773,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1136 336 1352 416)
+	(rect 1168 336 1384 416)
 	(text "g03_mod10" (rect 5 0 61 12)(font "Arial" ))
 	(text "inst16" (rect 8 64 37 76)(font "Arial" ))
 	(port
@@ -802,7 +802,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1528 64 1744 144)
+	(rect 1560 64 1776 144)
 	(text "g03_7_segment_decoder" (rect 5 0 127 12)(font "Arial" ))
 	(text "inst17" (rect 8 64 37 76)(font "Arial" ))
 	(port
@@ -831,7 +831,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1528 304 1744 384)
+	(rect 1560 304 1776 384)
 	(text "g03_7_segment_decoder" (rect 5 0 127 12)(font "Arial" ))
 	(text "inst18" (rect 8 64 37 76)(font "Arial" ))
 	(port
@@ -860,7 +860,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1528 152 1744 232)
+	(rect 1560 152 1776 232)
 	(text "g03_7_segment_decoder" (rect 5 0 127 12)(font "Arial" ))
 	(text "inst19" (rect 8 64 37 76)(font "Arial" ))
 	(port
@@ -889,7 +889,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1528 392 1744 472)
+	(rect 1560 392 1776 472)
 	(text "g03_7_segment_decoder" (rect 5 0 127 12)(font "Arial" ))
 	(text "inst20" (rect 8 64 37 76)(font "Arial" ))
 	(port
@@ -918,7 +918,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -176 128 -48 224)
+	(rect -168 152 -40 248)
 	(text "g03_debouncer" (rect 5 0 94 14)(font "Arial" (font_size 8)))
 	(text "inst21" (rect 8 80 37 92)(font "Arial" ))
 	(port
@@ -947,7 +947,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -176 264 -48 360)
+	(rect -168 288 -40 384)
 	(text "g03_debouncer" (rect 5 0 94 14)(font "Arial" (font_size 8)))
 	(text "inst22" (rect 8 80 37 92)(font "Arial" ))
 	(port
@@ -976,7 +976,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -176 400 -48 496)
+	(rect -168 424 -40 520)
 	(text "g03_debouncer" (rect 5 0 94 14)(font "Arial" (font_size 8)))
 	(text "inst23" (rect 8 80 37 92)(font "Arial" ))
 	(port
@@ -1005,7 +1005,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1272 544 1336 592)
+	(rect 1288 576 1352 624)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst24" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -1037,7 +1037,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1272 632 1336 680)
+	(rect 1288 664 1352 712)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst25" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -1070,7 +1070,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1584 552 1648 600)
+	(rect 1600 584 1664 632)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst26" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -1102,7 +1102,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1584 640 1648 688)
+	(rect 1600 672 1664 720)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst27" (rect 3 37 32 49)(font "Arial" ))
 	(port
@@ -1135,7 +1135,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 208 112 272 160)
+	(rect 192 136 256 184)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst1" (rect 3 37 26 49)(font "Arial" ))
 	(port
@@ -1168,7 +1168,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 184 272 248 320)
+	(rect 192 288 256 336)
 	(text "OR2" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst9" (rect 3 37 26 49)(font "Arial" ))
 	(port
@@ -1201,7 +1201,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 336 624 544 704)
+	(rect 272 712 480 792)
 	(text "g03_rand" (rect 5 0 49 12)(font "Arial" ))
 	(text "inst4" (rect 8 64 31 76)(font "Arial" ))
 	(port
@@ -1230,7 +1230,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -120 736 -88 768)
+	(rect 896 -16 928 16)
 	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
 	(text "inst8" (rect 3 21 26 33)(font "Arial" )(invisible))
 	(port
@@ -1247,7 +1247,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -176 536 -48 632)
+	(rect -168 560 -40 656)
 	(text "g03_debouncer" (rect 5 0 94 14)(font "Arial" (font_size 8)))
 	(text "inst28" (rect 8 80 37 92)(font "Arial" ))
 	(port
@@ -1276,7 +1276,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 336 408 544 584)
+	(rect 272 496 480 672)
 	(text "g03_controller_FSM" (rect 5 0 101 12)(font "Arial" ))
 	(text "inst" (rect 8 160 25 172)(font "Arial" ))
 	(port
@@ -1332,56 +1332,56 @@ applicable agreement for further details.
 		(pt 208 32)
 		(output)
 		(text "game_over" (rect 0 0 55 12)(font "Arial" ))
-		(text "game_over" (rect 141 27 187 39)(font "Arial" ))
+		(text "game_over" (rect 141 27 196 39)(font "Arial" ))
 		(line (pt 208 32)(pt 192 32))
 	)
 	(port
 		(pt 208 48)
 		(output)
 		(text "init" (rect 0 0 14 12)(font "Arial" ))
-		(text "init" (rect 176 43 187 55)(font "Arial" ))
+		(text "init" (rect 176 43 190 55)(font "Arial" ))
 		(line (pt 208 48)(pt 192 48))
 	)
 	(port
 		(pt 208 64)
 		(output)
 		(text "pop_dealer" (rect 0 0 53 12)(font "Arial" ))
-		(text "pop_dealer" (rect 143 59 187 71)(font "Arial" ))
+		(text "pop_dealer" (rect 143 59 196 71)(font "Arial" ))
 		(line (pt 208 64)(pt 192 64))
 	)
 	(port
 		(pt 208 80)
 		(output)
 		(text "pop_player" (rect 0 0 54 12)(font "Arial" ))
-		(text "pop_player" (rect 142 75 187 87)(font "Arial" ))
+		(text "pop_player" (rect 142 75 196 87)(font "Arial" ))
 		(line (pt 208 80)(pt 192 80))
 	)
 	(port
 		(pt 208 96)
 		(output)
 		(text "turn" (rect 0 0 18 12)(font "Arial" ))
-		(text "turn" (rect 172 91 187 103)(font "Arial" ))
+		(text "turn" (rect 172 91 190 103)(font "Arial" ))
 		(line (pt 208 96)(pt 192 96))
 	)
 	(port
 		(pt 208 112)
 		(output)
 		(text "d_wins[1..0]" (rect 0 0 59 12)(font "Arial" ))
-		(text "d_wins[1..0]" (rect 138 107 187 119)(font "Arial" ))
+		(text "d_wins[1..0]" (rect 138 107 197 119)(font "Arial" ))
 		(line (pt 208 112)(pt 192 112)(line_width 3))
 	)
 	(port
 		(pt 208 128)
 		(output)
 		(text "p_wins[1..0]" (rect 0 0 59 12)(font "Arial" ))
-		(text "p_wins[1..0]" (rect 138 123 187 135)(font "Arial" ))
+		(text "p_wins[1..0]" (rect 138 123 197 135)(font "Arial" ))
 		(line (pt 208 128)(pt 192 128)(line_width 3))
 	)
 	(port
 		(pt 208 144)
 		(output)
 		(text "state_out[3..0]" (rect 0 0 71 12)(font "Arial" ))
-		(text "state_out[3..0]" (rect 127 139 187 151)(font "Arial" ))
+		(text "state_out[3..0]" (rect 127 139 198 151)(font "Arial" ))
 		(line (pt 208 144)(pt 192 144)(line_width 3))
 	)
 	(drawing
@@ -1389,568 +1389,560 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(text "clk" (rect 296 88 310 100)(font "Arial" ))
-	(pt 328 104)
-	(pt 288 104)
+	(text "clk" (rect 282 264 296 276)(font "Arial" ))
+	(pt 320 280)
+	(pt 272 280)
 )
 (connector
-	(text "init" (rect 296 104 310 116)(font "Arial" ))
-	(pt 328 120)
-	(pt 288 120)
+	(text "turn" (rect 672 264 690 276)(font "Arial" ))
+	(pt 712 280)
+	(pt 664 280)
 )
 (connector
-	(text "card[5..0]" (rect 280 160 327 172)(font "Arial" ))
-	(pt 328 152)
-	(pt 288 152)
+	(text "hit" (rect 672 296 683 308)(font "Arial" ))
+	(pt 712 312)
+	(pt 664 312)
+)
+(connector
+	(text "stay" (rect 672 312 694 324)(font "Arial" ))
+	(pt 712 328)
+	(pt 664 328)
+)
+(connector
+	(text "reset" (rect 672 328 696 340)(font "Arial" ))
+	(pt 712 344)
+	(pt 664 344)
+)
+(connector
+	(text "clk" (rect 672 344 686 356)(font "Arial" ))
+	(pt 712 360)
+	(pt 664 360)
+)
+(connector
+	(text "init" (rect 280 280 294 292)(font "Arial" ))
+	(pt 272 296)
+	(pt 320 296)
+)
+(connector
+	(text "card[5..0]" (rect 264 336 311 348)(font "Arial" ))
+	(pt 320 328)
+	(pt 272 328)
 	(bus)
 )
 (connector
-	(text "clk" (rect 290 248 304 260)(font "Arial" ))
-	(pt 328 264)
-	(pt 280 264)
-)
-(connector
-	(text "dealer_hand[5..0]" (rect 570 88 654 100)(font "Arial" ))
-	(pt 544 104)
-	(pt 608 104)
-	(bus)
-)
-(connector
-	(text "player_hand[5..0]" (rect 569 248 655 260)(font "Arial" ))
-	(pt 544 264)
-	(pt 608 264)
-	(bus)
-)
-(connector
-	(pt 544 280)
-	(pt 720 280)
-)
-(connector
-	(text "turn" (rect 680 248 698 260)(font "Arial" ))
-	(pt 720 264)
-	(pt 672 264)
-)
-(connector
-	(text "hit" (rect 680 280 691 292)(font "Arial" ))
-	(pt 720 296)
-	(pt 672 296)
-)
-(connector
-	(text "stay" (rect 680 296 702 308)(font "Arial" ))
-	(pt 720 312)
-	(pt 672 312)
-)
-(connector
-	(text "reset" (rect 680 312 704 324)(font "Arial" ))
-	(pt 720 328)
-	(pt 672 328)
-)
-(connector
-	(text "clk" (rect 680 328 694 340)(font "Arial" ))
-	(pt 720 344)
-	(pt 672 344)
-)
-(connector
-	(text "player_done" (rect 920 264 980 276)(font "Arial" ))
-	(pt 912 280)
-	(pt 960 280)
-)
-(connector
-	(pt 328 136)
-	(pt 272 136)
-)
-(connector
-	(text "pop_dealer" (rect 152 128 205 140)(font "Arial" ))
-	(pt 208 144)
-	(pt 160 144)
-)
-(connector
-	(text "request_player" (rect 920 248 993 260)(font "Arial" ))
-	(pt 912 264)
-	(pt 960 264)
-)
-(connector
-	(text "request_dealer" (rect 688 424 759 436)(font "Arial" ))
-	(pt 760 440)
-	(pt 712 440)
-)
-(connector
-	(text "request_player" (rect 688 440 761 452)(font "Arial" ))
-	(pt 760 456)
-	(pt 712 456)
-)
-(connector
-	(text "pop_dealer" (rect 704 456 757 468)(font "Arial" ))
-	(pt 760 472)
-	(pt 712 472)
-)
-(connector
-	(text "pop_player" (rect 704 472 758 484)(font "Arial" ))
-	(pt 760 488)
-	(pt 712 488)
-)
-(connector
-	(text "init" (rect 720 488 734 500)(font "Arial" ))
-	(pt 760 504)
-	(pt 712 504)
-)
-(connector
-	(text "clk" (rect 720 504 734 516)(font "Arial" ))
-	(pt 760 520)
-	(pt 712 520)
-)
-(connector
-	(text "stack_enable" (rect 984 424 1048 436)(font "Arial" ))
-	(pt 976 440)
-	(pt 1016 440)
-)
-(connector
-	(text "mode[1..0]" (rect 984 440 1037 452)(font "Arial" ))
-	(pt 976 456)
-	(pt 1016 456)
-	(bus)
-)
-(connector
-	(text "dealer_hand[5..0]" (rect 1056 112 1140 124)(font "Arial" ))
-	(pt 1064 128)
-	(pt 1136 128)
-	(bus)
-)
-(connector
-	(text "player_hand[5..0]" (rect 1056 352 1142 364)(font "Arial" ))
-	(pt 1136 368)
-	(pt 1048 368)
-	(bus)
-)
-(connector
-	(text "mod_dealer[5..0]" (rect 1360 112 1442 124)(font "Arial" ))
-	(pt 1352 128)
-	(pt 1392 128)
-	(bus)
-)
-(connector
-	(text "floor_dealer[5..0]" (rect 1360 152 1443 164)(font "Arial" ))
-	(pt 1352 144)
-	(pt 1392 144)
-	(bus)
-)
-(connector
-	(text "mod_player[5..0]" (rect 1360 352 1443 364)(font "Arial" ))
-	(pt 1352 368)
-	(pt 1408 368)
-	(bus)
-)
-(connector
-	(text "floor_player[5..0]" (rect 1360 392 1444 404)(font "Arial" ))
-	(pt 1352 384)
-	(pt 1408 384)
-	(bus)
-)
-(connector
-	(text "floor_dealer[3..0]" (rect 1440 80 1523 92)(font "Arial" ))
-	(pt 1528 96)
-	(pt 1472 96)
-	(bus)
-)
-(connector
-	(text "mod_dealer[3..0]" (rect 1448 168 1530 180)(font "Arial" ))
-	(pt 1528 184)
-	(pt 1472 184)
-	(bus)
-)
-(connector
-	(text "floor_player[3..0]" (rect 1448 320 1532 332)(font "Arial" ))
-	(pt 1528 336)
-	(pt 1456 336)
-	(bus)
-)
-(connector
-	(text "mod_player[3..0]" (rect 1448 408 1531 420)(font "Arial" ))
-	(pt 1528 424)
-	(pt 1456 424)
-	(bus)
-)
-(connector
-	(text "led_mode" (rect 1480 96 1527 108)(font "Arial" ))
-	(pt 1528 112)
-	(pt 1472 112)
-)
-(connector
-	(text "led_mode" (rect 1480 184 1527 196)(font "Arial" ))
-	(pt 1528 200)
-	(pt 1472 200)
-)
-(connector
-	(text "led_mode" (rect 1464 336 1511 348)(font "Arial" ))
-	(pt 1528 352)
-	(pt 1456 352)
-)
-(connector
-	(text "led_mode" (rect 1472 424 1519 436)(font "Arial" ))
-	(pt 1528 440)
-	(pt 1464 440)
-)
-(connector
-	(text "led_floor_dealer[6..0]" (rect 1800 80 1903 92)(font "Arial" ))
-	(pt 1744 96)
-	(pt 1840 96)
-	(bus)
-)
-(connector
-	(text "led_mod_dealer[6..0]" (rect 1809 168 1911 180)(font "Arial" ))
-	(pt 1840 184)
-	(pt 1744 184)
-	(bus)
-)
-(connector
-	(text "led_floor_player[6..0]" (rect 1816 320 1921 332)(font "Arial" ))
-	(pt 1744 336)
-	(pt 1840 336)
-	(bus)
-)
-(connector
-	(text "led_mod_player[6..0]" (rect 1823 408 1926 420)(font "Arial" ))
-	(pt 1744 424)
-	(pt 1848 424)
-	(bus)
-)
-(connector
-	(text "reset" (rect -32 144 -8 156)(font "Arial" ))
-	(pt -48 160)
-	(pt 0 160)
-)
-(connector
-	(text "hit" (rect -24 280 -13 292)(font "Arial" ))
-	(pt -48 296)
-	(pt 0 296)
-)
-(connector
-	(text "stay" (rect -24 416 -2 428)(font "Arial" ))
-	(pt -48 432)
-	(pt 0 432)
-)
-(connector
-	(text "clk" (rect -208 160 -194 172)(font "Arial" ))
-	(pt -176 176)
-	(pt -216 176)
-)
-(connector
-	(text "reset_in" (rect -216 144 -178 156)(font "Arial" ))
-	(pt -176 160)
-	(pt -216 160)
-)
-(connector
-	(text "clk" (rect -208 296 -194 308)(font "Arial" ))
-	(pt -176 312)
-	(pt -216 312)
-)
-(connector
-	(text "hit_in" (rect -208 280 -183 292)(font "Arial" ))
-	(pt -176 296)
-	(pt -216 296)
-)
-(connector
-	(text "stay_in" (rect -216 416 -180 428)(font "Arial" ))
-	(pt -176 432)
-	(pt -216 432)
-)
-(connector
-	(text "clk" (rect -208 432 -194 444)(font "Arial" ))
-	(pt -176 448)
-	(pt -216 448)
-)
-(connector
-	(text "init" (rect 256 272 270 284)(font "Arial" ))
-	(pt 280 280)
-	(pt 328 280)
-)
-(connector
-	(text "request_dealer" (rect 136 112 207 124)(font "Arial" ))
-	(pt 208 128)
-	(pt 160 128)
-)
-(connector
-	(text "card[5..0]" (rect 272 320 319 332)(font "Arial" ))
-	(pt 328 312)
-	(pt 280 312)
-	(bus)
-)
-(connector
-	(pt 328 296)
-	(pt 248 296)
-)
-(connector
-	(text "pop_player" (rect 118 304 172 316)(font "Arial" ))
-	(pt 120 304)
-	(pt 184 304)
-)
-(connector
-	(text "request_player" (rect 112 272 185 284)(font "Arial" ))
-	(pt 120 288)
-	(pt 184 288)
-)
-(connector
-	(text "dealer_led2" (rect 1344 552 1399 564)(font "Arial" ))
-	(pt 1336 568)
-	(pt 1408 568)
-)
-(connector
-	(text "dealer_led0" (rect 1353 640 1408 652)(font "Arial" ))
-	(pt 1336 656)
-	(pt 1408 656)
-)
-(connector
-	(text "player_led2" (rect 1656 560 1712 572)(font "Arial" ))
-	(pt 1648 576)
-	(pt 1720 576)
-)
-(connector
-	(text "player_led0" (rect 1665 648 1721 660)(font "Arial" ))
-	(pt 1648 664)
-	(pt 1720 664)
-)
-(connector
-	(text "dealer_wins[1]" (rect 1202 544 1271 556)(font "Arial" ))
-	(pt 1208 560)
-	(pt 1272 560)
-)
-(connector
-	(text "dealer_wins[0]" (rect 1200 560 1269 572)(font "Arial" ))
-	(pt 1208 576)
-	(pt 1272 576)
-)
-(connector
-	(text "dealer_wins[0]" (rect 1202 648 1271 660)(font "Arial" ))
-	(pt 1216 664)
-	(pt 1272 664)
-)
-(connector
-	(text "dealer_wins[1]" (rect 1204 632 1273 644)(font "Arial" ))
-	(pt 1216 648)
-	(pt 1272 648)
-)
-(connector
-	(text "player_wins[1]" (rect 1514 552 1584 564)(font "Arial" ))
-	(pt 1520 568)
-	(pt 1584 568)
-)
-(connector
-	(text "player_wins[0]" (rect 1512 568 1582 580)(font "Arial" ))
-	(pt 1520 584)
-	(pt 1584 584)
-)
-(connector
-	(text "player_wins[0]" (rect 1514 656 1584 668)(font "Arial" ))
-	(pt 1528 672)
-	(pt 1584 672)
-)
-(connector
-	(text "player_wins[1]" (rect 1516 640 1586 652)(font "Arial" ))
-	(pt 1528 656)
-	(pt 1584 656)
-)
-(connector
-	(text "dealer_wins[1]" (rect 1208 696 1277 708)(font "Arial" ))
-	(pt 1208 712)
-	(pt 1280 712)
-)
-(connector
-	(text "player_wins[1]" (rect 1520 704 1590 716)(font "Arial" ))
-	(pt 1520 720)
-	(pt 1592 720)
-)
-(connector
-	(text "card[5..0]" (rect 976 608 1023 620)(font "Arial" ))
-	(pt 968 624)
-	(pt 1040 624)
-	(bus)
-)
-(connector
-	(text "num_cards[5..0]" (rect 976 656 1056 668)(font "Arial" ))
-	(pt 968 672)
-	(pt 1040 672)
-	(bus)
-)
-(connector
-	(text "mode[1..0]" (rect 712 624 765 636)(font "Arial" ))
-	(pt 704 640)
-	(pt 776 640)
-	(bus)
-)
-(connector
-	(text "address[5..0]" (rect 712 640 776 652)(font "Arial" ))
-	(pt 704 656)
-	(pt 776 656)
-	(bus)
-)
-(connector
-	(text "stack_enable" (rect 712 656 776 668)(font "Arial" ))
-	(pt 704 672)
-	(pt 776 672)
-)
-(connector
-	(text "G" (rect 712 672 720 684)(font "Arial" ))
-	(pt 704 688)
-	(pt 776 688)
-)
-(connector
-	(text "clk" (rect 712 688 726 700)(font "Arial" ))
-	(pt 704 704)
-	(pt 776 704)
-)
-(connector
-	(text "player_done" (rect 280 424 340 436)(font "Arial" ))
-	(pt 336 440)
-	(pt 272 440)
-)
-(connector
-	(text "dealer_done" (rect 280 440 339 452)(font "Arial" ))
-	(pt 336 456)
-	(pt 272 456)
-)
-(connector
-	(text "player_hand[5..0]" (rect 256 456 342 468)(font "Arial" ))
-	(pt 336 472)
-	(pt 272 472)
-	(bus)
-)
-(connector
-	(text "dealer_hand[5..0]" (rect 262 472 346 484)(font "Arial" ))
-	(pt 336 488)
-	(pt 272 488)
-	(bus)
-)
-(connector
-	(text "reset" (rect 280 488 304 500)(font "Arial" ))
-	(pt 336 504)
-	(pt 272 504)
-)
-(connector
-	(text "clk" (rect 280 504 294 516)(font "Arial" ))
-	(pt 336 520)
-	(pt 272 520)
-)
-(connector
-	(text "num_cards[5..0]" (rect 264 680 344 692)(font "Arial" ))
-	(pt 336 672)
-	(pt 280 672)
-	(bus)
-)
-(connector
-	(text "clk" (rect 288 640 302 652)(font "Arial" ))
-	(pt 336 656)
-	(pt 280 656)
-)
-(connector
-	(text "address[5..0]" (rect 553 640 617 652)(font "Arial" ))
-	(pt 544 656)
-	(pt 608 656)
-	(bus)
-)
-(connector
-	(text "new_hand" (rect 280 520 328 532)(font "Arial" ))
-	(pt 336 536)
-	(pt 272 536)
-)
-(connector
-	(text "G" (rect -120 697 -108 705)(font "Arial" )(vertical))
-	(pt -104 688)
-	(pt -104 736)
-)
-(connector
-	(text "new_hand" (rect -40 552 8 564)(font "Arial" ))
-	(pt -48 568)
-	(pt 0 568)
-)
-(connector
-	(text "new_in" (rect -208 552 -175 564)(font "Arial" ))
-	(pt -176 568)
-	(pt -216 568)
-)
-(connector
-	(text "clk" (rect -208 568 -194 580)(font "Arial" ))
-	(pt -176 584)
-	(pt -216 584)
-)
-(connector
-	(pt 712 120)
+	(text "turn" (rect 672 112 690 124)(font "Arial" ))
 	(pt 712 128)
+	(pt 664 128)
 )
 (connector
-	(pt 544 120)
-	(pt 712 120)
+	(text "reset" (rect 672 144 696 156)(font "Arial" ))
+	(pt 712 160)
+	(pt 664 160)
 )
 (connector
-	(pt 712 128)
-	(pt 720 128)
+	(text "clk" (rect 672 160 686 172)(font "Arial" ))
+	(pt 712 176)
+	(pt 664 176)
 )
 (connector
-	(text "turn" (rect 680 96 698 108)(font "Arial" ))
-	(pt 720 112)
-	(pt 672 112)
+	(text "request_dealer" (rect 912 112 983 124)(font "Arial" ))
+	(pt 904 128)
+	(pt 968 128)
 )
 (connector
-	(text "reset" (rect 680 128 704 140)(font "Arial" ))
-	(pt 720 144)
-	(pt 672 144)
+	(text "dealer_done" (rect 921 128 980 140)(font "Arial" ))
+	(pt 904 144)
+	(pt 968 144)
 )
 (connector
-	(text "clk" (rect 680 144 694 156)(font "Arial" ))
-	(pt 720 160)
-	(pt 672 160)
+	(text "request_player" (rect 912 264 985 276)(font "Arial" ))
+	(pt 904 280)
+	(pt 952 280)
 )
 (connector
-	(text "dealer_done" (rect 929 112 988 124)(font "Arial" ))
-	(pt 912 128)
-	(pt 976 128)
+	(text "player_done" (rect 912 280 972 292)(font "Arial" ))
+	(pt 904 296)
+	(pt 952 296)
 )
 (connector
-	(text "request_dealer" (rect 920 96 991 108)(font "Arial" ))
-	(pt 912 112)
-	(pt 976 112)
-)
-(connector
-	(text "game_over" (rect 560 424 615 436)(font "Arial" ))
-	(pt 544 440)
-	(pt 600 440)
-)
-(connector
-	(text "init" (rect 585 440 599 452)(font "Arial" ))
-	(pt 544 456)
-	(pt 600 456)
-)
-(connector
-	(text "pop_dealer" (rect 560 456 613 468)(font "Arial" ))
-	(pt 544 472)
-	(pt 608 472)
-)
-(connector
-	(text "pop_player" (rect 561 472 615 484)(font "Arial" ))
-	(pt 544 488)
-	(pt 608 488)
-)
-(connector
-	(text "turn" (rect 585 488 603 500)(font "Arial" ))
-	(pt 544 504)
-	(pt 608 504)
-)
-(connector
-	(text "dealer_wins[1..0]" (rect 560 504 642 516)(font "Arial" ))
-	(pt 544 520)
-	(pt 608 520)
+	(text "player_hand[5..0]" (rect 561 264 647 276)(font "Arial" ))
+	(pt 536 280)
+	(pt 600 280)
 	(bus)
 )
 (connector
-	(text "player_wins[1..0]" (rect 560 520 643 532)(font "Arial" ))
-	(pt 544 536)
-	(pt 608 536)
+	(pt 536 296)
+	(pt 712 296)
+)
+(connector
+	(text "mode[1..0]" (rect 648 712 701 724)(font "Arial" ))
+	(pt 640 728)
+	(pt 712 728)
 	(bus)
 )
 (connector
-	(text "state_out[3..0]" (rect 552 560 623 572)(font "Arial" ))
-	(pt 544 552)
-	(pt 608 552)
+	(text "address[5..0]" (rect 648 728 712 740)(font "Arial" ))
+	(pt 640 744)
+	(pt 712 744)
 	(bus)
 )
-(text "Controls win counter leds for both the dealer and player" (rect 1200 520 1518 534)(font "Arial" (font_size 8)))
-(text "Converts dealer and player hand values to be able to display them on the led segments" (rect 1056 48 1549 62)(font "Arial" (font_size 8)))
+(connector
+	(text "stack_enable" (rect 648 744 712 756)(font "Arial" ))
+	(pt 640 760)
+	(pt 712 760)
+)
+(connector
+	(text "G" (rect 648 760 656 772)(font "Arial" ))
+	(pt 640 776)
+	(pt 712 776)
+)
+(connector
+	(text "clk" (rect 648 776 662 788)(font "Arial" ))
+	(pt 640 792)
+	(pt 712 792)
+)
+(connector
+	(text "request_dealer" (rect 624 512 695 524)(font "Arial" ))
+	(pt 648 528)
+	(pt 696 528)
+)
+(connector
+	(text "request_player" (rect 624 528 697 540)(font "Arial" ))
+	(pt 648 544)
+	(pt 696 544)
+)
+(connector
+	(text "pop_dealer" (rect 640 544 693 556)(font "Arial" ))
+	(pt 648 560)
+	(pt 696 560)
+)
+(connector
+	(text "pop_player" (rect 640 560 694 572)(font "Arial" ))
+	(pt 648 576)
+	(pt 696 576)
+)
+(connector
+	(text "init" (rect 656 576 670 588)(font "Arial" ))
+	(pt 648 592)
+	(pt 696 592)
+)
+(connector
+	(text "clk" (rect 656 592 670 604)(font "Arial" ))
+	(pt 648 608)
+	(pt 696 608)
+)
+(connector
+	(text "clk" (rect 224 728 238 740)(font "Arial" ))
+	(pt 216 744)
+	(pt 272 744)
+)
+(connector
+	(text "num_cards[5..0]" (rect 200 768 280 780)(font "Arial" ))
+	(pt 216 760)
+	(pt 272 760)
+	(bus)
+)
+(connector
+	(text "player_done" (rect 216 512 276 524)(font "Arial" ))
+	(pt 208 528)
+	(pt 272 528)
+)
+(connector
+	(text "dealer_done" (rect 216 528 275 540)(font "Arial" ))
+	(pt 208 544)
+	(pt 272 544)
+)
+(connector
+	(text "player_hand[5..0]" (rect 192 544 278 556)(font "Arial" ))
+	(pt 208 560)
+	(pt 272 560)
+	(bus)
+)
+(connector
+	(text "dealer_hand[5..0]" (rect 198 560 282 572)(font "Arial" ))
+	(pt 208 576)
+	(pt 272 576)
+	(bus)
+)
+(connector
+	(text "reset" (rect 216 576 240 588)(font "Arial" ))
+	(pt 208 592)
+	(pt 272 592)
+)
+(connector
+	(text "clk" (rect 216 592 230 604)(font "Arial" ))
+	(pt 208 608)
+	(pt 272 608)
+)
+(connector
+	(text "new_hand" (rect 216 608 264 620)(font "Arial" ))
+	(pt 208 624)
+	(pt 272 624)
+)
+(connector
+	(text "card[5..0]" (rect 912 696 959 708)(font "Arial" ))
+	(pt 904 712)
+	(pt 976 712)
+	(bus)
+)
+(connector
+	(text "num_cards[5..0]" (rect 912 744 992 756)(font "Arial" ))
+	(pt 904 760)
+	(pt 976 760)
+	(bus)
+)
+(connector
+	(text "stack_enable" (rect 920 512 984 524)(font "Arial" ))
+	(pt 912 528)
+	(pt 952 528)
+)
+(connector
+	(text "mode[1..0]" (rect 920 528 973 540)(font "Arial" ))
+	(pt 912 544)
+	(pt 952 544)
+	(bus)
+)
+(connector
+	(text "address[5..0]" (rect 489 728 553 740)(font "Arial" ))
+	(pt 480 744)
+	(pt 544 744)
+	(bus)
+)
+(connector
+	(text "game_over" (rect 496 512 551 524)(font "Arial" ))
+	(pt 480 528)
+	(pt 536 528)
+)
+(connector
+	(text "init" (rect 521 528 535 540)(font "Arial" ))
+	(pt 480 544)
+	(pt 536 544)
+)
+(connector
+	(text "pop_dealer" (rect 496 544 549 556)(font "Arial" ))
+	(pt 480 560)
+	(pt 544 560)
+)
+(connector
+	(text "pop_player" (rect 497 560 551 572)(font "Arial" ))
+	(pt 480 576)
+	(pt 544 576)
+)
+(connector
+	(text "turn" (rect 521 576 539 588)(font "Arial" ))
+	(pt 480 592)
+	(pt 544 592)
+)
+(connector
+	(text "dealer_wins[1..0]" (rect 496 592 578 604)(font "Arial" ))
+	(pt 480 608)
+	(pt 544 608)
+	(bus)
+)
+(connector
+	(text "player_wins[1..0]" (rect 496 608 579 620)(font "Arial" ))
+	(pt 480 624)
+	(pt 544 624)
+	(bus)
+)
+(connector
+	(text "state_out[3..0]" (rect 488 648 559 660)(font "Arial" ))
+	(pt 480 640)
+	(pt 544 640)
+	(bus)
+)
+(connector
+	(text "reset" (rect -24 168 0 180)(font "Arial" ))
+	(pt -40 184)
+	(pt 8 184)
+)
+(connector
+	(text "hit" (rect -16 304 -5 316)(font "Arial" ))
+	(pt -40 320)
+	(pt 8 320)
+)
+(connector
+	(text "stay" (rect -16 440 6 452)(font "Arial" ))
+	(pt -40 456)
+	(pt 8 456)
+)
+(connector
+	(text "new_hand" (rect -32 576 16 588)(font "Arial" ))
+	(pt -40 592)
+	(pt 8 592)
+)
+(connector
+	(text "reset_in" (rect -208 168 -170 180)(font "Arial" ))
+	(pt -208 184)
+	(pt -168 184)
+)
+(connector
+	(text "clk" (rect -200 184 -186 196)(font "Arial" ))
+	(pt -208 200)
+	(pt -168 200)
+)
+(connector
+	(text "hit_in" (rect -200 304 -175 316)(font "Arial" ))
+	(pt -208 320)
+	(pt -168 320)
+)
+(connector
+	(text "clk" (rect -200 320 -186 332)(font "Arial" ))
+	(pt -208 336)
+	(pt -168 336)
+)
+(connector
+	(text "stay_in" (rect -208 440 -172 452)(font "Arial" ))
+	(pt -208 456)
+	(pt -168 456)
+)
+(connector
+	(text "clk" (rect -200 456 -186 468)(font "Arial" ))
+	(pt -208 472)
+	(pt -168 472)
+)
+(connector
+	(text "new_in" (rect -200 576 -167 588)(font "Arial" ))
+	(pt -208 592)
+	(pt -168 592)
+)
+(connector
+	(text "clk" (rect -200 592 -186 604)(font "Arial" ))
+	(pt -208 608)
+	(pt -168 608)
+)
+(connector
+	(text "G" (rect 896 -55 908 -47)(font "Arial" )(vertical))
+	(pt 912 -64)
+	(pt 912 -16)
+)
+(connector
+	(text "mod_dealer[5..0]" (rect 1392 112 1474 124)(font "Arial" ))
+	(pt 1384 128)
+	(pt 1424 128)
+	(bus)
+)
+(connector
+	(text "floor_dealer[5..0]" (rect 1392 152 1475 164)(font "Arial" ))
+	(pt 1384 144)
+	(pt 1424 144)
+	(bus)
+)
+(connector
+	(text "mod_player[5..0]" (rect 1392 352 1475 364)(font "Arial" ))
+	(pt 1384 368)
+	(pt 1440 368)
+	(bus)
+)
+(connector
+	(text "floor_player[5..0]" (rect 1392 392 1476 404)(font "Arial" ))
+	(pt 1384 384)
+	(pt 1440 384)
+	(bus)
+)
+(connector
+	(text "led_floor_dealer[6..0]" (rect 1832 80 1935 92)(font "Arial" ))
+	(pt 1776 96)
+	(pt 1872 96)
+	(bus)
+)
+(connector
+	(text "led_mod_dealer[6..0]" (rect 1841 168 1943 180)(font "Arial" ))
+	(pt 1872 184)
+	(pt 1776 184)
+	(bus)
+)
+(connector
+	(text "led_floor_player[6..0]" (rect 1848 320 1953 332)(font "Arial" ))
+	(pt 1776 336)
+	(pt 1872 336)
+	(bus)
+)
+(connector
+	(text "led_mod_player[6..0]" (rect 1855 408 1958 420)(font "Arial" ))
+	(pt 1776 424)
+	(pt 1880 424)
+	(bus)
+)
+(connector
+	(text "dealer_hand[5..0]" (rect 1088 112 1172 124)(font "Arial" ))
+	(pt 1096 128)
+	(pt 1168 128)
+	(bus)
+)
+(connector
+	(text "player_hand[5..0]" (rect 1088 352 1174 364)(font "Arial" ))
+	(pt 1080 368)
+	(pt 1168 368)
+	(bus)
+)
+(connector
+	(text "floor_dealer[3..0]" (rect 1472 80 1555 92)(font "Arial" ))
+	(pt 1504 96)
+	(pt 1560 96)
+	(bus)
+)
+(connector
+	(text "led_mode" (rect 1512 96 1559 108)(font "Arial" ))
+	(pt 1504 112)
+	(pt 1560 112)
+)
+(connector
+	(text "floor_player[3..0]" (rect 1480 320 1564 332)(font "Arial" ))
+	(pt 1488 336)
+	(pt 1560 336)
+	(bus)
+)
+(connector
+	(text "led_mode" (rect 1496 336 1543 348)(font "Arial" ))
+	(pt 1488 352)
+	(pt 1560 352)
+)
+(connector
+	(text "mod_dealer[3..0]" (rect 1480 168 1562 180)(font "Arial" ))
+	(pt 1504 184)
+	(pt 1560 184)
+	(bus)
+)
+(connector
+	(text "led_mode" (rect 1512 184 1559 196)(font "Arial" ))
+	(pt 1504 200)
+	(pt 1560 200)
+)
+(connector
+	(text "mod_player[3..0]" (rect 1480 408 1563 420)(font "Arial" ))
+	(pt 1488 424)
+	(pt 1560 424)
+	(bus)
+)
+(connector
+	(text "led_mode" (rect 1504 424 1551 436)(font "Arial" ))
+	(pt 1496 440)
+	(pt 1560 440)
+)
+(connector
+	(text "dealer_led2" (rect 1360 584 1415 596)(font "Arial" ))
+	(pt 1352 600)
+	(pt 1424 600)
+)
+(connector
+	(text "dealer_led0" (rect 1369 672 1424 684)(font "Arial" ))
+	(pt 1352 688)
+	(pt 1424 688)
+)
+(connector
+	(text "player_led2" (rect 1672 592 1728 604)(font "Arial" ))
+	(pt 1664 608)
+	(pt 1736 608)
+)
+(connector
+	(text "player_led0" (rect 1681 680 1737 692)(font "Arial" ))
+	(pt 1664 696)
+	(pt 1736 696)
+)
+(connector
+	(text "dealer_wins[1]" (rect 1218 576 1287 588)(font "Arial" ))
+	(pt 1224 592)
+	(pt 1288 592)
+)
+(connector
+	(text "dealer_wins[0]" (rect 1216 592 1285 604)(font "Arial" ))
+	(pt 1224 608)
+	(pt 1288 608)
+)
+(connector
+	(text "dealer_wins[0]" (rect 1218 680 1287 692)(font "Arial" ))
+	(pt 1232 696)
+	(pt 1288 696)
+)
+(connector
+	(text "dealer_wins[1]" (rect 1220 664 1289 676)(font "Arial" ))
+	(pt 1232 680)
+	(pt 1288 680)
+)
+(connector
+	(text "player_wins[1]" (rect 1530 584 1600 596)(font "Arial" ))
+	(pt 1536 600)
+	(pt 1600 600)
+)
+(connector
+	(text "player_wins[0]" (rect 1528 600 1598 612)(font "Arial" ))
+	(pt 1536 616)
+	(pt 1600 616)
+)
+(connector
+	(text "player_wins[0]" (rect 1530 688 1600 700)(font "Arial" ))
+	(pt 1544 704)
+	(pt 1600 704)
+)
+(connector
+	(text "player_wins[1]" (rect 1532 672 1602 684)(font "Arial" ))
+	(pt 1544 688)
+	(pt 1600 688)
+)
+(connector
+	(text "dealer_wins[1]" (rect 1224 728 1293 740)(font "Arial" ))
+	(pt 1224 744)
+	(pt 1296 744)
+)
+(connector
+	(text "player_wins[1]" (rect 1536 736 1606 748)(font "Arial" ))
+	(pt 1536 752)
+	(pt 1608 752)
+)
+(connector
+	(text "clk" (rect 288 112 302 124)(font "Arial" ))
+	(pt 320 128)
+	(pt 280 128)
+)
+(connector
+	(text "init" (rect 288 128 302 140)(font "Arial" ))
+	(pt 320 144)
+	(pt 280 144)
+)
+(connector
+	(text "card[5..0]" (rect 272 184 319 196)(font "Arial" ))
+	(pt 320 176)
+	(pt 280 176)
+	(bus)
+)
+(connector
+	(text "dealer_hand[5..0]" (rect 562 112 646 124)(font "Arial" ))
+	(pt 536 128)
+	(pt 600 128)
+	(bus)
+)
+(connector
+	(pt 536 144)
+	(pt 712 144)
+)
+(connector
+	(pt 256 160)
+	(pt 320 160)
+)
+(connector
+	(pt 320 312)
+	(pt 256 312)
+)
+(connector
+	(text "pop_player" (rect 126 320 180 332)(font "Arial" ))
+	(pt 128 320)
+	(pt 192 320)
+)
+(connector
+	(text "request_player" (rect 120 288 193 300)(font "Arial" ))
+	(pt 128 304)
+	(pt 192 304)
+)
+(connector
+	(text "pop_dealer" (rect 112 168 165 180)(font "Arial" ))
+	(pt 192 168)
+	(pt 128 168)
+)
+(connector
+	(text "request_dealer" (rect 104 136 175 148)(font "Arial" ))
+	(pt 192 152)
+	(pt 128 152)
+)
+(text "Controls win counter leds for both the dealer and player" (rect 1216 552 1534 566)(font "Arial" (font_size 8)))
+(text "Converts dealer and player hand values to be able to display them on the led segments" (rect 1088 48 1581 62)(font "Arial" (font_size 8)))
