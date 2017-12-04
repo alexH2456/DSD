@@ -166,23 +166,16 @@ applicable agreement for further details.
 	(port
 		(pt 232 256)
 		(output)
-		(text "state_out[3..0]" (rect 0 0 81 14)(font "Arial" (font_size 8)))
-		(text "state_out[3..0]" (rect 130 251 211 265)(font "Arial" (font_size 8)))
-		(line (pt 232 256)(pt 216 256)(line_width 3))
+		(text "dealer_led1" (rect 0 0 66 14)(font "Arial" (font_size 8)))
+		(text "dealer_led1" (rect 145 251 211 265)(font "Arial" (font_size 8)))
+		(line (pt 232 256)(pt 216 256))
 	)
 	(port
 		(pt 232 272)
 		(output)
-		(text "dealer_led1" (rect 0 0 66 14)(font "Arial" (font_size 8)))
-		(text "dealer_led1" (rect 145 267 211 281)(font "Arial" (font_size 8)))
-		(line (pt 232 272)(pt 216 272))
-	)
-	(port
-		(pt 232 288)
-		(output)
 		(text "player_led1" (rect 0 0 66 14)(font "Arial" (font_size 8)))
-		(text "player_led1" (rect 145 283 211 297)(font "Arial" (font_size 8)))
-		(line (pt 232 288)(pt 216 288))
+		(text "player_led1" (rect 145 267 211 281)(font "Arial" (font_size 8)))
+		(line (pt 232 272)(pt 216 272))
 	)
 	(drawing
 		(rectangle (rect 16 16 216 304))

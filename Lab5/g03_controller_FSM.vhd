@@ -24,8 +24,7 @@ entity g03_controller_FSM is
 		pop_player   : out std_logic;
 		turn         : out std_logic;
 		d_wins       : out std_logic_vector(1 downto 0);
-		p_wins       : out std_logic_vector(1 downto 0);
-		state_out    : out std_logic_vector(3 downto 0));
+		p_wins       : out std_logic_vector(1 downto 0));
 end g03_controller_FSM;
 
 architecture behaviour of g03_controller_FSM is
@@ -105,7 +104,6 @@ begin
 		end if;
 		d_wins <= std_logic_vector(dealer_wins);
 		p_wins <= std_logic_vector(player_wins);
-		state_out <= state;
 	end process;
 
 end behaviour;
