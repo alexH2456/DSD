@@ -34,6 +34,7 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -256 -64 -200 -48))
 )
 (pin
 	(input)
@@ -85,7 +86,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -192 48 -24 64)
+	(rect -200 48 -32 64)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "led_mode" (rect 5 0 52 12)(font "Arial" ))
 	(pt 168 8)
@@ -98,10 +99,11 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -248 64 -192 80))
 )
 (pin
 	(input)
-	(rect -192 80 -24 96)
+	(rect -200 80 -32 96)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "new_in" (rect 5 0 38 12)(font "Arial" ))
 	(pt 168 8)
@@ -178,6 +180,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 792 -64 848 -48))
 )
 (pin
 	(output)
@@ -226,6 +229,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1472 752 1528 768))
 )
 (pin
 	(output)
@@ -242,6 +246,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 1784 760 1840 776))
 )
 (pin
 	(output)
@@ -258,6 +263,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 592 -32 648 -16))
 )
 (pin
 	(output)
@@ -274,6 +280,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 792 -32 848 -16))
 )
 (pin
 	(output)
@@ -290,6 +297,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 184 0 240 16))
 )
 (pin
 	(output)
@@ -306,6 +314,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 384 0 448 16))
 )
 (pin
 	(output)
@@ -322,6 +331,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 615 0 663 16))
 )
 (pin
 	(output)
@@ -338,6 +348,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 206 32 262 48))
 )
 (pin
 	(output)
@@ -354,6 +365,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 833 0 881 16))
 )
 (pin
 	(output)
@@ -370,6 +382,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 423 32 471 48))
 )
 (symbol
 	(rect 712 96 904 208)
@@ -1260,11 +1273,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-<<<<<<< HEAD
-	(rect 336 408 536 584)
-=======
-	(rect 272 496 480 672)
->>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
+	(rect 272 496 472 672)
 	(text "g03_controller_FSM" (rect 5 0 101 12)(font "Arial" ))
 	(text "inst" (rect 8 160 25 172)(font "Arial" ))
 	(port
@@ -1320,92 +1329,50 @@ applicable agreement for further details.
 		(pt 200 32)
 		(output)
 		(text "game_over" (rect 0 0 55 12)(font "Arial" ))
-<<<<<<< HEAD
 		(text "game_over" (rect 133 27 179 39)(font "Arial" ))
 		(line (pt 200 32)(pt 184 32))
-=======
-		(text "game_over" (rect 141 27 196 39)(font "Arial" ))
-		(line (pt 208 32)(pt 192 32))
->>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
 	)
 	(port
 		(pt 200 48)
 		(output)
 		(text "init" (rect 0 0 14 12)(font "Arial" ))
-<<<<<<< HEAD
 		(text "init" (rect 168 43 179 55)(font "Arial" ))
 		(line (pt 200 48)(pt 184 48))
-=======
-		(text "init" (rect 176 43 190 55)(font "Arial" ))
-		(line (pt 208 48)(pt 192 48))
->>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
 	)
 	(port
 		(pt 200 64)
 		(output)
 		(text "pop_dealer" (rect 0 0 53 12)(font "Arial" ))
-<<<<<<< HEAD
 		(text "pop_dealer" (rect 135 59 179 71)(font "Arial" ))
 		(line (pt 200 64)(pt 184 64))
-=======
-		(text "pop_dealer" (rect 143 59 196 71)(font "Arial" ))
-		(line (pt 208 64)(pt 192 64))
->>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
 	)
 	(port
 		(pt 200 80)
 		(output)
 		(text "pop_player" (rect 0 0 54 12)(font "Arial" ))
-<<<<<<< HEAD
 		(text "pop_player" (rect 134 75 179 87)(font "Arial" ))
 		(line (pt 200 80)(pt 184 80))
-=======
-		(text "pop_player" (rect 142 75 196 87)(font "Arial" ))
-		(line (pt 208 80)(pt 192 80))
->>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
 	)
 	(port
 		(pt 200 96)
 		(output)
 		(text "turn" (rect 0 0 18 12)(font "Arial" ))
-<<<<<<< HEAD
 		(text "turn" (rect 164 91 179 103)(font "Arial" ))
 		(line (pt 200 96)(pt 184 96))
-=======
-		(text "turn" (rect 172 91 190 103)(font "Arial" ))
-		(line (pt 208 96)(pt 192 96))
->>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
 	)
 	(port
 		(pt 200 112)
 		(output)
 		(text "d_wins[1..0]" (rect 0 0 59 12)(font "Arial" ))
-<<<<<<< HEAD
 		(text "d_wins[1..0]" (rect 130 107 179 119)(font "Arial" ))
 		(line (pt 200 112)(pt 184 112)(line_width 3))
-=======
-		(text "d_wins[1..0]" (rect 138 107 197 119)(font "Arial" ))
-		(line (pt 208 112)(pt 192 112)(line_width 3))
->>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
 	)
 	(port
 		(pt 200 128)
 		(output)
 		(text "p_wins[1..0]" (rect 0 0 59 12)(font "Arial" ))
-<<<<<<< HEAD
 		(text "p_wins[1..0]" (rect 130 123 179 135)(font "Arial" ))
 		(line (pt 200 128)(pt 184 128)(line_width 3))
-=======
-		(text "p_wins[1..0]" (rect 138 123 197 135)(font "Arial" ))
-		(line (pt 208 128)(pt 192 128)(line_width 3))
-	)
-	(port
-		(pt 208 144)
-		(output)
-		(text "state_out[3..0]" (rect 0 0 71 12)(font "Arial" ))
-		(text "state_out[3..0]" (rect 127 139 198 151)(font "Arial" ))
-		(line (pt 208 144)(pt 192 144)(line_width 3))
->>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
 	)
 	(drawing
 		(rectangle (rect 16 16 184 160))
@@ -1576,13 +1543,13 @@ applicable agreement for further details.
 	(pt 272 544)
 )
 (connector
-	(text "player_hand[5..0]" (rect 192 544 278 556)(font "Arial" ))
+	(text "player_hand[5..0]" (rect 128 552 214 564)(font "Arial" ))
 	(pt 208 560)
 	(pt 272 560)
 	(bus)
 )
 (connector
-	(text "dealer_hand[5..0]" (rect 198 560 282 572)(font "Arial" ))
+	(text "dealer_hand[5..0]" (rect 126 568 210 580)(font "Arial" ))
 	(pt 208 576)
 	(pt 272 576)
 	(bus)
@@ -1629,49 +1596,6 @@ applicable agreement for further details.
 	(text "address[5..0]" (rect 489 728 553 740)(font "Arial" ))
 	(pt 480 744)
 	(pt 544 744)
-	(bus)
-)
-(connector
-	(text "game_over" (rect 496 512 551 524)(font "Arial" ))
-	(pt 480 528)
-	(pt 536 528)
-)
-(connector
-	(text "init" (rect 521 528 535 540)(font "Arial" ))
-	(pt 480 544)
-	(pt 536 544)
-)
-(connector
-	(text "pop_dealer" (rect 496 544 549 556)(font "Arial" ))
-	(pt 480 560)
-	(pt 544 560)
-)
-(connector
-	(text "pop_player" (rect 497 560 551 572)(font "Arial" ))
-	(pt 480 576)
-	(pt 544 576)
-)
-(connector
-	(text "turn" (rect 521 576 539 588)(font "Arial" ))
-	(pt 480 592)
-	(pt 544 592)
-)
-(connector
-	(text "dealer_wins[1..0]" (rect 496 592 578 604)(font "Arial" ))
-	(pt 480 608)
-	(pt 544 608)
-	(bus)
-)
-(connector
-	(text "player_wins[1..0]" (rect 496 608 579 620)(font "Arial" ))
-	(pt 480 624)
-	(pt 544 624)
-	(bus)
-)
-(connector
-	(text "state_out[3..0]" (rect 488 648 559 660)(font "Arial" ))
-	(pt 480 640)
-	(pt 544 640)
 	(bus)
 )
 (connector
@@ -1930,43 +1854,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-<<<<<<< HEAD
-	(text "game_over" (rect 552 424 607 436)(font "Arial" ))
-	(pt 536 440)
-	(pt 592 440)
-)
-(connector
-	(text "init" (rect 577 440 591 452)(font "Arial" ))
-	(pt 536 456)
-	(pt 592 456)
-)
-(connector
-	(text "pop_dealer" (rect 552 456 605 468)(font "Arial" ))
-	(pt 536 472)
-	(pt 600 472)
-)
-(connector
-	(text "pop_player" (rect 553 472 607 484)(font "Arial" ))
-	(pt 536 488)
-	(pt 600 488)
-)
-(connector
-	(text "turn" (rect 577 488 595 500)(font "Arial" ))
-	(pt 536 504)
-	(pt 600 504)
-)
-(connector
-	(text "dealer_wins[1..0]" (rect 552 504 634 516)(font "Arial" ))
-	(pt 536 520)
-	(pt 600 520)
-	(bus)
-)
-(connector
-	(text "player_wins[1..0]" (rect 552 520 635 532)(font "Arial" ))
-	(pt 536 536)
-	(pt 600 536)
-	(bus)
-=======
 	(text "dealer_hand[5..0]" (rect 562 112 646 124)(font "Arial" ))
 	(pt 536 128)
 	(pt 600 128)
@@ -2003,7 +1890,43 @@ applicable agreement for further details.
 	(text "request_dealer" (rect 104 136 175 148)(font "Arial" ))
 	(pt 192 152)
 	(pt 128 152)
->>>>>>> 7bc50a717b000c41f58674fbbf45b514ba2e0d33
+)
+(connector
+	(text "turn" (rect 513 576 531 588)(font "Arial" ))
+	(pt 472 592)
+	(pt 536 592)
+)
+(connector
+	(text "dealer_wins[1..0]" (rect 544 600 626 612)(font "Arial" ))
+	(pt 472 608)
+	(pt 536 608)
+	(bus)
+)
+(connector
+	(text "player_wins[1..0]" (rect 544 616 627 628)(font "Arial" ))
+	(pt 472 624)
+	(pt 536 624)
+	(bus)
+)
+(connector
+	(text "pop_player" (rect 489 560 543 572)(font "Arial" ))
+	(pt 472 576)
+	(pt 536 576)
+)
+(connector
+	(text "game_over" (rect 496 512 551 524)(font "Arial" ))
+	(pt 472 528)
+	(pt 536 528)
+)
+(connector
+	(text "init" (rect 521 528 535 540)(font "Arial" ))
+	(pt 472 544)
+	(pt 536 544)
+)
+(connector
+	(text "pop_dealer" (rect 488 544 541 556)(font "Arial" ))
+	(pt 472 560)
+	(pt 536 560)
 )
 (text "Controls win counter leds for both the dealer and player" (rect 1216 552 1534 566)(font "Arial" (font_size 8)))
 (text "Converts dealer and player hand values to be able to display them on the led segments" (rect 1088 48 1581 62)(font "Arial" (font_size 8)))

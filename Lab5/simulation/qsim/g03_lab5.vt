@@ -18,30 +18,34 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "12/04/2017 01:07:02"
+// Generated on "12/04/2017 18:38:49"
                                                                         
-// Verilog Self-Checking Test Bench (with test vectors) for design :    g02_lab5_rules_dealer
+// Verilog Self-Checking Test Bench (with test vectors) for design :    g03_lab5
 // 
 // Simulation tool : 3rd Party
 // 
 
 `timescale 1 ps/ 1 ps
-module g02_lab5_rules_dealer_vlg_sample_tst(
+module g03_lab5_vlg_sample_tst(
 	clk,
-	enable,
-	next_card,
+	hit,
+	led_mode,
+	new_hand,
 	reset,
+	stay,
 	sampler_tx
 );
 input  clk;
-input  enable;
-input [5:0] next_card;
+input  hit;
+input  led_mode;
+input  new_hand;
 input  reset;
+input  stay;
 output sampler_tx;
 
 reg sample;
 time current_time;
-always @(clk or enable or next_card or reset)
+always @(clk or hit or led_mode or new_hand or reset or stay)
                                                                                 
 begin                                                 
  if ($realtime > 0)                                   
@@ -60,33 +64,101 @@ end
 assign sampler_tx = sample;
 endmodule
 
-module g02_lab5_rules_dealer_vlg_check_tst (
-	hand_out,
-	legal_play,
+module g03_lab5_vlg_check_tst (
+	dealer_hand,
+	dealer_led0,
+	dealer_led1,
+	dealer_led2,
+	dealer_wins,
+	game_over,
+	led_floor_dealer,
+	led_floor_player,
+	led_mod_dealer,
+	led_mod_player,
+	num_cards,
+	player_hand,
+	player_led0,
+	player_led1,
+	player_led2,
+	player_wins,
+	state_out,
 	sampler_rx
 );
-input [5:0] hand_out;
-input  legal_play;
+input [5:0] dealer_hand;
+input  dealer_led0;
+input  dealer_led1;
+input  dealer_led2;
+input [1:0] dealer_wins;
+input  game_over;
+input [6:0] led_floor_dealer;
+input [6:0] led_floor_player;
+input [6:0] led_mod_dealer;
+input [6:0] led_mod_player;
+input [5:0] num_cards;
+input [5:0] player_hand;
+input  player_led0;
+input  player_led1;
+input  player_led2;
+input [1:0] player_wins;
+input [3:0] state_out;
 input sampler_rx;
 
-reg [5:0] hand_out_expected;
-reg  legal_play_expected;
+reg [5:0] dealer_hand_expected;
+reg  dealer_led0_expected;
+reg  dealer_led1_expected;
+reg  dealer_led2_expected;
+reg [1:0] dealer_wins_expected;
+reg  game_over_expected;
+reg [6:0] led_floor_dealer_expected;
+reg [6:0] led_floor_player_expected;
+reg [6:0] led_mod_dealer_expected;
+reg [6:0] led_mod_player_expected;
+reg [5:0] num_cards_expected;
+reg [5:0] player_hand_expected;
+reg  player_led0_expected;
+reg  player_led1_expected;
+reg  player_led2_expected;
+reg [1:0] player_wins_expected;
+reg [3:0] state_out_expected;
 
-reg [5:0] hand_out_prev;
-reg  legal_play_prev;
+reg [5:0] dealer_hand_prev;
+reg  dealer_led0_prev;
+reg  dealer_led1_prev;
+reg  dealer_led2_prev;
+reg [1:0] dealer_wins_prev;
+reg  game_over_prev;
+reg [6:0] led_floor_dealer_prev;
+reg [6:0] led_floor_player_prev;
+reg [6:0] led_mod_dealer_prev;
+reg [6:0] led_mod_player_prev;
+reg [5:0] num_cards_prev;
+reg [5:0] player_hand_prev;
+reg  player_led0_prev;
+reg  player_led1_prev;
+reg  player_led2_prev;
+reg [1:0] player_wins_prev;
+reg [3:0] state_out_prev;
 
-reg [5:0] hand_out_expected_prev;
-reg  legal_play_expected_prev;
+reg [5:0] dealer_hand_expected_prev;
+reg [1:0] dealer_wins_expected_prev;
+reg  game_over_expected_prev;
+reg [5:0] num_cards_expected_prev;
+reg [5:0] player_hand_expected_prev;
+reg [1:0] player_wins_expected_prev;
 
-reg [5:0] last_hand_out_exp;
-reg  last_legal_play_exp;
+reg [5:0] last_dealer_hand_exp;
+reg [1:0] last_dealer_wins_exp;
+reg  last_game_over_exp;
+reg [5:0] last_num_cards_exp;
+reg [5:0] last_player_hand_exp;
+reg [1:0] last_player_wins_exp;
 
 reg trigger;
 
 integer i;
 integer nummismatches;
 
-reg [1:2] on_first_change ;
+reg [1:17] on_first_change ;
 
 
 initial
@@ -94,64 +166,163 @@ begin
 trigger = 0;
 i = 0;
 nummismatches = 0;
-on_first_change = 2'b1;
+on_first_change = 17'b1;
 end
 
 // update real /o prevs
 
 always @(trigger)
 begin
-	hand_out_prev = hand_out;
-	legal_play_prev = legal_play;
+	dealer_hand_prev = dealer_hand;
+	dealer_led0_prev = dealer_led0;
+	dealer_led1_prev = dealer_led1;
+	dealer_led2_prev = dealer_led2;
+	dealer_wins_prev = dealer_wins;
+	game_over_prev = game_over;
+	led_floor_dealer_prev = led_floor_dealer;
+	led_floor_player_prev = led_floor_player;
+	led_mod_dealer_prev = led_mod_dealer;
+	led_mod_player_prev = led_mod_player;
+	num_cards_prev = num_cards;
+	player_hand_prev = player_hand;
+	player_led0_prev = player_led0;
+	player_led1_prev = player_led1;
+	player_led2_prev = player_led2;
+	player_wins_prev = player_wins;
+	state_out_prev = state_out;
 end
 
 // update expected /o prevs
 
 always @(trigger)
 begin
-	hand_out_expected_prev = hand_out_expected;
-	legal_play_expected_prev = legal_play_expected;
+	dealer_hand_expected_prev = dealer_hand_expected;
+	dealer_wins_expected_prev = dealer_wins_expected;
+	game_over_expected_prev = game_over_expected;
+	num_cards_expected_prev = num_cards_expected;
+	player_hand_expected_prev = player_hand_expected;
+	player_wins_expected_prev = player_wins_expected;
 end
 
 
-// expected hand_out[ 5 ]
+// expected dealer_hand[ 5 ]
 initial
 begin
-	hand_out_expected[5] = 1'bX;
+	dealer_hand_expected[5] = 1'bX;
 end 
-// expected hand_out[ 4 ]
+// expected dealer_hand[ 4 ]
 initial
 begin
-	hand_out_expected[4] = 1'bX;
+	dealer_hand_expected[4] = 1'bX;
 end 
-// expected hand_out[ 3 ]
+// expected dealer_hand[ 3 ]
 initial
 begin
-	hand_out_expected[3] = 1'bX;
+	dealer_hand_expected[3] = 1'bX;
 end 
-// expected hand_out[ 2 ]
+// expected dealer_hand[ 2 ]
 initial
 begin
-	hand_out_expected[2] = 1'bX;
+	dealer_hand_expected[2] = 1'bX;
 end 
-// expected hand_out[ 1 ]
+// expected dealer_hand[ 1 ]
 initial
 begin
-	hand_out_expected[1] = 1'bX;
+	dealer_hand_expected[1] = 1'bX;
 end 
-// expected hand_out[ 0 ]
+// expected dealer_hand[ 0 ]
 initial
 begin
-	hand_out_expected[0] = 1'bX;
+	dealer_hand_expected[0] = 1'bX;
+end 
+// expected player_hand[ 5 ]
+initial
+begin
+	player_hand_expected[5] = 1'bX;
+end 
+// expected player_hand[ 4 ]
+initial
+begin
+	player_hand_expected[4] = 1'bX;
+end 
+// expected player_hand[ 3 ]
+initial
+begin
+	player_hand_expected[3] = 1'bX;
+end 
+// expected player_hand[ 2 ]
+initial
+begin
+	player_hand_expected[2] = 1'bX;
+end 
+// expected player_hand[ 1 ]
+initial
+begin
+	player_hand_expected[1] = 1'bX;
+end 
+// expected player_hand[ 0 ]
+initial
+begin
+	player_hand_expected[0] = 1'bX;
+end 
+// expected player_wins[ 1 ]
+initial
+begin
+	player_wins_expected[1] = 1'bX;
+end 
+// expected player_wins[ 0 ]
+initial
+begin
+	player_wins_expected[0] = 1'bX;
+end 
+// expected dealer_wins[ 1 ]
+initial
+begin
+	dealer_wins_expected[1] = 1'bX;
+end 
+// expected dealer_wins[ 0 ]
+initial
+begin
+	dealer_wins_expected[0] = 1'bX;
+end 
+// expected num_cards[ 5 ]
+initial
+begin
+	num_cards_expected[5] = 1'bX;
+end 
+// expected num_cards[ 4 ]
+initial
+begin
+	num_cards_expected[4] = 1'bX;
+end 
+// expected num_cards[ 3 ]
+initial
+begin
+	num_cards_expected[3] = 1'bX;
+end 
+// expected num_cards[ 2 ]
+initial
+begin
+	num_cards_expected[2] = 1'bX;
+end 
+// expected num_cards[ 1 ]
+initial
+begin
+	num_cards_expected[1] = 1'bX;
+end 
+// expected num_cards[ 0 ]
+initial
+begin
+	num_cards_expected[0] = 1'bX;
 end 
 
-// expected legal_play
+// expected game_over
 initial
 begin
-	legal_play_expected = 1'bX;
+	game_over_expected = 1'bX;
 end 
 // generate trigger
-always @(hand_out_expected or hand_out or legal_play_expected or legal_play)
+always @(dealer_hand_expected or dealer_hand or dealer_led0_expected or dealer_led0 or dealer_led1_expected or dealer_led1 or dealer_led2_expected or dealer_led2 or dealer_wins_expected or dealer_wins or game_over_expected or game_over or led_floor_dealer_expected or led_floor_dealer or led_floor_player_expected or led_floor_player or led_mod_dealer_expected or led_mod_dealer or led_mod_player_expected or led_mod_player or num_cards_expected or num_cards or player_hand_expected or player_hand or player_led0_expected or player_led0 or player_led1_expected or player_led1 or player_led2_expected or player_led2 or player_wins_expected or player_wins or state_out_expected or state_out)
 begin
 	trigger <= ~trigger;
 end
@@ -161,99 +332,307 @@ begin
 `ifdef debug_tbench
 	$display("Scanning pattern %d @time = %t",i,$realtime );
 	i = i + 1;
-	$display("| expected hand_out = %b | expected legal_play = %b | ",hand_out_expected_prev,legal_play_expected_prev);
-	$display("| real hand_out = %b | real legal_play = %b | ",hand_out_prev,legal_play_prev);
+	$display("| expected dealer_hand = %b | expected dealer_led0 = %b | expected dealer_led1 = %b | expected dealer_led2 = %b | expected dealer_wins = %b | expected game_over = %b | expected led_floor_dealer = %b | expected led_floor_player = %b | expected led_mod_dealer = %b | expected led_mod_player = %b | expected num_cards = %b | expected player_hand = %b | expected player_led0 = %b | expected player_led1 = %b | expected player_led2 = %b | expected player_wins = %b | expected state_out = %b | ",dealer_hand_expected_prev,dealer_led0_expected_prev,dealer_led1_expected_prev,dealer_led2_expected_prev,dealer_wins_expected_prev,game_over_expected_prev,led_floor_dealer_expected_prev,led_floor_player_expected_prev,led_mod_dealer_expected_prev,led_mod_player_expected_prev,num_cards_expected_prev,player_hand_expected_prev,player_led0_expected_prev,player_led1_expected_prev,player_led2_expected_prev,player_wins_expected_prev,state_out_expected_prev);
+	$display("| real dealer_hand = %b | real dealer_led0 = %b | real dealer_led1 = %b | real dealer_led2 = %b | real dealer_wins = %b | real game_over = %b | real led_floor_dealer = %b | real led_floor_player = %b | real led_mod_dealer = %b | real led_mod_player = %b | real num_cards = %b | real player_hand = %b | real player_led0 = %b | real player_led1 = %b | real player_led2 = %b | real player_wins = %b | real state_out = %b | ",dealer_hand_prev,dealer_led0_prev,dealer_led1_prev,dealer_led2_prev,dealer_wins_prev,game_over_prev,led_floor_dealer_prev,led_floor_player_prev,led_mod_dealer_prev,led_mod_player_prev,num_cards_prev,player_hand_prev,player_led0_prev,player_led1_prev,player_led2_prev,player_wins_prev,state_out_prev);
 `endif
 	if (
-		( hand_out_expected_prev[0] !== 1'bx ) && ( hand_out_prev[0] !== hand_out_expected_prev[0] )
-		&& ((hand_out_expected_prev[0] !== last_hand_out_exp[0]) ||
+		( dealer_hand_expected_prev[0] !== 1'bx ) && ( dealer_hand_prev[0] !== dealer_hand_expected_prev[0] )
+		&& ((dealer_hand_expected_prev[0] !== last_dealer_hand_exp[0]) ||
 			on_first_change[1])
 	)
 	begin
-		$display ("ERROR! Vector Mismatch for output port hand_out[0] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", hand_out_expected_prev);
-		$display ("     Real value = %b", hand_out_prev);
+		$display ("ERROR! Vector Mismatch for output port dealer_hand[0] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", dealer_hand_expected_prev);
+		$display ("     Real value = %b", dealer_hand_prev);
 		nummismatches = nummismatches + 1;
 		on_first_change[1] = 1'b0;
-		last_hand_out_exp[0] = hand_out_expected_prev[0];
+		last_dealer_hand_exp[0] = dealer_hand_expected_prev[0];
 	end
 	if (
-		( hand_out_expected_prev[1] !== 1'bx ) && ( hand_out_prev[1] !== hand_out_expected_prev[1] )
-		&& ((hand_out_expected_prev[1] !== last_hand_out_exp[1]) ||
+		( dealer_hand_expected_prev[1] !== 1'bx ) && ( dealer_hand_prev[1] !== dealer_hand_expected_prev[1] )
+		&& ((dealer_hand_expected_prev[1] !== last_dealer_hand_exp[1]) ||
 			on_first_change[1])
 	)
 	begin
-		$display ("ERROR! Vector Mismatch for output port hand_out[1] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", hand_out_expected_prev);
-		$display ("     Real value = %b", hand_out_prev);
+		$display ("ERROR! Vector Mismatch for output port dealer_hand[1] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", dealer_hand_expected_prev);
+		$display ("     Real value = %b", dealer_hand_prev);
 		nummismatches = nummismatches + 1;
 		on_first_change[1] = 1'b0;
-		last_hand_out_exp[1] = hand_out_expected_prev[1];
+		last_dealer_hand_exp[1] = dealer_hand_expected_prev[1];
 	end
 	if (
-		( hand_out_expected_prev[2] !== 1'bx ) && ( hand_out_prev[2] !== hand_out_expected_prev[2] )
-		&& ((hand_out_expected_prev[2] !== last_hand_out_exp[2]) ||
+		( dealer_hand_expected_prev[2] !== 1'bx ) && ( dealer_hand_prev[2] !== dealer_hand_expected_prev[2] )
+		&& ((dealer_hand_expected_prev[2] !== last_dealer_hand_exp[2]) ||
 			on_first_change[1])
 	)
 	begin
-		$display ("ERROR! Vector Mismatch for output port hand_out[2] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", hand_out_expected_prev);
-		$display ("     Real value = %b", hand_out_prev);
+		$display ("ERROR! Vector Mismatch for output port dealer_hand[2] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", dealer_hand_expected_prev);
+		$display ("     Real value = %b", dealer_hand_prev);
 		nummismatches = nummismatches + 1;
 		on_first_change[1] = 1'b0;
-		last_hand_out_exp[2] = hand_out_expected_prev[2];
+		last_dealer_hand_exp[2] = dealer_hand_expected_prev[2];
 	end
 	if (
-		( hand_out_expected_prev[3] !== 1'bx ) && ( hand_out_prev[3] !== hand_out_expected_prev[3] )
-		&& ((hand_out_expected_prev[3] !== last_hand_out_exp[3]) ||
+		( dealer_hand_expected_prev[3] !== 1'bx ) && ( dealer_hand_prev[3] !== dealer_hand_expected_prev[3] )
+		&& ((dealer_hand_expected_prev[3] !== last_dealer_hand_exp[3]) ||
 			on_first_change[1])
 	)
 	begin
-		$display ("ERROR! Vector Mismatch for output port hand_out[3] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", hand_out_expected_prev);
-		$display ("     Real value = %b", hand_out_prev);
+		$display ("ERROR! Vector Mismatch for output port dealer_hand[3] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", dealer_hand_expected_prev);
+		$display ("     Real value = %b", dealer_hand_prev);
 		nummismatches = nummismatches + 1;
 		on_first_change[1] = 1'b0;
-		last_hand_out_exp[3] = hand_out_expected_prev[3];
+		last_dealer_hand_exp[3] = dealer_hand_expected_prev[3];
 	end
 	if (
-		( hand_out_expected_prev[4] !== 1'bx ) && ( hand_out_prev[4] !== hand_out_expected_prev[4] )
-		&& ((hand_out_expected_prev[4] !== last_hand_out_exp[4]) ||
+		( dealer_hand_expected_prev[4] !== 1'bx ) && ( dealer_hand_prev[4] !== dealer_hand_expected_prev[4] )
+		&& ((dealer_hand_expected_prev[4] !== last_dealer_hand_exp[4]) ||
 			on_first_change[1])
 	)
 	begin
-		$display ("ERROR! Vector Mismatch for output port hand_out[4] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", hand_out_expected_prev);
-		$display ("     Real value = %b", hand_out_prev);
+		$display ("ERROR! Vector Mismatch for output port dealer_hand[4] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", dealer_hand_expected_prev);
+		$display ("     Real value = %b", dealer_hand_prev);
 		nummismatches = nummismatches + 1;
 		on_first_change[1] = 1'b0;
-		last_hand_out_exp[4] = hand_out_expected_prev[4];
+		last_dealer_hand_exp[4] = dealer_hand_expected_prev[4];
 	end
 	if (
-		( hand_out_expected_prev[5] !== 1'bx ) && ( hand_out_prev[5] !== hand_out_expected_prev[5] )
-		&& ((hand_out_expected_prev[5] !== last_hand_out_exp[5]) ||
+		( dealer_hand_expected_prev[5] !== 1'bx ) && ( dealer_hand_prev[5] !== dealer_hand_expected_prev[5] )
+		&& ((dealer_hand_expected_prev[5] !== last_dealer_hand_exp[5]) ||
 			on_first_change[1])
 	)
 	begin
-		$display ("ERROR! Vector Mismatch for output port hand_out[5] :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", hand_out_expected_prev);
-		$display ("     Real value = %b", hand_out_prev);
+		$display ("ERROR! Vector Mismatch for output port dealer_hand[5] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", dealer_hand_expected_prev);
+		$display ("     Real value = %b", dealer_hand_prev);
 		nummismatches = nummismatches + 1;
 		on_first_change[1] = 1'b0;
-		last_hand_out_exp[5] = hand_out_expected_prev[5];
+		last_dealer_hand_exp[5] = dealer_hand_expected_prev[5];
 	end
 	if (
-		( legal_play_expected_prev !== 1'bx ) && ( legal_play_prev !== legal_play_expected_prev )
-		&& ((legal_play_expected_prev !== last_legal_play_exp) ||
-			on_first_change[2])
+		( dealer_wins_expected_prev[0] !== 1'bx ) && ( dealer_wins_prev[0] !== dealer_wins_expected_prev[0] )
+		&& ((dealer_wins_expected_prev[0] !== last_dealer_wins_exp[0]) ||
+			on_first_change[5])
 	)
 	begin
-		$display ("ERROR! Vector Mismatch for output port legal_play :: @time = %t",  $realtime);
-		$display ("     Expected value = %b", legal_play_expected_prev);
-		$display ("     Real value = %b", legal_play_prev);
+		$display ("ERROR! Vector Mismatch for output port dealer_wins[0] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", dealer_wins_expected_prev);
+		$display ("     Real value = %b", dealer_wins_prev);
 		nummismatches = nummismatches + 1;
-		on_first_change[2] = 1'b0;
-		last_legal_play_exp = legal_play_expected_prev;
+		on_first_change[5] = 1'b0;
+		last_dealer_wins_exp[0] = dealer_wins_expected_prev[0];
+	end
+	if (
+		( dealer_wins_expected_prev[1] !== 1'bx ) && ( dealer_wins_prev[1] !== dealer_wins_expected_prev[1] )
+		&& ((dealer_wins_expected_prev[1] !== last_dealer_wins_exp[1]) ||
+			on_first_change[5])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port dealer_wins[1] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", dealer_wins_expected_prev);
+		$display ("     Real value = %b", dealer_wins_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[5] = 1'b0;
+		last_dealer_wins_exp[1] = dealer_wins_expected_prev[1];
+	end
+	if (
+		( game_over_expected_prev !== 1'bx ) && ( game_over_prev !== game_over_expected_prev )
+		&& ((game_over_expected_prev !== last_game_over_exp) ||
+			on_first_change[6])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port game_over :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", game_over_expected_prev);
+		$display ("     Real value = %b", game_over_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[6] = 1'b0;
+		last_game_over_exp = game_over_expected_prev;
+	end
+	if (
+		( num_cards_expected_prev[0] !== 1'bx ) && ( num_cards_prev[0] !== num_cards_expected_prev[0] )
+		&& ((num_cards_expected_prev[0] !== last_num_cards_exp[0]) ||
+			on_first_change[11])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port num_cards[0] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", num_cards_expected_prev);
+		$display ("     Real value = %b", num_cards_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[11] = 1'b0;
+		last_num_cards_exp[0] = num_cards_expected_prev[0];
+	end
+	if (
+		( num_cards_expected_prev[1] !== 1'bx ) && ( num_cards_prev[1] !== num_cards_expected_prev[1] )
+		&& ((num_cards_expected_prev[1] !== last_num_cards_exp[1]) ||
+			on_first_change[11])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port num_cards[1] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", num_cards_expected_prev);
+		$display ("     Real value = %b", num_cards_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[11] = 1'b0;
+		last_num_cards_exp[1] = num_cards_expected_prev[1];
+	end
+	if (
+		( num_cards_expected_prev[2] !== 1'bx ) && ( num_cards_prev[2] !== num_cards_expected_prev[2] )
+		&& ((num_cards_expected_prev[2] !== last_num_cards_exp[2]) ||
+			on_first_change[11])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port num_cards[2] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", num_cards_expected_prev);
+		$display ("     Real value = %b", num_cards_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[11] = 1'b0;
+		last_num_cards_exp[2] = num_cards_expected_prev[2];
+	end
+	if (
+		( num_cards_expected_prev[3] !== 1'bx ) && ( num_cards_prev[3] !== num_cards_expected_prev[3] )
+		&& ((num_cards_expected_prev[3] !== last_num_cards_exp[3]) ||
+			on_first_change[11])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port num_cards[3] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", num_cards_expected_prev);
+		$display ("     Real value = %b", num_cards_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[11] = 1'b0;
+		last_num_cards_exp[3] = num_cards_expected_prev[3];
+	end
+	if (
+		( num_cards_expected_prev[4] !== 1'bx ) && ( num_cards_prev[4] !== num_cards_expected_prev[4] )
+		&& ((num_cards_expected_prev[4] !== last_num_cards_exp[4]) ||
+			on_first_change[11])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port num_cards[4] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", num_cards_expected_prev);
+		$display ("     Real value = %b", num_cards_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[11] = 1'b0;
+		last_num_cards_exp[4] = num_cards_expected_prev[4];
+	end
+	if (
+		( num_cards_expected_prev[5] !== 1'bx ) && ( num_cards_prev[5] !== num_cards_expected_prev[5] )
+		&& ((num_cards_expected_prev[5] !== last_num_cards_exp[5]) ||
+			on_first_change[11])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port num_cards[5] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", num_cards_expected_prev);
+		$display ("     Real value = %b", num_cards_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[11] = 1'b0;
+		last_num_cards_exp[5] = num_cards_expected_prev[5];
+	end
+	if (
+		( player_hand_expected_prev[0] !== 1'bx ) && ( player_hand_prev[0] !== player_hand_expected_prev[0] )
+		&& ((player_hand_expected_prev[0] !== last_player_hand_exp[0]) ||
+			on_first_change[12])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port player_hand[0] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", player_hand_expected_prev);
+		$display ("     Real value = %b", player_hand_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[12] = 1'b0;
+		last_player_hand_exp[0] = player_hand_expected_prev[0];
+	end
+	if (
+		( player_hand_expected_prev[1] !== 1'bx ) && ( player_hand_prev[1] !== player_hand_expected_prev[1] )
+		&& ((player_hand_expected_prev[1] !== last_player_hand_exp[1]) ||
+			on_first_change[12])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port player_hand[1] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", player_hand_expected_prev);
+		$display ("     Real value = %b", player_hand_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[12] = 1'b0;
+		last_player_hand_exp[1] = player_hand_expected_prev[1];
+	end
+	if (
+		( player_hand_expected_prev[2] !== 1'bx ) && ( player_hand_prev[2] !== player_hand_expected_prev[2] )
+		&& ((player_hand_expected_prev[2] !== last_player_hand_exp[2]) ||
+			on_first_change[12])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port player_hand[2] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", player_hand_expected_prev);
+		$display ("     Real value = %b", player_hand_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[12] = 1'b0;
+		last_player_hand_exp[2] = player_hand_expected_prev[2];
+	end
+	if (
+		( player_hand_expected_prev[3] !== 1'bx ) && ( player_hand_prev[3] !== player_hand_expected_prev[3] )
+		&& ((player_hand_expected_prev[3] !== last_player_hand_exp[3]) ||
+			on_first_change[12])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port player_hand[3] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", player_hand_expected_prev);
+		$display ("     Real value = %b", player_hand_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[12] = 1'b0;
+		last_player_hand_exp[3] = player_hand_expected_prev[3];
+	end
+	if (
+		( player_hand_expected_prev[4] !== 1'bx ) && ( player_hand_prev[4] !== player_hand_expected_prev[4] )
+		&& ((player_hand_expected_prev[4] !== last_player_hand_exp[4]) ||
+			on_first_change[12])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port player_hand[4] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", player_hand_expected_prev);
+		$display ("     Real value = %b", player_hand_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[12] = 1'b0;
+		last_player_hand_exp[4] = player_hand_expected_prev[4];
+	end
+	if (
+		( player_hand_expected_prev[5] !== 1'bx ) && ( player_hand_prev[5] !== player_hand_expected_prev[5] )
+		&& ((player_hand_expected_prev[5] !== last_player_hand_exp[5]) ||
+			on_first_change[12])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port player_hand[5] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", player_hand_expected_prev);
+		$display ("     Real value = %b", player_hand_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[12] = 1'b0;
+		last_player_hand_exp[5] = player_hand_expected_prev[5];
+	end
+	if (
+		( player_wins_expected_prev[0] !== 1'bx ) && ( player_wins_prev[0] !== player_wins_expected_prev[0] )
+		&& ((player_wins_expected_prev[0] !== last_player_wins_exp[0]) ||
+			on_first_change[16])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port player_wins[0] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", player_wins_expected_prev);
+		$display ("     Real value = %b", player_wins_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[16] = 1'b0;
+		last_player_wins_exp[0] = player_wins_expected_prev[0];
+	end
+	if (
+		( player_wins_expected_prev[1] !== 1'bx ) && ( player_wins_prev[1] !== player_wins_expected_prev[1] )
+		&& ((player_wins_expected_prev[1] !== last_player_wins_exp[1]) ||
+			on_first_change[16])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port player_wins[1] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", player_wins_expected_prev);
+		$display ("     Real value = %b", player_wins_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[16] = 1'b0;
+		last_player_wins_exp[1] = player_wins_expected_prev[1];
 	end
 
 	trigger <= ~trigger;
@@ -271,122 +650,135 @@ $finish;
 end 
 endmodule
 
-module g02_lab5_rules_dealer_vlg_vec_tst();
+module g03_lab5_vlg_vec_tst();
 // constants                                           
 // general purpose registers
 reg clk;
-reg enable;
-reg [5:0] next_card;
+reg hit;
+reg led_mode;
+reg new_hand;
 reg reset;
+reg stay;
 // wires                                               
-wire [5:0] hand_out;
-wire legal_play;
+wire [5:0] dealer_hand;
+wire dealer_led0;
+wire dealer_led1;
+wire dealer_led2;
+wire [1:0] dealer_wins;
+wire game_over;
+wire [6:0] led_floor_dealer;
+wire [6:0] led_floor_player;
+wire [6:0] led_mod_dealer;
+wire [6:0] led_mod_player;
+wire [5:0] num_cards;
+wire [5:0] player_hand;
+wire player_led0;
+wire player_led1;
+wire player_led2;
+wire [1:0] player_wins;
+wire [3:0] state_out;
 
 wire sampler;                             
 
 // assign statements (if any)                          
-g02_lab5_rules_dealer i1 (
+g03_lab5 i1 (
 // port map - connection between master ports and signals/registers   
 	.clk(clk),
-	.enable(enable),
-	.hand_out(hand_out),
-	.legal_play(legal_play),
-	.next_card(next_card),
-	.reset(reset)
+	.dealer_hand(dealer_hand),
+	.dealer_led0(dealer_led0),
+	.dealer_led1(dealer_led1),
+	.dealer_led2(dealer_led2),
+	.dealer_wins(dealer_wins),
+	.game_over(game_over),
+	.hit(hit),
+	.led_floor_dealer(led_floor_dealer),
+	.led_floor_player(led_floor_player),
+	.led_mod_dealer(led_mod_dealer),
+	.led_mod_player(led_mod_player),
+	.led_mode(led_mode),
+	.new_hand(new_hand),
+	.num_cards(num_cards),
+	.player_hand(player_hand),
+	.player_led0(player_led0),
+	.player_led1(player_led1),
+	.player_led2(player_led2),
+	.player_wins(player_wins),
+	.reset(reset),
+	.state_out(state_out),
+	.stay(stay)
 );
-// next_card[ 5 ]
-initial
-begin
-	next_card[5] = 1'b0;
-end 
-// next_card[ 4 ]
-initial
-begin
-	next_card[4] = 1'b0;
-end 
-// next_card[ 3 ]
-initial
-begin
-	next_card[3] = 1'b0;
-	next_card[3] = #20000 1'b1;
-	next_card[3] = #20000 1'b0;
-	next_card[3] = #20000 1'b1;
-	next_card[3] = #20000 1'b0;
-	next_card[3] = #150000 1'b1;
-	next_card[3] = #60000 1'b0;
-end 
-// next_card[ 2 ]
-initial
-begin
-	next_card[2] = 1'b0;
-	next_card[2] = #150000 1'b1;
-	next_card[2] = #80000 1'b0;
-end 
-// next_card[ 1 ]
-initial
-begin
-	next_card[1] = 1'b0;
-	next_card[1] = #20000 1'b1;
-	next_card[1] = #20000 1'b0;
-	next_card[1] = #70000 1'b1;
-	next_card[1] = #40000 1'b0;
-	next_card[1] = #40000 1'b1;
-	next_card[1] = #40000 1'b0;
-	next_card[1] = #40000 1'b1;
-	next_card[1] = #20000 1'b0;
-end 
-// next_card[ 0 ]
-initial
-begin
-	next_card[0] = 1'b0;
-	next_card[0] = #60000 1'b1;
-	next_card[0] = #50000 1'b0;
-	# 20000;
-	repeat(3)
-	begin
-		next_card[0] = 1'b1;
-		next_card[0] = #20000 1'b0;
-		# 20000;
-	end
-	next_card[0] = 1'b1;
-	next_card[0] = #20000 1'b0;
-end 
 
-// enable
+// hit
 initial
 begin
-	enable = 1'b1;
-	enable = #240000 1'b0;
-	enable = #20000 1'b1;
+	hit = 1'b1;
+	hit = #60000 1'b0;
+	hit = #40000 1'b1;
 end 
 
 // reset
 initial
 begin
 	reset = 1'b0;
-	reset = #140000 1'b1;
-	reset = #20000 1'b0;
+	reset = #50000 1'b1;
+end 
+
+// stay
+initial
+begin
+	stay = 1'b1;
+	stay = #110000 1'b0;
+	stay = #40000 1'b1;
+end 
+
+// new_hand
+initial
+begin
+	new_hand = 1'b1;
+end 
+
+// led_mode
+initial
+begin
+	led_mode = 1'b0;
 end 
 
 // clk
 always
 begin
 	clk = 1'b0;
-	clk = #10000 1'b1;
-	#10000;
+	clk = #25000 1'b1;
+	#25000;
 end 
 
-g02_lab5_rules_dealer_vlg_sample_tst tb_sample (
+g03_lab5_vlg_sample_tst tb_sample (
 	.clk(clk),
-	.enable(enable),
-	.next_card(next_card),
+	.hit(hit),
+	.led_mode(led_mode),
+	.new_hand(new_hand),
 	.reset(reset),
+	.stay(stay),
 	.sampler_tx(sampler)
 );
 
-g02_lab5_rules_dealer_vlg_check_tst tb_out(
-	.hand_out(hand_out),
-	.legal_play(legal_play),
+g03_lab5_vlg_check_tst tb_out(
+	.dealer_hand(dealer_hand),
+	.dealer_led0(dealer_led0),
+	.dealer_led1(dealer_led1),
+	.dealer_led2(dealer_led2),
+	.dealer_wins(dealer_wins),
+	.game_over(game_over),
+	.led_floor_dealer(led_floor_dealer),
+	.led_floor_player(led_floor_player),
+	.led_mod_dealer(led_mod_dealer),
+	.led_mod_player(led_mod_player),
+	.num_cards(num_cards),
+	.player_hand(player_hand),
+	.player_led0(player_led0),
+	.player_led1(player_led1),
+	.player_led2(player_led2),
+	.player_wins(player_wins),
+	.state_out(state_out),
 	.sampler_rx(sampler)
 );
 endmodule
